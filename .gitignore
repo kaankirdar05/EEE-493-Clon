@@ -1,0 +1,16 @@
+# Data never goes into Git (GitHub refuses files over 100 MB). It lives on the shared drive.
+*.h5
+*.hdf5
+*.cu8
+*.cf32
+*.sigmf-data
+*.sigmf-meta
+data/
+check_results.txt
+*_check.png
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
