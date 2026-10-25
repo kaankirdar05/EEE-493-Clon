@@ -1,0 +1,79 @@
+[TorchSig symbol-rate DEV] greedy selection, rule = max
+   +     ifd3.l -> 77.0 %
+   +    ifd8n.l -> 84.2 %
+   +   haar5n.l -> 86.1 %
+   +     caf6.l -> 88.0 %
+   +    ifd2n.l -> 88.8 %
+   +   haar8n.l -> 89.5 %
+   +    ifd5n.l -> 89.8 %
+   +     dsq5.l -> 89.9 %
+   +    ifd3n.l -> 89.9 %
+   +    caf3n.l -> 89.9 %
+[TorchSig symbol-rate DEV] greedy selection, rule = vote
+   +     ifd3.l -> 77.0 %
+   +    ifd8n.l -> 84.2 %
+   +   haar5n.l -> 86.2 %
+   +     caf6.l -> 88.3 %
+   +    ifd2n.l -> 89.2 %
+   +   haar8n.l -> 90.1 %
+   +    ifd5n.l -> 90.6 %
+   +     ifd1.l -> 90.7 %
+   +     ifd8.l -> 90.7 %
+   +     ifd2.l -> 90.8 %
+   +     dsq5.l -> 90.8 %
+   +     dsq8.l -> 90.9 %
+[TorchSig symbol-rate DEV] chosen rule vote, 12 members, DEV accuracy 90.9 %
+[FSK-only DEV (class family known)] greedy selection, rule = max
+   +    ifd8n.l -> 71.9 %
+   +   haar5n.l -> 77.5 %
+   +     ifd3.l -> 79.7 %
+   +   haar8n.l -> 81.1 %
+   +     caf4.l -> 82.3 %
+   +    ifd3n.l -> 82.7 %
+   +     ifd5.l -> 82.9 %
+   +    ifd5n.l -> 82.9 %
+[FSK-only DEV (class family known)] greedy selection, rule = vote
+   +    ifd8n.l -> 71.9 %
+   +   haar5n.l -> 77.5 %
+   +     ifd3.l -> 79.7 %
+   +   haar8n.l -> 81.0 %
+   +     caf4.l -> 82.5 %
+   +    ifd3n.l -> 82.8 %
+   +     ifd5.l -> 83.1 %
+   +     dsq5.l -> 83.1 %
+   +     ifd8.l -> 83.2 %
+   +    ifd2n.l -> 83.3 %
+   +    ifd5n.l -> 83.3 %
+   +    dsq8n.l -> 83.4 %
+[FSK-only DEV (class family known)] chosen rule vote, 12 members, DEV accuracy 83.4 %
+[linear 1024-sample DEV (TorchSig alrt dev + RadioML train)] greedy selection, rule = max
+   +     ifr3.g -> 49.5 %
+   +     caf6.l -> 52.8 %
+   +     ifd2.g -> 55.7 %
+   +    ifd2n.l -> 55.9 %
+   +     caf3.l -> 56.0 %
+   +     ifd1.g -> 56.0 %
+   +    haar3.l -> 56.0 %
+   +     caf8.l -> 56.0 %
+   +     ifr1.g -> 56.0 %
+[linear 1024-sample DEV (TorchSig alrt dev + RadioML train)] greedy selection, rule = vote
+   +     ifr3.g -> 49.5 %
+   +     caf6.l -> 52.8 %
+   +    ifd1n.g -> 55.9 %
+   +     ifd2.g -> 56.0 %
+   +     caf4.l -> 56.3 %
+   +    ifd2n.l -> 56.3 %
+   +     caf8.l -> 56.6 %
+   +    caf3n.l -> 56.7 %
+   +     ifd5.l -> 56.8 %
+[linear 1024-sample DEV (TorchSig alrt dev + RadioML train)] chosen rule vote, 9 members, DEV accuracy 56.8 %
+
+HELD-OUT (3000 frames, D:\data\symbol_rate_torchsig.npz): success = within 2 %
+                                                     estimator  all  PSK/QAM FSK |  bpsk  qpsk  8psk 16qam 64qam  2fsk  4fsk 2gfsk  2msk 2gmsk
+                                       inst_freq_s3 (baseline) 72.7  96.1  49.3 |   100    99    98    92    92    66    43    32    66    40
+                               best single DEV member (ifd3.l) 77.6  93.3  61.9 |    95    96    95    91    90    59    55    58    75    62
+                       best single DEV member on FSK (ifd8n.l) 67.4  62.2  72.6 |    74    74    67    48    47    81    82    60    71    68
+                         consensus (tuned on DEV, all classes) 89.9  96.9  82.9 |    98    99    98    94    96    95    97    64    88    71
+class-family-aware: FSK consensus on FSK frames, general on the rest 90.0  96.9  83.1 |    98    99    98    94    96    96    95    62    92    70
+per SNR (consensus): {0: 69.5, 5: 88.3, 10: 96.8, 15: 97.7, 20: 97.3}
+FSK per SNR (consensus): {0: 48.3, 5: 78.3, 10: 95.3, 15: 96.7, 20: 96.0}

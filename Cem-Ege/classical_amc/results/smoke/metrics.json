@@ -1,0 +1,71 @@
+{
+  "model": "hgb",
+  "classes": [
+    "AM-DSB-WC",
+    "FM",
+    "BPSK",
+    "QPSK",
+    "8PSK",
+    "16QAM",
+    "GMSK"
+  ],
+  "features": [
+    "abs_C20",
+    "abs_C40",
+    "abs_C41",
+    "C42",
+    "abs_C60",
+    "abs_C80",
+    "line_x1",
+    "line_x2",
+    "line_x4",
+    "line_x8",
+    "sigma_aa",
+    "gamma_max",
+    "kurt_amp",
+    "sigma_f",
+    "sigma_af",
+    "kurt_f",
+    "spec_flatness",
+    "bw99_frac",
+    "spec_asym"
+  ],
+  "n_train": 6300,
+  "n_test": 2100,
+  "accuracy_all": 0.7480952380952381,
+  "accuracy_snr_ge_10": 0.9860228716645489,
+  "accuracy_vs_snr": {
+    "-10": 0.30303030303030304,
+    "-6": 0.4583333333333333,
+    "-2": 0.5769230769230769,
+    "2": 0.7404580152671756,
+    "6": 0.9505703422053232,
+    "10": 0.9885496183206107,
+    "14": 0.9770992366412213,
+    "18": 0.9923954372623575
+  },
+  "per_class_accuracy_snr_ge_10": {
+    "AM-DSB-WC": 0.9821428571428571,
+    "FM": 0.9375,
+    "BPSK": 1.0,
+    "QPSK": 1.0,
+    "8PSK": 0.9911504424778761,
+    "16QAM": 1.0,
+    "GMSK": 0.9912280701754386
+  },
+  "timing": {
+    "feature_extraction_ms_per_frame": 0.5736242500002152,
+    "prediction_ms_per_frame": 0.004271047619113233,
+    "fit_seconds": 0.7906622999998945
+  },
+  "data": {
+    "path": "C:\\Users\\KULLAN~1\\AppData\\Local\\Temp\\amc_smoke_c5wiv8j_\\fake_radioml.hdf5",
+    "per_group": 150,
+    "snr_range": [
+      -10,
+      20
+    ],
+    "class_order": "hdf5",
+    "seed": 0
+  }
+}

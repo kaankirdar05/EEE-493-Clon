@@ -1,0 +1,10 @@
+impaired: 26 chirp-family emitters
+    energy: recall@IoU0.5  69.2 %  recall@IoU0.3  84.6 %  median best IoU 0.72
+     hough: recall@IoU0.5  26.9 %  recall@IoU0.3  53.8 %  median best IoU 0.33
+     union: recall@IoU0.5  76.9 %  recall@IoU0.3  88.5 %  median best IoU 0.73
+   Hough boxes not on a chirp emitter: 1.54 per scene
+clean: 32 chirp-family emitters
+    energy: recall@IoU0.5  78.1 %  recall@IoU0.3  96.9 %  median best IoU 0.74
+     hough: recall@IoU0.5  40.6 %  recall@IoU0.3  65.6 %  median best IoU 0.39
+     union: recall@IoU0.5  84.4 %  recall@IoU0.3  96.9 %  median best IoU 0.78
+   Hough boxes not on a chirp emitter: 1.36 per scene

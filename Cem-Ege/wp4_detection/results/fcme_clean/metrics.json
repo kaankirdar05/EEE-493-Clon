@@ -1,0 +1,177 @@
+{
+  "main": {
+    "cell_pfa": 0.0034708524355607936,
+    "cell_pd": 0.45633021136056595,
+    "emitter_pd": 0.5082458770614693,
+    "box_precision": 0.7179023508137432,
+    "box_recall": 0.5952023988005997,
+    "box_f1": 0.6508196721311474,
+    "mean_iou_matched": 0.791677156191105,
+    "n_scenes": 200,
+    "n_emitters": 667,
+    "n_pred_boxes": 553,
+    "per_snr": [
+      {
+        "snr_lo": -5,
+        "snr_hi": 0,
+        "n": 101,
+        "emitter_pd": 0.0297029702970297,
+        "mean_cell_pd": 0.051288966090459465,
+        "box_recall": 0.0891089108910891,
+        "mean_iou": 0.08743335188250731
+      },
+      {
+        "snr_lo": 0,
+        "snr_hi": 5,
+        "n": 115,
+        "emitter_pd": 0.09565217391304348,
+        "mean_cell_pd": 0.17831223719601577,
+        "box_recall": 0.4,
+        "mean_iou": 0.3645186921303386
+      },
+      {
+        "snr_lo": 5,
+        "snr_hi": 10,
+        "n": 102,
+        "emitter_pd": 0.5686274509803921,
+        "mean_cell_pd": 0.49193619754117174,
+        "box_recall": 0.696078431372549,
+        "mean_iou": 0.6145968040594688
+      },
+      {
+        "snr_lo": 10,
+        "snr_hi": 15,
+        "n": 98,
+        "emitter_pd": 0.7244897959183674,
+        "mean_cell_pd": 0.6342357943715964,
+        "box_recall": 0.7040816326530612,
+        "mean_iou": 0.6288859413196553
+      },
+      {
+        "snr_lo": 15,
+        "snr_hi": 20,
+        "n": 71,
+        "emitter_pd": 0.7746478873239436,
+        "mean_cell_pd": 0.6279110665289518,
+        "box_recall": 0.7464788732394366,
+        "mean_iou": 0.6226341376323645
+      },
+      {
+        "snr_lo": 20,
+        "snr_hi": 25,
+        "n": 94,
+        "emitter_pd": 0.8297872340425532,
+        "mean_cell_pd": 0.6941016751250045,
+        "box_recall": 0.8404255319148937,
+        "mean_iou": 0.7141952047928689
+      },
+      {
+        "snr_lo": 25,
+        "snr_hi": 30,
+        "n": 86,
+        "emitter_pd": 0.7325581395348837,
+        "mean_cell_pd": 0.6450526921100704,
+        "box_recall": 0.813953488372093,
+        "mean_iou": 0.6693073914383647
+      }
+    ],
+    "pfa_target": 0.001,
+    "timing_ms_per_scene": {
+      "detector": 90.43588749994342,
+      "segmentation": 102.44709099998545
+    },
+    "settings": {
+      "data": "D:\\data\\wideband\\scenes_clean.h5",
+      "detector": "fcme",
+      "pfa": 0.001,
+      "sweep": "1e-1,1e-2,1e-3,1e-4,1e-5",
+      "min_cells": 120,
+      "start": 100,
+      "scenes": null,
+      "examples": 4,
+      "out": "results\\fcme_clean"
+    }
+  },
+  "sweep": [
+    {
+      "cell_pfa": 0.09886129793133103,
+      "cell_pd": 0.5687829821848389,
+      "emitter_pd": 0.6701649175412294,
+      "box_precision": 0.0023229882921390077,
+      "box_recall": 0.037481259370314844,
+      "box_f1": 0.004374835943652113,
+      "mean_iou_matched": 0.611772934326162,
+      "n_scenes": 200,
+      "n_emitters": 667,
+      "n_pred_boxes": 10762,
+      "pfa_target": 0.1
+    },
+    {
+      "cell_pfa": 0.012276542015207871,
+      "cell_pd": 0.48349642244726837,
+      "emitter_pd": 0.568215892053973,
+      "box_precision": 0.646539027982327,
+      "box_recall": 0.6581709145427287,
+      "box_f1": 0.6523031203566123,
+      "mean_iou_matched": 0.8023849314373839,
+      "n_scenes": 200,
+      "n_emitters": 667,
+      "n_pred_boxes": 679,
+      "pfa_target": 0.01
+    },
+    {
+      "cell_pfa": 0.0034708524355607936,
+      "cell_pd": 0.45633021136056595,
+      "emitter_pd": 0.5082458770614693,
+      "box_precision": 0.7179023508137432,
+      "box_recall": 0.5952023988005997,
+      "box_f1": 0.6508196721311474,
+      "mean_iou_matched": 0.791677156191105,
+      "n_scenes": 200,
+      "n_emitters": 667,
+      "n_pred_boxes": 553,
+      "pfa_target": 0.001,
+      "timing_ms_per_scene": {
+        "detector": 90.43588749994342,
+        "segmentation": 102.44709099998545
+      },
+      "settings": {
+        "data": "D:\\data\\wideband\\scenes_clean.h5",
+        "detector": "fcme",
+        "pfa": 0.001,
+        "sweep": "1e-1,1e-2,1e-3,1e-4,1e-5",
+        "min_cells": 120,
+        "start": 100,
+        "scenes": null,
+        "examples": 4,
+        "out": "results\\fcme_clean"
+      }
+    },
+    {
+      "cell_pfa": 0.002292233273055853,
+      "cell_pd": 0.4372360211172315,
+      "emitter_pd": 0.46926536731634183,
+      "box_precision": 0.6931818181818182,
+      "box_recall": 0.5487256371814093,
+      "box_f1": 0.6125523012552302,
+      "mean_iou_matched": 0.7597032557671939,
+      "n_scenes": 200,
+      "n_emitters": 667,
+      "n_pred_boxes": 528,
+      "pfa_target": 0.0001
+    },
+    {
+      "cell_pfa": 0.0019366334110407564,
+      "cell_pd": 0.41192150667170746,
+      "emitter_pd": 0.424287856071964,
+      "box_precision": 0.6452905811623246,
+      "box_recall": 0.4827586206896552,
+      "box_f1": 0.5523156089193825,
+      "mean_iou_matched": 0.7487223977089581,
+      "n_scenes": 200,
+      "n_emitters": 667,
+      "n_pred_boxes": 499,
+      "pfa_target": 1e-05
+    }
+  ]
+}

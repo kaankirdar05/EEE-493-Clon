@@ -1,0 +1,52 @@
+{
+ "chirp": {
+  "N": 4096,
+  "f0": 0.0703125,
+  "k": 7.319450378417969e-05,
+  "B": 0.2998046875
+ },
+ "spectrogram": {
+  "max_abs_peak_minus_IF_bins": 0.5185546875,
+  "mean_abs_peak_minus_IF_bins": 0.2557373046875,
+  "energy_fraction_within_2_bins_of_IF": 0.5863164748202022
+ },
+ "pwvd": {
+  "max_abs_peak_minus_IF_bins": 0.5185546875,
+  "mean_abs_peak_minus_IF_bins": 0.2557373046875,
+  "energy_fraction_within_2_bins_of_IF": 0.9934575506869113
+ },
+ "spwvd": {
+  "max_abs_peak_minus_IF_bins": 0.5185546875,
+  "mean_abs_peak_minus_IF_bins": 0.2557373046875,
+  "energy_fraction_within_2_bins_of_IF": 0.98903912046319
+ },
+ "frft": {
+  "alpha_theory_rad": 1.8620739258620844,
+  "alpha_peak_rad": 1.8620739258620844,
+  "alpha_step_rad": 0.0002500000000000835,
+  "dechirp_khat_over_k": 1.0,
+  "dechirp_peak_over_N": 1.0,
+  "dechirp_peak_over_N_offgrid_chirp": 0.8228282580434262
+ },
+ "radon_wigner_vs_dechirp_at_-15dB": {
+  "k_offsets_in_2_over_N2": [
+   -6,
+   -5,
+   -4,
+   -3,
+   -2,
+   -1,
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "argmax_full_wvd_line": 0,
+  "argmax_dechirp": 0,
+  "corr_profiles": 0.9999457855492617
+ },
+ "pass": true
+}

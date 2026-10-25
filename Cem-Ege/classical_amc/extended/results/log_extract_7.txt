@@ -1,0 +1,9 @@
+  26 groups, 26000 frames
+  52 groups, 52000 frames
+  78 groups, 78000 frames
+  104 groups, 104000 frames
+  130 groups, 130000 frames
+  156 groups, 156000 frames
+  182 groups, 182000 frames
+labels identical to cache: True; max |baseline - cached| = 0.0
+{'base': 1.1734586670331286, 'ext': 2.242212878571441, 'wav': 4.02392747747251} ms/frame

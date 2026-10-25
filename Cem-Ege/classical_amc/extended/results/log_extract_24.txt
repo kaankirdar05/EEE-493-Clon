@@ -1,0 +1,26 @@
+  26 groups, 5200 frames
+  52 groups, 10400 frames
+  78 groups, 15600 frames
+  104 groups, 20800 frames
+  130 groups, 26000 frames
+  156 groups, 31200 frames
+  182 groups, 36400 frames
+  208 groups, 41600 frames
+  234 groups, 46800 frames
+  260 groups, 52000 frames
+  286 groups, 57200 frames
+  312 groups, 62400 frames
+  338 groups, 67600 frames
+  364 groups, 72800 frames
+  390 groups, 78000 frames
+  416 groups, 83200 frames
+  442 groups, 88400 frames
+  468 groups, 93600 frames
+  494 groups, 98800 frames
+  520 groups, 104000 frames
+  546 groups, 109200 frames
+  572 groups, 114400 frames
+  598 groups, 119600 frames
+  624 groups, 124800 frames
+labels identical to cache: True; max |baseline - cached| = 0.0
+{'base': 1.4688761955126677, 'ext': 2.8432750769232267, 'wav': 4.910635160256188} ms/frame

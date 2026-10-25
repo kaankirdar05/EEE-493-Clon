@@ -1,0 +1,9 @@
+model,acc_all_snr,acc_snr_ge_10,first_snr_ge_85_db,sustained_snr_ge_85_db,fit_s,predict_ms_per_frame,feature_ms_per_frame_shared,n_train,n_test,note
+hgb,0.7141,0.9995,2,2,11.91,0.03632,0.501,136500,45500,
+rf,0.7133,0.9997,2,2,121.02,0.04225,0.501,136500,45500,
+svm,0.7127,0.9996,2,2,145.60,2.70727,0.501,40000,45500,training subsampled 136500 -> 40000 (stratified)
+tree,0.6384,0.9938,6,6,6.70,0.00043,0.501,136500,45500,
+knn,0.7039,0.9994,2,2,0.18,0.12587,0.501,136500,45500,
+lda,0.6862,0.9947,4,4,0.11,0.00012,0.501,136500,45500,
+nearest_centroid,0.4833,0.7043,4,,0.07,0.00019,0.501,136500,45500,
+cumulant_theory,0.4093,0.5422,,,0.00,0.00015,0.501,0,26000,"training-free; evaluated ONLY on test frames of BPSK,QPSK,8PSK,16QAM; predictions restricted to those classes; theory (|C40|,C42): BPSK=(2.000,-2.000); QPSK=(1.000,-1.000); 8PSK=(0.000,-1.000); 16QAM=(0.680,-0.680)"

@@ -1,0 +1,11 @@
+ 2gfsk  0 dB: inst-freq    0 ->    0 %   vote    8 ->   17 %
+ 2gfsk  5 dB: inst-freq    8 ->   22 %   vote   30 ->   65 %
+ 2gfsk 10 dB: inst-freq   35 ->   38 %   vote   87 ->   90 %
+ 2gmsk  0 dB: inst-freq    0 ->   23 %   vote    5 ->   38 %
+ 2gmsk  5 dB: inst-freq   25 ->   65 %   vote   63 ->   97 %
+ 2gmsk 10 dB: inst-freq   45 ->   65 %   vote   92 ->   98 %
+  2fsk  0 dB: inst-freq   28 ->   75 %   vote   90 ->   78 %
+  2fsk  5 dB: inst-freq   60 ->   95 %   vote  100 ->   98 %
+  2fsk 10 dB: inst-freq   83 ->   93 %   vote   98 ->  100 %
+  4fsk  0 dB: inst-freq   12 ->   42 %   vote   93 ->   85 %
+  4fsk  5 dB: inst-freq   47 ->   68 %   vote   98 ->  100 %

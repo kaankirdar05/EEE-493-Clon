@@ -1,0 +1,9 @@
+model,acc_all_snr,acc_snr_ge_10,first_snr_ge_85_db,sustained_snr_ge_85_db,fit_s,predict_ms_per_frame,feature_ms_per_frame_shared,n_train,n_test,note
+hgb,0.3925,0.6277,,,44.85,0.05989,0.630,93600,31200,
+rf,0.3992,0.6313,,,148.87,0.10321,0.630,93600,31200,
+svm,0.3756,0.6005,,,194.36,5.68753,0.630,40000,31200,training subsampled 93600 -> 40000 (stratified)
+tree,0.2419,0.4108,,,1.56,0.00017,0.630,93600,31200,
+knn,0.3535,0.5601,,,0.03,0.04779,0.630,93600,31200,
+lda,0.2871,0.4680,,,0.09,0.00023,0.630,93600,31200,
+nearest_centroid,0.1597,0.2341,,,0.07,0.00025,0.630,93600,31200,
+cumulant_theory,0.1144,0.1398,,,0.00,0.00028,0.630,0,15600,"training-free; evaluated ONLY on test frames of 4ASK,8ASK,BPSK,QPSK,8PSK,16PSK,32PSK,16QAM,32QAM,64QAM,128QAM,256QAM; predictions restricted to those classes; theory (|C40|,C42): 4ASK=(1.360,-1.360); 8ASK=(1.238,-1.238); BPSK=(2.000,-2.000); QPSK=(1.000,-1.000); 8PSK=(0.000,-1.000); 16PSK=(0.000,-1.000); 32PSK=(0.000,-1.000); 16QAM=(0.680,-0.680); 32QAM=(0.190,-0.690); 64QAM=(0.619,-0.619); 128QAM=(0.008,-0.662); 256QAM=(0.605,-0.605)"

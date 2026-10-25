@@ -1,0 +1,79 @@
+{
+  "rows": [
+    {
+      "mu": 0.5,
+      "h": 2.0,
+      "arl0_sim": 78.142,
+      "arl0_se": 1.5989344633223712,
+      "arl0_censored_frac": 0.0,
+      "arl0_siegmund": 77.23031216552593,
+      "arl1_sim": 13.2295,
+      "arl1_se": 0.1414680438738728,
+      "arl1_siegmund": 13.268376181224543,
+      "delay_lorden_asymptote": 34.86822147508096
+    },
+    {
+      "mu": 0.5,
+      "h": 4.0,
+      "arl0_sim": 763.212,
+      "arl0_se": 16.777940458471058,
+      "arl0_censored_frac": 0.0,
+      "arl0_siegmund": 737.7950131487456,
+      "arl1_sim": 28.965,
+      "arl1_se": 0.270085993250298,
+      "arl1_siegmund": 28.745793421667486,
+      "delay_lorden_asymptote": 53.100286746247264
+    },
+    {
+      "mu": 0.5,
+      "h": 6.0,
+      "arl0_sim": 5847.658634538153,
+      "arl0_se": 126.11635295822667,
+      "arl0_censored_frac": 0.0,
+      "arl0_siegmund": 5720.969543269996,
+      "arl1_sim": 44.26125,
+      "arl1_se": 0.3483961460885798,
+      "arl1_siegmund": 44.67506953588826,
+      "delay_lorden_asymptote": 69.39037301359082
+    },
+    {
+      "mu": 1.0,
+      "h": 2.0,
+      "arl0_sim": 37.6615,
+      "arl0_se": 0.8136353353161352,
+      "arl0_censored_frac": 0.0,
+      "arl0_siegmund": 39.0928892503701,
+      "arl1_sim": 4.43125,
+      "arl1_se": 0.04465919120824962,
+      "arl1_siegmund": 4.4163438975446585,
+      "delay_lorden_asymptote": 7.257276704988456
+    },
+    {
+      "mu": 1.0,
+      "h": 4.0,
+      "arl0_sim": 328.581,
+      "arl0_se": 7.376495219241994,
+      "arl0_censored_frac": 0.0,
+      "arl0_siegmund": 338.09316715655797,
+      "arl1_sim": 8.34425,
+      "arl1_se": 0.07399956408233092,
+      "arl1_siegmund": 8.343414705263488,
+      "delay_lorden_asymptote": 11.589566765744856
+    },
+    {
+      "mu": 1.0,
+      "h": 6.0,
+      "arl0_sim": 2549.065065065065,
+      "arl0_se": 58.500089324948796,
+      "arl0_censored_frac": 0.0,
+      "arl0_siegmund": 2572.9792185969573,
+      "arl1_sim": 12.46075,
+      "arl1_se": 0.10096219519887134,
+      "arl1_siegmund": 12.333544812369897,
+      "delay_lorden_asymptote": 15.686963859544434
+    }
+  ],
+  "max_rel_err_arl0": 0.036615079566076125,
+  "max_rel_err_arl1": 0.010313757282701452,
+  "pass": true
+}

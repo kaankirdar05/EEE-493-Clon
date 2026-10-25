@@ -1,0 +1,64 @@
+# DecisionTreeClassifier(max_depth=6) on 7 classes; learned-threshold analogue of the Azzouz-Nandi decision tree
+# classes: ['AM-DSB-WC', 'FM', 'BPSK', 'QPSK', '8PSK', '16QAM', 'GMSK']
+
+|--- gamma_max <= 10.807
+|   |--- line_x1 <= 2.128
+|   |   |--- abs_C20 <= 0.289
+|   |   |   |--- gamma_max <= 1.171
+|   |   |   |   |--- C42 <= -0.242
+|   |   |   |   |   |--- abs_C40 <= 0.365
+|   |   |   |   |   |   |--- class: GMSK
+|   |   |   |   |   |--- abs_C40 >  0.365
+|   |   |   |   |   |   |--- class: QPSK
+|   |   |   |   |--- C42 >  -0.242
+|   |   |   |   |   |--- sigma_aa <= 0.502
+|   |   |   |   |   |   |--- class: GMSK
+|   |   |   |   |   |--- sigma_aa >  0.502
+|   |   |   |   |   |   |--- class: AM-DSB-WC
+|   |   |   |--- gamma_max >  1.171
+|   |   |   |   |--- line_x4 <= 1.780
+|   |   |   |   |   |--- sigma_aa <= 0.356
+|   |   |   |   |   |   |--- class: 8PSK
+|   |   |   |   |   |--- sigma_aa >  0.356
+|   |   |   |   |   |   |--- class: 16QAM
+|   |   |   |   |--- line_x4 >  1.780
+|   |   |   |   |   |--- kurt_amp <= 2.649
+|   |   |   |   |   |   |--- class: 16QAM
+|   |   |   |   |   |--- kurt_amp >  2.649
+|   |   |   |   |   |   |--- class: QPSK
+|   |   |--- abs_C20 >  0.289
+|   |   |   |--- line_x1 <= 1.993
+|   |   |   |   |--- sigma_aa <= 0.381
+|   |   |   |   |   |--- abs_C40 <= 0.277
+|   |   |   |   |   |   |--- class: 8PSK
+|   |   |   |   |   |--- abs_C40 >  0.277
+|   |   |   |   |   |   |--- class: QPSK
+|   |   |   |   |--- sigma_aa >  0.381
+|   |   |   |   |   |--- spec_asym <= 0.125
+|   |   |   |   |   |   |--- class: BPSK
+|   |   |   |   |   |--- spec_asym >  0.125
+|   |   |   |   |   |   |--- class: 16QAM
+|   |   |   |--- line_x1 >  1.993
+|   |   |   |   |--- abs_C80 <= 55.475
+|   |   |   |   |   |--- class: AM-DSB-WC
+|   |   |   |   |--- abs_C80 >  55.475
+|   |   |   |   |   |--- class: BPSK
+|   |--- line_x1 >  2.128
+|   |   |--- abs_C20 <= 0.117
+|   |   |   |--- class: FM
+|   |   |--- abs_C20 >  0.117
+|   |   |   |--- line_x8 <= 1.104
+|   |   |   |   |--- class: AM-DSB-WC
+|   |   |   |--- line_x8 >  1.104
+|   |   |   |   |--- line_x2 <= 1.798
+|   |   |   |   |   |--- class: 8PSK
+|   |   |   |   |--- line_x2 >  1.798
+|   |   |   |   |   |--- class: GMSK
+|--- gamma_max >  10.807
+|   |--- line_x1 <= 1.960
+|   |   |--- abs_C41 <= 0.733
+|   |   |   |--- class: 16QAM
+|   |   |--- abs_C41 >  0.733
+|   |   |   |--- class: BPSK
+|   |--- line_x1 >  1.960
+|   |   |--- class: AM-DSB-WC

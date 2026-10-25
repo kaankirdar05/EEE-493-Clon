@@ -1,0 +1,20 @@
+D:\Bitirme - 493\wp6_characterization\wp6\estimators.py:66: RuntimeWarning: invalid value encountered in scalar divide
+  return s / n
+dev choice: {'carrier': 'fc_mid10', 'bandwidth': 'bw_noisecross', 'snr': 'snr_peak512'}
+--- TEST impaired ---
+fc_peak            med    77.39 kHz p90   362.18 | frac bw med 0.124 p90 0.423
+fc_centroid        med    17.00 kHz p90   242.14 | frac bw med 0.026 p90 0.380
+fc_mid10           med    12.13 kHz p90   238.70 | frac bw med 0.017 p90 0.348
+fc_obw99           med    27.16 kHz p90   316.67 | frac bw med 0.044 p90 0.442
+fc_noisecross      med    21.09 kHz p90   365.31 | frac bw med 0.038 p90 0.579
+bw_3db             med|rel| 0.759 p90 0.932 bias -0.755
+bw_10db            med|rel| 0.436 p90 0.853 bias -0.424
+bw_26db            med|rel| 0.240 p90 0.806 bias -0.133
+bw_obw99           med|rel| 0.301 p90 0.810 bias -0.167
+bw_noisecross      med|rel| 0.180 p90 0.875 bias -0.078
+snr_psd_obw        med|err| 3.68 dB p90 15.44 bias -2.79
+snr_psd_10db       med|err| 2.64 dB p90 12.70 bias -1.87
+snr_psd_trueband   med|err| 3.88 dB p90 14.71 bias -3.33
+snr_peak512        med|err| 2.01 dB p90 10.53 bias -0.08
+snr_m2m4           med|err| 19.54 dB p90 47.40 bias -19.45
+runtime {'median': 41.13330000109272, 'p90': 86.54954000012371, 'noise_map_ms_per_emitter_median': 19.49510000031296} m2m4 invalid 0.41604754829123325

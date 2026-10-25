@@ -1,0 +1,115 @@
+# DecisionTreeClassifier(max_depth=6) on 24 classes; learned-threshold analogue of the Azzouz-Nandi decision tree
+# classes: ['OOK', '4ASK', '8ASK', 'BPSK', 'QPSK', '8PSK', '16PSK', '32PSK', '16APSK', '32APSK', '64APSK', '128APSK', '16QAM', '32QAM', '64QAM', '128QAM', '256QAM', 'AM-SSB-WC', 'AM-SSB-SC', 'AM-DSB-WC', 'AM-DSB-SC', 'FM', 'GMSK', 'OQPSK']
+
+|--- spec_asym <= 0.678
+|   |--- gamma_max <= 1.104
+|   |   |--- spec_asym <= 0.470
+|   |   |   |--- line_x1 <= 1.364
+|   |   |   |   |--- abs_C20 <= 0.062
+|   |   |   |   |   |--- abs_C80 <= 1.585
+|   |   |   |   |   |   |--- class: OOK
+|   |   |   |   |   |--- abs_C80 >  1.585
+|   |   |   |   |   |   |--- class: 64APSK
+|   |   |   |   |--- abs_C20 >  0.062
+|   |   |   |   |   |--- class: 32PSK
+|   |   |   |--- line_x1 >  1.364
+|   |   |   |   |--- sigma_aa <= 0.415
+|   |   |   |   |   |--- gamma_max <= 1.053
+|   |   |   |   |   |   |--- class: GMSK
+|   |   |   |   |   |--- gamma_max >  1.053
+|   |   |   |   |   |   |--- class: GMSK
+|   |   |   |   |--- sigma_aa >  0.415
+|   |   |   |   |   |--- abs_C40 <= 0.122
+|   |   |   |   |   |   |--- class: GMSK
+|   |   |   |   |   |--- abs_C40 >  0.122
+|   |   |   |   |   |   |--- class: QPSK
+|   |   |--- spec_asym >  0.470
+|   |   |   |--- spec_flatness <= 0.099
+|   |   |   |   |--- class: GMSK
+|   |   |   |--- spec_flatness >  0.099
+|   |   |   |   |--- class: FM
+|   |--- gamma_max >  1.104
+|   |   |--- line_x1 <= 2.019
+|   |   |   |--- abs_C20 <= 0.271
+|   |   |   |   |--- line_x4 <= 1.808
+|   |   |   |   |   |--- sigma_aa <= 0.349
+|   |   |   |   |   |   |--- class: 32PSK
+|   |   |   |   |   |--- sigma_aa >  0.349
+|   |   |   |   |   |   |--- class: 32APSK
+|   |   |   |   |--- line_x4 >  1.808
+|   |   |   |   |   |--- kurt_amp <= 2.651
+|   |   |   |   |   |   |--- class: 16QAM
+|   |   |   |   |   |--- kurt_amp >  2.651
+|   |   |   |   |   |   |--- class: QPSK
+|   |   |   |--- abs_C20 >  0.271
+|   |   |   |   |--- sigma_aa <= 0.517
+|   |   |   |   |   |--- kurt_f <= 5.280
+|   |   |   |   |   |   |--- class: BPSK
+|   |   |   |   |   |--- kurt_f >  5.280
+|   |   |   |   |   |   |--- class: OOK
+|   |   |   |   |--- sigma_aa >  0.517
+|   |   |   |   |   |--- kurt_amp <= 2.122
+|   |   |   |   |   |   |--- class: 4ASK
+|   |   |   |   |   |--- kurt_amp >  2.122
+|   |   |   |   |   |   |--- class: 8ASK
+|   |   |--- line_x1 >  2.019
+|   |   |   |--- spec_asym <= 0.039
+|   |   |   |   |--- sigma_aa <= 0.494
+|   |   |   |   |   |--- abs_C40 <= 1.480
+|   |   |   |   |   |   |--- class: AM-DSB-SC
+|   |   |   |   |   |--- abs_C40 >  1.480
+|   |   |   |   |   |   |--- class: AM-DSB-WC
+|   |   |   |   |--- sigma_aa >  0.494
+|   |   |   |   |   |--- abs_C80 <= 116.883
+|   |   |   |   |   |   |--- class: AM-SSB-SC
+|   |   |   |   |   |--- abs_C80 >  116.883
+|   |   |   |   |   |   |--- class: AM-DSB-SC
+|   |   |   |--- spec_asym >  0.039
+|   |   |   |   |--- gamma_max <= 2.801
+|   |   |   |   |   |--- line_x4 <= 1.142
+|   |   |   |   |   |   |--- class: FM
+|   |   |   |   |   |--- line_x4 >  1.142
+|   |   |   |   |   |   |--- class: QPSK
+|   |   |   |   |--- gamma_max >  2.801
+|   |   |   |   |   |--- sigma_f <= 0.678
+|   |   |   |   |   |   |--- class: AM-SSB-WC
+|   |   |   |   |   |--- sigma_f >  0.678
+|   |   |   |   |   |   |--- class: AM-DSB-WC
+|--- spec_asym >  0.678
+|   |--- abs_C40 <= 0.222
+|   |   |--- class: FM
+|   |--- abs_C40 >  0.222
+|   |   |--- gamma_max <= 71.596
+|   |   |   |--- sigma_f <= 0.139
+|   |   |   |   |--- kurt_amp <= 5.159
+|   |   |   |   |   |--- class: AM-SSB-SC
+|   |   |   |   |--- kurt_amp >  5.159
+|   |   |   |   |   |--- sigma_aa <= 0.450
+|   |   |   |   |   |   |--- class: AM-SSB-WC
+|   |   |   |   |   |--- sigma_aa >  0.450
+|   |   |   |   |   |   |--- class: AM-SSB-SC
+|   |   |   |--- sigma_f >  0.139
+|   |   |   |   |--- gamma_max <= 55.098
+|   |   |   |   |   |--- class: AM-SSB-WC
+|   |   |   |   |--- gamma_max >  55.098
+|   |   |   |   |   |--- class: AM-SSB-SC
+|   |   |--- gamma_max >  71.596
+|   |   |   |--- kurt_f <= 3.411
+|   |   |   |   |--- spec_asym <= 0.724
+|   |   |   |   |   |--- spec_asym <= 0.711
+|   |   |   |   |   |   |--- class: AM-SSB-SC
+|   |   |   |   |   |--- spec_asym >  0.711
+|   |   |   |   |   |   |--- class: AM-SSB-WC
+|   |   |   |   |--- spec_asym >  0.724
+|   |   |   |   |   |--- class: AM-SSB-SC
+|   |   |   |--- kurt_f >  3.411
+|   |   |   |   |--- abs_C60 <= 7.077
+|   |   |   |   |   |--- gamma_max <= 125.589
+|   |   |   |   |   |   |--- class: AM-SSB-WC
+|   |   |   |   |   |--- gamma_max >  125.589
+|   |   |   |   |   |   |--- class: AM-SSB-SC
+|   |   |   |   |--- abs_C60 >  7.077
+|   |   |   |   |   |--- spec_flatness <= 0.022
+|   |   |   |   |   |   |--- class: AM-SSB-SC
+|   |   |   |   |   |--- spec_flatness >  0.022
+|   |   |   |   |   |   |--- class: AM-SSB-WC

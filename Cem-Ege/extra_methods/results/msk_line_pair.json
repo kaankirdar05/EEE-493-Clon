@@ -1,0 +1,47 @@
+{
+  "2msk@0dB": {
+    "n": 60,
+    "line_pair": 1.0,
+    "consensus": 0.45
+  },
+  "2msk@5dB": {
+    "n": 60,
+    "line_pair": 1.0,
+    "consensus": 1.0
+  },
+  "2msk@10dB": {
+    "n": 60,
+    "line_pair": 1.0,
+    "consensus": 1.0
+  },
+  "2gmsk@0dB": {
+    "n": 60,
+    "line_pair": 0.9333333333333333,
+    "consensus": 0.05
+  },
+  "2gmsk@5dB": {
+    "n": 60,
+    "line_pair": 1.0,
+    "consensus": 0.6333333333333333
+  },
+  "2gmsk@10dB": {
+    "n": 60,
+    "line_pair": 0.9666666666666667,
+    "consensus": 0.9166666666666666
+  },
+  "2gfsk@0dB": {
+    "n": 60,
+    "line_pair": 0.25,
+    "consensus": 0.08333333333333333
+  },
+  "2gfsk@5dB": {
+    "n": 60,
+    "line_pair": 0.25,
+    "consensus": 0.3
+  },
+  "2gfsk@10dB": {
+    "n": 60,
+    "line_pair": 0.21666666666666667,
+    "consensus": 0.8666666666666667
+  }
+}

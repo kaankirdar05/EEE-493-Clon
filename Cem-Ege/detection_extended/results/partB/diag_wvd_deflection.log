@@ -1,0 +1,12 @@
+{
+ "spectrogram_w128_hop16": 7.559341136169898,
+ "pwvd_L255_every_sample": 12.813265520018462,
+ "pwvd_L255_hop16_grid_only": 2.1605632480834673,
+ "pwvd_L1023_every_sample": 23.045955632169818,
+ "pwvd_L1023_hop16_grid_only": 4.164199844922508,
+ "pwvd_L4095_every_sample": 38.189877217482,
+ "pwvd_L4095_hop16_grid_only": 8.465067169629387,
+ "pwvd_L255_hop16_boxcar_agg (bench)": 13.16245941433129,
+ "spwvd_L255_g64 (bench)": 13.345347150801272,
+ "dechirp_true_k_f": 51.21878508568494
+}

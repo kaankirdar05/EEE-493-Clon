@@ -1,0 +1,22 @@
+      0 [main] bash 1903 dofork: child -1 - forked process 34344 died unexpectedly, retry 0, exit code 0xC000026B, errno 11
+5.7 R 11.1 Pd 90.6 Pfa 4.2e-01 579 ms/scene
+agm_L16 scenes.h5 scenes 0-99: F1 8.4 P 6.5 R 12.0 Pd 88.6 Pfa 4.2e-01 362 ms/scene
+agm_L32 scenes.h5 scenes 0-99: F1 10.2 P 7.8 R 14.6 Pd 86.5 Pfa 3.8e-01 1131 ms/scene
+john_L4 scenes.h5 scenes 0-99: F1 10.2 P 7.2 R 17.5 Pd 86.0 Pfa 3.1e-01 61 ms/scene
+john_L8 scenes.h5 scenes 0-99: F1 8.0 P 6.0 R 11.7 Pd 90.1 Pfa 4.2e-01 202 ms/scene
+john_L16 scenes.h5 scenes 0-99: F1 7.9 P 6.1 R 11.4 Pd 87.4 Pfa 4.1e-01 368 ms/scene
+john_L32 scenes.h5 scenes 0-99: F1 9.3 P 7.1 R 13.5 Pd 86.0 Pfa 3.7e-01 1211 ms/scene
+run_dev.sh: fork: retry: Resource temporarily unavailable
+cond_L4 scenes.h5 scenes 0-99: F1 11.1 P 7.9 R 19.0 Pd 86.0 Pfa 3.1e-01 223 ms/scene
+cond_L8 scenes.h5 scenes 0-99: F1 9.0 P 6.7 R 13.7 Pd 88.6 Pfa 3.8e-01 776 ms/scene
+cond_L16 scenes.h5 scenes 0-99: F1 10.0 P 7.6 R 14.9 Pd 86.5 Pfa 3.6e-01 1808 ms/scene
+cond_L32 scenes.h5 scenes 0-99: F1 14.2 P 11.0 R 19.9 Pd 83.9 Pfa 3.1e-01 792 ms/scene
+med_L4 scenes.h5 scenes 0-99: F1 15.3 P 11.6 R 22.2 Pd 88.6 Pfa 2.6e-01 153 ms/scene
+med_L8 scenes.h5 scenes 0-99: F1 11.2 P 8.3 R 17.0 Pd 90.1 Pfa 3.0e-01 179 ms/scene
+med_L16 scenes.h5 scenes 0-99: F1 11.5 P 8.6 R 17.5 Pd 88.9 Pfa 2.9e-01 374 ms/scene
+med_L32 scenes.h5 scenes 0-99: F1 13.7 P 10.3 R 20.5 Pd 84.5 Pfa 2.6e-01 562 ms/scene
+tkeo_stft_kt4 scenes.h5 scenes 0-99: F1 50.4 P 54.2 R 47.1 Pd 32.2 Pfa 6.5e-03 246 ms/scene
+tkeo_stft scenes.h5 scenes 0-99: F1 55.4 P 56.4 R 54.4 Pd 40.6 Pfa 1.2e-02 709 ms/scene
+tkeo_stft_kt16 scenes.h5 scenes 0-99: F1 47.9 P 42.1 R 55.6 Pd 49.7 Pfa 2.5e-02 477 ms/scene
+tkeo_sb scenes.h5 scenes 0-99: F1 23.6 P 17.7 R 35.4 Pd 64.6 Pfa 7.1e-02 56 ms/scene
+IMPAIRED_DONE

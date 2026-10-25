@@ -1,0 +1,23 @@
+agm_L4 scenes_clean.h5 scenes 0-99: F1 38.0 P 36.9 R 39.1 Pd 83.1 Pfa 1.0e-01 298 ms/scene
+agm_L8 scenes_clean.h5 scenes 0-99: F1 36.2 P 34.4 R 38.2 Pd 82.8 Pfa 9.8e-02 176 ms/scene
+agm_L16 scenes_clean.h5 scenes 0-99: F1 35.3 P 33.2 R 37.8 Pd 81.8 Pfa 9.3e-02 374 ms/scene
+agm_L32 scenes_clean.h5 scenes 0-99: F1 37.6 P 35.5 R 40.0 Pd 79.7 Pfa 8.5e-02 1011 ms/scene
+john_L4 scenes_clean.h5 scenes 0-99: F1 37.2 P 36.0 R 38.5 Pd 83.1 Pfa 1.0e-01 109 ms/scene
+      1 [main] bash 1869 dofork: child -1 - forked process 36796 died unexpectedly, retry 0, exit code 0xC000026B, errno 11
+run_dev.sh: fork: retry: Resource temporarily unavailable
+john_L8 scenes_clean.h5 scenes 0-99: F1 36.5 P 34.8 R 38.5 Pd 82.8 Pfa 9.9e-02 351 ms/scene
+john_L16 scenes_clean.h5 scenes 0-99: F1 36.0 P 34.1 R 38.2 Pd 81.2 Pfa 9.5e-02 1326 ms/scene
+john_L32 scenes_clean.h5 scenes 0-99: F1 36.1 P 33.8 R 38.8 Pd 78.2 Pfa 8.9e-02 3912 ms/scene
+cond_L4 scenes_clean.h5 scenes 0-99: F1 36.5 P 35.0 R 38.2 Pd 82.2 Pfa 9.9e-02 345 ms/scene
+cond_L8 scenes_clean.h5 scenes 0-99: F1 36.6 P 34.6 R 38.8 Pd 81.8 Pfa 9.6e-02 579 ms/scene
+cond_L16 scenes_clean.h5 scenes 0-99: F1 33.9 P 31.2 R 36.9 Pd 78.5 Pfa 8.9e-02 1346 ms/scene
+cond_L32 scenes_clean.h5 scenes 0-99: F1 34.4 P 32.0 R 37.2 Pd 73.2 Pfa 8.1e-02 964 ms/scene
+med_L4 scenes_clean.h5 scenes 0-99: F1 33.7 P 29.6 R 39.1 Pd 88.9 Pfa 1.1e-01 140 ms/scene
+med_L8 scenes_clean.h5 scenes 0-99: F1 34.3 P 30.7 R 38.8 Pd 87.7 Pfa 1.1e-01 551 ms/scene
+med_L16 scenes_clean.h5 scenes 0-99: F1 33.9 P 30.0 R 39.1 Pd 85.8 Pfa 1.0e-01 481 ms/scene
+med_L32 scenes_clean.h5 scenes 0-99: F1 32.8 P 29.0 R 37.5 Pd 82.8 Pfa 9.3e-02 603 ms/scene
+tkeo_stft_kt4 scenes_clean.h5 scenes 0-99: F1 61.3 P 76.5 R 51.1 Pd 37.5 Pfa 2.2e-03 484 ms/scene
+tkeo_stft scenes_clean.h5 scenes 0-99: F1 66.8 P 77.9 R 58.5 Pd 46.5 Pfa 3.4e-03 448 ms/scene
+tkeo_stft_kt16 scenes_clean.h5 scenes 0-99: F1 67.8 P 73.6 R 62.8 Pd 55.4 Pfa 6.2e-03 452 ms/scene
+tkeo_sb scenes_clean.h5 scenes 0-99: F1 30.3 P 25.5 R 37.5 Pd 69.8 Pfa 5.0e-02 51 ms/scene
+CLEAN_DONE

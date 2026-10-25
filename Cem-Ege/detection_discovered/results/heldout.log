@@ -1,0 +1,31 @@
+agm_L4 scenes.h5 scenes 100-299: F1 5.9 P 4.1 R 10.5 Pd 83.5 Pfa 3.3e-01 212 ms/scene
+john_L4 scenes.h5 scenes 100-299: F1 5.7 P 3.9 R 10.3 Pd 83.4 Pfa 3.3e-01 68 ms/scene
+cond_L32 scenes.h5 scenes 100-299: F1 8.2 P 6.2 R 12.2 Pd 81.9 Pfa 3.3e-01 564 ms/scene
+cond_twc_L32 scenes.h5 scenes 100-299: F1 0.0 P 0.0 R 0.0 Pd 97.3 Pfa 8.0e-01 532 ms/scene
+cond_zl_L32 scenes.h5 scenes 100-299: F1 0.0 P 0.0 R 0.0 Pd 97.3 Pfa 7.9e-01 469 ms/scene
+med_L4 scenes.h5 scenes 100-299: F1 8.5 P 6.2 R 13.5 Pd 86.2 Pfa 2.6e-01 58 ms/scene
+tkeo_stft scenes.h5 scenes 100-299: F1 54.8 P 54.6 R 55.0 Pd 45.2 Pfa 1.1e-02 206 ms/scene
+tkeo_sb scenes.h5 scenes 100-299: F1 20.9 P 15.7 R 31.2 Pd 60.9 Pfa 6.7e-02 28 ms/scene
+cond_L8 scenes.h5 scenes 100-299: F1 4.7 P 3.4 R 7.4 Pd 87.2 Pfa 4.2e-01 128 ms/scene
+cond_twc_L8 scenes.h5 scenes 100-299: F1 1.1 P 1.0 R 1.3 Pd 94.1 Pfa 6.0e-01 129 ms/scene
+agm_L4 scenes_clean.h5 scenes 100-299: F1 35.3 P 32.7 R 38.4 Pd 79.6 Pfa 9.4e-02 74 ms/scene
+john_L4 scenes_clean.h5 scenes 100-299: F1 34.5 P 31.9 R 37.5 Pd 79.8 Pfa 9.5e-02 76 ms/scene
+cond_L32 scenes_clean.h5 scenes 100-299: F1 36.9 P 34.8 R 39.3 Pd 74.1 Pfa 7.6e-02 563 ms/scene
+cond_twc_L32 scenes_clean.h5 scenes 100-299: F1 0.0 P 0.0 R 0.0 Pd 96.6 Pfa 4.4e-01 467 ms/scene
+cond_zl_L32 scenes_clean.h5 scenes 100-299: F1 0.0 P 0.0 R 0.0 Pd 96.1 Pfa 4.2e-01 480 ms/scene
+med_L4 scenes_clean.h5 scenes 100-299: F1 37.1 P 33.1 R 42.3 Pd 88.0 Pfa 1.0e-01 65 ms/scene
+tkeo_stft scenes_clean.h5 scenes 100-299: F1 65.2 P 72.2 R 59.5 Pd 48.3 Pfa 4.7e-03 174 ms/scene
+tkeo_sb scenes_clean.h5 scenes 100-299: F1 35.7 P 30.5 R 43.0 Pd 68.1 Pfa 5.0e-02 30 ms/scene
+cond_L8 scenes_clean.h5 scenes 100-299: F1 37.5 P 35.4 R 39.9 Pd 79.2 Pfa 8.9e-02 111 ms/scene
+cond_twc_L8 scenes_clean.h5 scenes 100-299: F1 11.1 P 7.1 R 24.4 Pd 86.8 Pfa 1.3e-01 409 ms/scene
+agm_L4 block: {0.1: '9.96e-02', 0.01: '9.83e-03', 0.001: '1.09e-03', 0.0001: '1.10e-04'} full: {0.1: '1.01e-01', 0.01: '9.67e-03', 0.001: '1.32e-03', 0.0001: '1.46e-04'}
+john_L4 block: {0.1: '9.95e-02', 0.01: '9.81e-03', 0.001: '1.01e-03', 0.0001: '1.25e-04'} full: {0.1: '1.01e-01', 0.01: '9.81e-03', 0.001: '1.42e-03', 0.0001: '1.46e-04'}
+cond_L32 block: {0.1: '9.90e-02', 0.01: '9.59e-03', 0.001: '1.04e-03', 0.0001: '1.35e-04'} full: {0.1: '1.01e-01', 0.01: '1.06e-02', 0.001: '1.17e-03', 0.0001: '9.77e-05'}
+cond_twc_L32 block: {0.1: '5.68e-01', 0.01: '4.54e-01', 0.001: '3.71e-01', 0.0001: '3.06e-01'} full: {0.1: '5.71e-01', 0.01: '4.56e-01', 0.001: '3.71e-01', 0.0001: '3.02e-01'}
+cond_zl_L32 block: {0.1: '4.64e-01', 0.01: '3.98e-01', 0.001: '3.52e-01', 0.0001: '3.15e-01'} full: {0.1: '4.66e-01', 0.01: '4.00e-01', 0.001: '3.52e-01', 0.0001: '3.12e-01'}
+med_L4 block: {0.1: '9.88e-02', 0.01: '9.74e-03', 0.001: '1.00e-03', 0.0001: '6.35e-05'} full: {0.1: '9.56e-02', 0.01: '9.72e-03', 0.001: '9.28e-04', 0.0001: '9.77e-05'}
+tkeo_stft block: {0.1: '9.97e-02', 0.01: '9.80e-03', 0.001: '1.05e-03', 0.0001: '1.03e-04'} full: {0.1: '9.96e-02', 0.01: '9.78e-03', 0.001: '9.82e-04', 0.0001: '1.08e-04'}
+tkeo_sb block: {0.1: '1.01e-01', 0.01: '9.98e-03', 0.001: '1.00e-03', 0.0001: '1.27e-04'} full: {0.1: '9.63e-02', 0.01: '9.37e-03', 0.001: '1.03e-03', 0.0001: '9.77e-05'}
+cond_L8 block: {0.1: '9.91e-02', 0.01: '1.02e-02', 0.001: '1.01e-03', 0.0001: '1.00e-04'} full: {0.1: '9.87e-02', 0.01: '9.96e-03', 0.001: '1.17e-03', 0.0001: '1.95e-04'}
+cond_twc_L8 block: {0.1: '1.64e-01', 0.01: '7.18e-02', 0.001: '3.40e-02', 0.0001: '1.68e-02'} full: {0.1: '1.60e-01', 0.01: '7.28e-02', 0.001: '3.22e-02', 0.0001: '1.63e-02'}
+HELDOUT_DONE

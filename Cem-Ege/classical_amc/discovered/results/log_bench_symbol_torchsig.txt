@@ -1,0 +1,45 @@
+train accuracy by component set: {
+ "ks": {
+  "amp": 0.4033333333333333,
+  "iq": 0.5306666666666666,
+  "iqa": 0.568,
+  "ap": 0.654,
+  "iqap": 0.6513333333333333
+ },
+ "cvm": {
+  "amp": 0.416,
+  "iq": 0.5333333333333333,
+  "iqa": 0.5653333333333334,
+  "ap": 0.6433333333333333,
+  "iqap": 0.6506666666666666
+ },
+ "ad": {
+  "amp": 0.3993333333333333,
+  "iq": 0.528,
+  "iqa": 0.554,
+  "ap": 0.6546666666666666,
+  "iqap": 0.6406666666666667
+ }
+} 
+chosen: {'ks': 'ap', 'cvm': 'iqap', 'ad': 'ap'}
+KS consistency: {'extended': {'ks_amp': 0.3859375, 'ks_iq': 0.520625, 'ks_iqa': 0.5665625, 'ks_ap': 0.661875, 'ks_iqap': 0.6703125}, 'here': {'ks_amp': 0.3859375, 'ks_iq': 0.520625, 'ks_iqa': 0.5665625, 'ks_ap': 0.661875, 'ks_iqap': 0.6703125}, 'max_abs_diff': 0.0}
+      ks_amp [not chosen; reference]: all  38.6 %  SNR>=10  47.0 %  85 % at None dB  71.399 ms/frame
+       ks_iq [not chosen; reference]: all  52.1 %  SNR>=10  61.3 %  85 % at None dB  71.399 ms/frame
+      ks_iqa [not chosen; reference]: all  56.7 %  SNR>=10  67.5 %  85 % at None dB  71.399 ms/frame
+             ks_ap [chosen on train]: all  66.2 %  SNR>=10  82.2 %  85 % at None dB  71.399 ms/frame
+     ks_iqap [not chosen; reference]: all  67.0 %  SNR>=10  80.0 %  85 % at None dB  71.399 ms/frame
+     cvm_amp [not chosen; reference]: all  38.0 %  SNR>=10  45.0 %  85 % at None dB  69.941 ms/frame
+      cvm_iq [not chosen; reference]: all  52.6 %  SNR>=10  60.6 %  85 % at None dB  69.941 ms/frame
+     cvm_iqa [not chosen; reference]: all  57.0 %  SNR>=10  67.5 %  85 % at None dB  69.941 ms/frame
+      cvm_ap [not chosen; reference]: all  64.8 %  SNR>=10  79.9 %  85 % at None dB  69.941 ms/frame
+          cvm_iqap [chosen on train]: all  67.4 %  SNR>=10  80.4 %  85 % at None dB  69.941 ms/frame
+      ad_amp [not chosen; reference]: all  37.7 %  SNR>=10  42.3 %  85 % at None dB  21.289 ms/frame
+       ad_iq [not chosen; reference]: all  52.3 %  SNR>=10  59.9 %  85 % at None dB  21.289 ms/frame
+      ad_iqa [not chosen; reference]: all  56.2 %  SNR>=10  65.4 %  85 % at None dB  21.289 ms/frame
+             ad_ap [chosen on train]: all  67.0 %  SNR>=10  81.8 %  85 % at None dB  21.289 ms/frame
+     ad_iqap [not chosen; reference]: all  67.2 %  SNR>=10  79.2 %  85 % at None dB  21.289 ms/frame
+    em_gmm_ml [quoted from extended]: all  77.2 %  SNR>=10  95.1 %  85 % at 2 dB  700.853 ms/frame
+  features_hgb (base19) [quoted from: all  62.1 %  SNR>=10  85.4 %  85 % at 16 dB  2.048 ms/frame
+  features_hgb (base19+ext17) [quote: all  63.9 %  SNR>=10  85.2 %  85 % at 16 dB  6.812 ms/frame
+  alrt_sps_known (practical_alrt.py): all  76.3 %  SNR>=10  95.6 %  85 % at 4 dB  38.001 ms/frame
+  hlrt_sps_known (practical_alrt.py): all  76.1 %  SNR>=10  95.4 %  85 % at 4 dB  38.001 ms/frame

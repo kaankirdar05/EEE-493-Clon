@@ -1,0 +1,19 @@
+RadioML 24 classes: 124800 frames, train 93600, test 31200
+                        hgb | base19: all  39.2 %  SNR>=10  62.8 %  85 % at None dB  1.504 ms/frame
+                  hgb | base19+wav24: all  41.3 %  SNR>=10  64.6 %  85 % at None dB  6.421 ms/frame
+                         hgb | bis30: all  28.1 %  SNR>=10  45.0 %  85 % at None dB  86.191 ms/frame
+                  hgb | base19+bis30: all  39.5 %  SNR>=10  63.0 %  85 % at None dB  87.654 ms/frame   delta vs base19: +0.29 pts (McNemar z +1.4)
+            hgb | base19+wav24+bis30: all  41.2 %  SNR>=10  64.3 %  85 % at None dB  92.588 ms/frame   delta vs base19+wav24: -0.02 pts (McNemar z -0.1)
+                          hgb | fd22: all  33.2 %  SNR>=10  51.7 %  85 % at None dB  7.481 ms/frame
+                   hgb | base19+fd22: all  40.8 %  SNR>=10  64.1 %  85 % at None dB  8.955 ms/frame   delta vs base19: +1.50 pts (McNemar z +6.8)
+             hgb | base19+wav24+fd22: all  41.6 %  SNR>=10  65.1 %  85 % at None dB  13.880 ms/frame   delta vs base19+wav24: +0.35 pts (McNemar z +1.7)
+                        hgb | info24: all  38.9 %  SNR>=10  65.2 %  85 % at None dB  182.940 ms/frame
+                 hgb | base19+info24: all  42.3 %  SNR>=10  69.7 %  85 % at None dB  184.431 ms/frame   delta vs base19: +3.06 pts (McNemar z +13.5)
+           hgb | base19+wav24+info24: all  43.8 %  SNR>=10  70.3 %  85 % at None dB  189.377 ms/frame   delta vs base19+wav24: +2.56 pts (McNemar z +11.6)
+                          hgb | st23: all  24.4 %  SNR>=10  34.0 %  85 % at None dB  17.304 ms/frame
+                   hgb | base19+st23: all  40.4 %  SNR>=10  62.9 %  85 % at None dB  18.799 ms/frame   delta vs base19: +1.11 pts (McNemar z +5.1)
+             hgb | base19+wav24+st23: all  41.6 %  SNR>=10  64.9 %  85 % at None dB  23.713 ms/frame   delta vs base19+wav24: +0.38 pts (McNemar z +1.9)
+                       hgb | all4new: all  41.5 %  SNR>=10  66.4 %  85 % at None dB  293.755 ms/frame
+                hgb | base19+all4new: all  43.7 %  SNR>=10  69.8 %  85 % at None dB  295.300 ms/frame   delta vs base19: +4.46 pts (McNemar z +18.2)
+          hgb | base19+wav24+all4new: all  44.1 %  SNR>=10  70.1 %  85 % at None dB  300.214 ms/frame   delta vs base19+wav24: +2.88 pts (McNemar z +12.3)
+saved D:\Bitirme - 493\classical_amc\discovered\results\bench_features_24.json

@@ -1,0 +1,13 @@
+{
+  "n_frames": 1820,
+  "base19": 0.8722273626367646,
+  "wav24": 2.484537252746452,
+  "bis30": 13.995268956045198,
+  "fd22": 1.1512430219806775,
+  "info24": 36.6833802747251,
+  "st23": 2.27552428571341,
+  "info24_one_sampen_apen_rqa_call": 9.705595000001873,
+  "info_hist8_only": 0.4117,
+  "info_hist8+perm6 (cheap subset)": 1.5082,
+  "note": "single process, one thread, 1820 RadioML frames; machine shared with other jobs (base19 measured 0.87 vs 0.50 ms in the original cache)"
+}

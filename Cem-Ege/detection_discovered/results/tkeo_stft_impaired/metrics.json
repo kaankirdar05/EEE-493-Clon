@@ -1,0 +1,187 @@
+{
+  "main": {
+    "cell_pfa": 0.011131115832761732,
+    "cell_pd": 0.3870889542135595,
+    "emitter_pd": 0.45170876671619614,
+    "box_precision": 0.5457227138643068,
+    "box_recall": 0.549777117384844,
+    "box_f1": 0.5477424130273871,
+    "mean_iou_matched": 0.7930890845875599,
+    "n_scenes": 200,
+    "n_emitters": 673,
+    "n_pred_boxes": 678,
+    "per_snr": [
+      {
+        "snr_lo": -5,
+        "snr_hi": 0,
+        "n": 111,
+        "emitter_pd": 0.009009009009009009,
+        "mean_cell_pd": 0.03344496006872097,
+        "box_recall": 0.05405405405405406,
+        "mean_iou": 0.052071921682747574
+      },
+      {
+        "snr_lo": 0,
+        "snr_hi": 5,
+        "n": 104,
+        "emitter_pd": 0.07692307692307693,
+        "mean_cell_pd": 0.14794073552616863,
+        "box_recall": 0.3173076923076923,
+        "mean_iou": 0.27531257975415124
+      },
+      {
+        "snr_lo": 5,
+        "snr_hi": 10,
+        "n": 85,
+        "emitter_pd": 0.43529411764705883,
+        "mean_cell_pd": 0.4196065401466019,
+        "box_recall": 0.6,
+        "mean_iou": 0.5650186201854577
+      },
+      {
+        "snr_lo": 10,
+        "snr_hi": 15,
+        "n": 112,
+        "emitter_pd": 0.7232142857142857,
+        "mean_cell_pd": 0.5912170728220366,
+        "box_recall": 0.7946428571428571,
+        "mean_iou": 0.6840480550456532
+      },
+      {
+        "snr_lo": 15,
+        "snr_hi": 20,
+        "n": 103,
+        "emitter_pd": 0.6990291262135923,
+        "mean_cell_pd": 0.5698652445782029,
+        "box_recall": 0.7087378640776699,
+        "mean_iou": 0.6203227650991854
+      },
+      {
+        "snr_lo": 20,
+        "snr_hi": 25,
+        "n": 80,
+        "emitter_pd": 0.7,
+        "mean_cell_pd": 0.6046132437698419,
+        "box_recall": 0.775,
+        "mean_iou": 0.6662298517624073
+      },
+      {
+        "snr_lo": 25,
+        "snr_hi": 30,
+        "n": 78,
+        "emitter_pd": 0.6282051282051282,
+        "mean_cell_pd": 0.5748001580772487,
+        "box_recall": 0.717948717948718,
+        "mean_iou": 0.6161847670402519
+      }
+    ],
+    "pfa_target": 0.001,
+    "timing_ms_per_scene": {
+      "detector": 205.6230965000941,
+      "segmentation": NaN
+    },
+    "settings": {
+      "detector": "tkeo_stft",
+      "params": [
+        "kt=8"
+      ],
+      "data": "D:\\data\\wideband\\scenes.h5",
+      "start": 100,
+      "n_scenes": 200,
+      "thr": {
+        "1e-05": 4.440502947557813,
+        "0.0001": 3.556131316623515,
+        "0.001": 2.9253689643447656,
+        "0.01": 2.2848633551596045,
+        "0.1": 1.5775247121469695
+      }
+    }
+  },
+  "sweep": [
+    {
+      "cell_pfa": 0.1229275306473797,
+      "cell_pd": 0.5162208164126971,
+      "emitter_pd": 0.5898959881129272,
+      "box_precision": 0.004094433313006359,
+      "box_recall": 0.06983655274888559,
+      "box_f1": 0.007735352205398288,
+      "mean_iou_matched": 0.6353719633325866,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 11479,
+      "pfa_target": 0.1
+    },
+    {
+      "cell_pfa": 0.027891423849734906,
+      "cell_pd": 0.42279138454734233,
+      "emitter_pd": 0.48291233283803864,
+      "box_precision": 0.3022328548644338,
+      "box_recall": 0.563150074294205,
+      "box_f1": 0.39335755059678257,
+      "mean_iou_matched": 0.764863744077348,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 1254,
+      "pfa_target": 0.01
+    },
+    {
+      "cell_pfa": 0.011131115832761732,
+      "cell_pd": 0.3870889542135595,
+      "emitter_pd": 0.45170876671619614,
+      "box_precision": 0.5457227138643068,
+      "box_recall": 0.549777117384844,
+      "box_f1": 0.5477424130273871,
+      "mean_iou_matched": 0.7930890845875599,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 678,
+      "pfa_target": 0.001,
+      "timing_ms_per_scene": {
+        "detector": 205.6230965000941,
+        "segmentation": NaN
+      },
+      "settings": {
+        "detector": "tkeo_stft",
+        "params": [
+          "kt=8"
+        ],
+        "data": "D:\\data\\wideband\\scenes.h5",
+        "start": 100,
+        "n_scenes": 200,
+        "thr": {
+          "1e-05": 4.440502947557813,
+          "0.0001": 3.556131316623515,
+          "0.001": 2.9253689643447656,
+          "0.01": 2.2848633551596045,
+          "0.1": 1.5775247121469695
+        }
+      }
+    },
+    {
+      "cell_pfa": 0.006757299399636896,
+      "cell_pd": 0.36498292423330286,
+      "emitter_pd": 0.4309063893016345,
+      "box_precision": 0.5336463223787168,
+      "box_recall": 0.5066864784546805,
+      "box_f1": 0.5198170731707318,
+      "mean_iou_matched": 0.7808712283300216,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 639,
+      "pfa_target": 0.0001
+    },
+    {
+      "cell_pfa": 0.004788501251647181,
+      "cell_pd": 0.34209484101716336,
+      "emitter_pd": 0.38930163447251115,
+      "box_precision": 0.5113636363636364,
+      "box_recall": 0.46805349182763745,
+      "box_f1": 0.48875096974398763,
+      "mean_iou_matched": 0.769672140720761,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 616,
+      "pfa_target": 1e-05
+    }
+  ]
+}

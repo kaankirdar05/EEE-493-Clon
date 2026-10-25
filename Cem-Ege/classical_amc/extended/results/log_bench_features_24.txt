@@ -1,0 +1,17 @@
+RadioML 24 classes: 124800 frames, train 93600, test 31200; cache labels identical: True, max |base - cache| 0.0
+                        hgb | base19: all  39.2 %  SNR>=10  62.8 %  85 % at None dB  1.478 ms/frame
+                         hgb | ext17: all  35.5 %  SNR>=10  58.8 %  85 % at None dB  2.851 ms/frame
+                         hgb | wav24: all  35.7 %  SNR>=10  55.4 %  85 % at None dB  4.921 ms/frame
+                  hgb | base19+ext17: all  39.7 %  SNR>=10  63.5 %  85 % at None dB  4.326 ms/frame
+                  hgb | base19+wav24: all  41.3 %  SNR>=10  64.6 %  85 % at None dB  6.391 ms/frame
+            hgb | base19+ext17+wav24: all  41.5 %  SNR>=10  64.6 %  85 % at None dB  9.235 ms/frame
+                        gnb | base19: all  28.4 %  SNR>=10  48.6 %  85 % at None dB  1.472 ms/frame
+                        qda | base19: all  35.5 %  SNR>=10  58.6 %  85 % at None dB  1.473 ms/frame
+                        gmm | base19: all  37.5 %  SNR>=10  60.4 %  85 % at None dB  1.504 ms/frame
+                  gnb | base19+ext17: all  27.8 %  SNR>=10  46.9 %  85 % at None dB  4.318 ms/frame
+                  qda | base19+ext17: all  36.3 %  SNR>=10  59.7 %  85 % at None dB  4.320 ms/frame
+                  gmm | base19+ext17: all  34.2 %  SNR>=10  54.7 %  85 % at None dB  4.373 ms/frame
+            gnb | base19+ext17+wav24: all  30.8 %  SNR>=10  51.8 %  85 % at None dB  9.303 ms/frame
+            qda | base19+ext17+wav24: all  38.5 %  SNR>=10  63.0 %  85 % at None dB  9.284 ms/frame
+            gmm | base19+ext17+wav24: all  37.9 %  SNR>=10  61.2 %  85 % at None dB  9.342 ms/frame
+saved D:\Bitirme - 493\classical_amc\extended\results\bench_features_24.json

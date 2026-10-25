@@ -1,0 +1,40 @@
+{
+  "impaired": {
+    "energy": {
+      "recall_iou50": 0.6923076923076923,
+      "recall_iou30": 0.8461538461538461,
+      "median_best_iou": 0.7222376196954171
+    },
+    "hough": {
+      "recall_iou50": 0.07692307692307693,
+      "recall_iou30": 0.11538461538461539,
+      "median_best_iou": 0.0
+    },
+    "union": {
+      "recall_iou50": 0.7307692307692307,
+      "recall_iou30": 0.8846153846153846,
+      "median_best_iou": 0.7306459001391661
+    },
+    "n_chirp_emitters": 26,
+    "hough_false_chirp_boxes_per_scene": 0.165
+  },
+  "clean": {
+    "energy": {
+      "recall_iou50": 0.78125,
+      "recall_iou30": 0.96875,
+      "median_best_iou": 0.735652309952067
+    },
+    "hough": {
+      "recall_iou50": 0.0625,
+      "recall_iou30": 0.125,
+      "median_best_iou": 0.0
+    },
+    "union": {
+      "recall_iou50": 0.8125,
+      "recall_iou30": 0.96875,
+      "median_best_iou": 0.7563305764696531
+    },
+    "n_chirp_emitters": 32,
+    "hough_false_chirp_boxes_per_scene": 0.095
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "main": {
+    "cell_pfa": 0.01568982416197669,
+    "cell_pd": 0.0677168326379167,
+    "emitter_pd": 0.017830609212481426,
+    "box_precision": 0.06208053691275168,
+    "box_recall": 0.0549777117384844,
+    "box_f1": 0.05831363278171789,
+    "mean_iou_matched": 0.713098885170562,
+    "n_scenes": 200,
+    "n_emitters": 673,
+    "n_pred_boxes": 596,
+    "per_snr": [
+      {
+        "snr_lo": -5,
+        "snr_hi": 0,
+        "n": 111,
+        "emitter_pd": 0.009009009009009009,
+        "mean_cell_pd": 0.01709517893861342,
+        "box_recall": 0.009009009009009009,
+        "mean_iou": 0.011436380444847126
+      },
+      {
+        "snr_lo": 0,
+        "snr_hi": 5,
+        "n": 104,
+        "emitter_pd": 0.028846153846153848,
+        "mean_cell_pd": 0.03625947362149636,
+        "box_recall": 0.019230769230769232,
+        "mean_iou": 0.01993488577463637
+      },
+      {
+        "snr_lo": 5,
+        "snr_hi": 10,
+        "n": 85,
+        "emitter_pd": 0.023529411764705882,
+        "mean_cell_pd": 0.046929097862082804,
+        "box_recall": 0.058823529411764705,
+        "mean_iou": 0.05111807501646007
+      },
+      {
+        "snr_lo": 10,
+        "snr_hi": 15,
+        "n": 112,
+        "emitter_pd": 0.017857142857142856,
+        "mean_cell_pd": 0.05953230583536018,
+        "box_recall": 0.08928571428571429,
+        "mean_iou": 0.08391326580261335
+      },
+      {
+        "snr_lo": 15,
+        "snr_hi": 20,
+        "n": 103,
+        "emitter_pd": 0.0,
+        "mean_cell_pd": 0.04426477964850212,
+        "box_recall": 0.07766990291262135,
+        "mean_iou": 0.06073633013125289
+      },
+      {
+        "snr_lo": 20,
+        "snr_hi": 25,
+        "n": 80,
+        "emitter_pd": 0.0375,
+        "mean_cell_pd": 0.0650459790473145,
+        "box_recall": 0.075,
+        "mean_iou": 0.08367280837247229
+      },
+      {
+        "snr_lo": 25,
+        "snr_hi": 30,
+        "n": 78,
+        "emitter_pd": 0.01282051282051282,
+        "mean_cell_pd": 0.07106362818719705,
+        "box_recall": 0.0641025641025641,
+        "mean_iou": 0.08863773787945058
+      }
+    ],
+    "pfa_target": 0.001,
+    "timing_ms_per_scene": {
+      "detector": 17.981961000041338,
+      "segmentation": 30.75666700005968
+    },
+    "settings": {
+      "data": "D:\\data\\wideband\\scenes.h5",
+      "detector": "spectral_kurtosis",
+      "pfa": 0.001,
+      "sweep": "1e-1,1e-2,1e-3,1e-4,1e-5",
+      "min_cells": 120,
+      "start": 100,
+      "scenes": null,
+      "examples": 4,
+      "out": "results\\spectral_kurtosis_impaired"
+    }
+  },
+  "sweep": [
+    {
+      "cell_pfa": 0.13669949119250663,
+      "cell_pd": 0.21804656947223272,
+      "emitter_pd": 0.1099554234769688,
+      "box_precision": 0.001579778830963665,
+      "box_recall": 0.019316493313521546,
+      "box_f1": 0.0029206919793304874,
+      "mean_iou_matched": 0.5512920780610885,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 8229,
+      "pfa_target": 0.1
+    },
+    {
+      "cell_pfa": 0.03842393465592278,
+      "cell_pd": 0.11271057890286028,
+      "emitter_pd": 0.05794947994056464,
+      "box_precision": 0.050605060506050605,
+      "box_recall": 0.06835066864784546,
+      "box_f1": 0.058154235145385584,
+      "mean_iou_matched": 0.7643578542000881,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 909,
+      "pfa_target": 0.01
+    },
+    {
+      "cell_pfa": 0.01568982416197669,
+      "cell_pd": 0.0677168326379167,
+      "emitter_pd": 0.017830609212481426,
+      "box_precision": 0.06208053691275168,
+      "box_recall": 0.0549777117384844,
+      "box_f1": 0.05831363278171789,
+      "mean_iou_matched": 0.713098885170562,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 596,
+      "pfa_target": 0.001,
+      "timing_ms_per_scene": {
+        "detector": 17.981961000041338,
+        "segmentation": 30.75666700005968
+      },
+      "settings": {
+        "data": "D:\\data\\wideband\\scenes.h5",
+        "detector": "spectral_kurtosis",
+        "pfa": 0.001,
+        "sweep": "1e-1,1e-2,1e-3,1e-4,1e-5",
+        "min_cells": 120,
+        "start": 100,
+        "scenes": null,
+        "examples": 4,
+        "out": "results\\spectral_kurtosis_impaired"
+      }
+    },
+    {
+      "cell_pfa": 0.010565570796896727,
+      "cell_pd": 0.0500048068020285,
+      "emitter_pd": 0.014858841010401188,
+      "box_precision": 0.05324074074074074,
+      "box_recall": 0.03417533432392273,
+      "box_f1": 0.0416289592760181,
+      "mean_iou_matched": 0.7210043972494762,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 432,
+      "pfa_target": 0.0001
+    },
+    {
+      "cell_pfa": 0.007746658602107894,
+      "cell_pd": 0.03769927129859732,
+      "emitter_pd": 0.007429420505200594,
+      "box_precision": 0.041935483870967745,
+      "box_recall": 0.019316493313521546,
+      "box_f1": 0.026449643947100716,
+      "mean_iou_matched": 0.7334543921541093,
+      "n_scenes": 200,
+      "n_emitters": 673,
+      "n_pred_boxes": 310,
+      "pfa_target": 1e-05
+    }
+  ]
+}

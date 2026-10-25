@@ -1,0 +1,26 @@
+  26 groups, 5200 frames, 90 s
+  52 groups, 10400 frames, 330 s
+  78 groups, 15600 frames, 502 s
+  104 groups, 20800 frames, 732 s
+  130 groups, 26000 frames, 968 s
+  156 groups, 31200 frames, 1192 s
+  182 groups, 36400 frames, 1405 s
+  208 groups, 41600 frames, 1530 s
+  234 groups, 46800 frames, 1701 s
+  260 groups, 52000 frames, 1780 s
+  286 groups, 57200 frames, 1887 s
+  312 groups, 62400 frames, 1944 s
+  338 groups, 67600 frames, 1992 s
+  364 groups, 72800 frames, 2039 s
+  390 groups, 78000 frames, 2087 s
+  416 groups, 83200 frames, 2134 s
+  442 groups, 88400 frames, 2260 s
+  468 groups, 93600 frames, 2411 s
+  494 groups, 98800 frames, 2467 s
+  520 groups, 104000 frames, 2509 s
+  546 groups, 109200 frames, 2552 s
+  572 groups, 114400 frames, 2593 s
+  598 groups, 119600 frames, 2634 s
+  624 groups, 124800 frames, 2681 s
+labels/SNR identical to extended/results/features_24.npz: True; max |base19 - cached| = 0.0
+ms/frame (worker CPU, single-threaded): {'base': 4.019602102564594, 'bis': 86.14541579967961, 'fd': 7.44332082211509, 'info': 182.8442340961544, 'st': 17.26614219471038}

@@ -1,0 +1,98 @@
+{
+  "fs": 61440000.0,
+  "fc": 753520000.0,
+  "segments": 20,
+  "noise_model": {
+    "ks_distance_to_exp_median": 0.02119961308069085
+  },
+  "detectors": {
+    "energy": {
+      "carrier_detected": 0.0,
+      "mean_best_iou": 0.017867280286847455,
+      "flag_rate_quiet_bins": 0.026031802398989907
+    },
+    "energy_mt": {
+      "carrier_detected": 0.0,
+      "mean_best_iou": 0.0585585923819362,
+      "flag_rate_quiet_bins": 0.040530303030303035
+    },
+    "fcme": {
+      "carrier_detected": 0.0,
+      "mean_best_iou": 0.023565561927460683,
+      "flag_rate_quiet_bins": 0.02722537878787879
+    },
+    "lad": {
+      "carrier_detected": 0.0,
+      "mean_best_iou": 0.03594331049724128,
+      "flag_rate_quiet_bins": 0.03499299636994949
+    },
+    "cfar_ca": {
+      "carrier_detected": 0.0,
+      "mean_best_iou": 0.10767346192365597,
+      "flag_rate_quiet_bins": 0.010682508680555555
+    },
+    "cfar_os": {
+      "carrier_detected": 0.0,
+      "mean_best_iou": 0.07958705973965287,
+      "flag_rate_quiet_bins": 0.010427517361111109
+    },
+    "cfar_so": {
+      "carrier_detected": 0.0,
+      "mean_best_iou": 0.23863751648697898,
+      "flag_rate_quiet_bins": 0.10704703282828283
+    },
+    "cfar_2d": {
+      "carrier_detected": 0.0,
+      "mean_best_iou": 0.05248825906461929,
+      "flag_rate_quiet_bins": 0.012200126262626263
+    }
+  },
+  "characterization": [
+    {
+      "carrier_true_MHz": 742.5,
+      "carrier_est_MHz": 742.4027443384758,
+      "error_kHz": -97.2556615241766,
+      "occupied_bw_true_MHz": 4.5,
+      "obw99_est_MHz": 6.45,
+      "snr_inband_dB": -4.594747066497803
+    },
+    {
+      "carrier_true_MHz": 751.0,
+      "carrier_est_MHz": 749.799057644202,
+      "error_kHz": -1200.942355798006,
+      "occupied_bw_true_MHz": 9.0,
+      "obw99_est_MHz": 11.985,
+      "snr_inband_dB": -8.61082649230957
+    },
+    {
+      "carrier_true_MHz": 763.0,
+      "carrier_est_MHz": 761.1898867377785,
+      "error_kHz": -1810.1132622215748,
+      "occupied_bw_true_MHz": 9.0,
+      "obw99_est_MHz": 11.7825,
+      "snr_inband_dB": -4.276416301727295
+    }
+  ],
+  "long_integration_detection": {
+    "4 ms": [
+      1.0,
+      0.21,
+      0.24
+    ],
+    "17 ms": [
+      0.84,
+      0.27,
+      0.35
+    ],
+    "85 ms": [
+      1.0,
+      0.37,
+      0.45
+    ],
+    "342 ms": [
+      1.0,
+      0.47,
+      0.56
+    ]
+  }
+}

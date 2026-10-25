@@ -1,0 +1,660 @@
+{
+  "failed": [],
+  "checks": {
+    "bell_number_8": {
+      "pass": true,
+      "partitions": 4140
+    },
+    "general_formula_vs_features.py": {
+      "pass": true,
+      "max_rel_err": 9.678467796345684e-16
+    },
+    "theory_vs_literature": {
+      "pass": true,
+      "max_rel_err": 0.0001924855518466512
+    },
+    "new_cumulants_200k_noiseless": {
+      "pass": true,
+      "max_z": 4.270286801211019,
+      "max_rel_err_nonzero_theory": 0.010545463728090055,
+      "table": {
+        "BPSK": {
+          "C61": {
+            "theory": [
+              16.0,
+              0.0
+            ],
+            "estimate_mean": [
+              15.9998,
+              0.0
+            ],
+            "std_single_run": 0.0003
+          },
+          "C62": {
+            "theory": [
+              16.0,
+              0.0
+            ],
+            "estimate_mean": [
+              15.9998,
+              0.0
+            ],
+            "std_single_run": 0.0003
+          },
+          "C63": {
+            "theory": [
+              16.0,
+              0.0
+            ],
+            "estimate_mean": [
+              15.9998,
+              0.0
+            ],
+            "std_single_run": 0.0003
+          },
+          "C81": {
+            "theory": [
+              -272.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -271.9926,
+              0.0
+            ],
+            "std_single_run": 0.0114
+          },
+          "C82": {
+            "theory": [
+              -272.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -271.9926,
+              0.0
+            ],
+            "std_single_run": 0.0114
+          },
+          "C83": {
+            "theory": [
+              -272.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -271.9926,
+              0.0
+            ],
+            "std_single_run": 0.0114
+          },
+          "C84": {
+            "theory": [
+              -272.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -271.9926,
+              0.0
+            ],
+            "std_single_run": 0.0114
+          }
+        },
+        "QPSK": {
+          "C61": {
+            "theory": [
+              4.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              3.9998,
+              0.0
+            ],
+            "std_single_run": 0.0002
+          },
+          "C62": {
+            "theory": [
+              -0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -0.0,
+              -0.0019
+            ],
+            "std_single_run": 0.023
+          },
+          "C63": {
+            "theory": [
+              4.0,
+              0.0
+            ],
+            "estimate_mean": [
+              3.9999,
+              -0.0
+            ],
+            "std_single_run": 0.0001
+          },
+          "C81": {
+            "theory": [
+              0.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              0.0007,
+              0.0278
+            ],
+            "std_single_run": 0.3406
+          },
+          "C82": {
+            "theory": [
+              -34.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -33.9969,
+              -0.0
+            ],
+            "std_single_run": 0.0021
+          },
+          "C83": {
+            "theory": [
+              0.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              0.0007,
+              0.0173
+            ],
+            "std_single_run": 0.2118
+          },
+          "C84": {
+            "theory": [
+              -34.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              -33.999,
+              0.0
+            ],
+            "std_single_run": 0.0018
+          }
+        },
+        "8PSK": {
+          "C61": {
+            "theory": [
+              0.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              0.0015,
+              0.0
+            ],
+            "std_single_run": 0.0084
+          },
+          "C62": {
+            "theory": [
+              -0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -0.0053,
+              -0.0006
+            ],
+            "std_single_run": 0.0169
+          },
+          "C63": {
+            "theory": [
+              4.0,
+              0.0
+            ],
+            "estimate_mean": [
+              3.9999,
+              0.0
+            ],
+            "std_single_run": 0.0001
+          },
+          "C81": {
+            "theory": [
+              -0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              0.003,
+              -0.0007
+            ],
+            "std_single_run": 0.0089
+          },
+          "C82": {
+            "theory": [
+              -0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -0.0123,
+              -0.0001
+            ],
+            "std_single_run": 0.0716
+          },
+          "C83": {
+            "theory": [
+              0.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              0.0552,
+              0.0062
+            ],
+            "std_single_run": 0.1754
+          },
+          "C84": {
+            "theory": [
+              -33.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              -32.999,
+              -0.0
+            ],
+            "std_single_run": 0.0012
+          }
+        },
+        "16QAM": {
+          "C61": {
+            "theory": [
+              2.08,
+              0.0
+            ],
+            "estimate_mean": [
+              2.078,
+              -0.0015
+            ],
+            "std_single_run": 0.007
+          },
+          "C62": {
+            "theory": [
+              0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -0.0028,
+              0.0005
+            ],
+            "std_single_run": 0.0146
+          },
+          "C63": {
+            "theory": [
+              2.08,
+              0.0
+            ],
+            "estimate_mean": [
+              2.0789,
+              0.0
+            ],
+            "std_single_run": 0.0082
+          },
+          "C81": {
+            "theory": [
+              -0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              0.0251,
+              -0.0011
+            ],
+            "std_single_run": 0.1559
+          },
+          "C82": {
+            "theory": [
+              -13.9808,
+              0.0
+            ],
+            "estimate_mean": [
+              -13.9639,
+              0.0112
+            ],
+            "std_single_run": 0.0517
+          },
+          "C83": {
+            "theory": [
+              -0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              0.0254,
+              -0.0048
+            ],
+            "std_single_run": 0.1211
+          },
+          "C84": {
+            "theory": [
+              -13.9808,
+              0.0
+            ],
+            "estimate_mean": [
+              -13.9703,
+              -0.0
+            ],
+            "std_single_run": 0.0734
+          }
+        },
+        "64QAM": {
+          "C61": {
+            "theory": [
+              1.7972,
+              -0.0
+            ],
+            "estimate_mean": [
+              1.7982,
+              -0.0016
+            ],
+            "std_single_run": 0.0081
+          },
+          "C62": {
+            "theory": [
+              -0.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              -0.0044,
+              -0.0021
+            ],
+            "std_single_run": 0.0124
+          },
+          "C63": {
+            "theory": [
+              1.7972,
+              0.0
+            ],
+            "estimate_mean": [
+              1.7964,
+              -0.0
+            ],
+            "std_single_run": 0.0053
+          },
+          "C81": {
+            "theory": [
+              0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              0.0374,
+              0.0335
+            ],
+            "std_single_run": 0.1386
+          },
+          "C82": {
+            "theory": [
+              -11.5022,
+              0.0
+            ],
+            "estimate_mean": [
+              -11.5053,
+              0.011
+            ],
+            "std_single_run": 0.0541
+          },
+          "C83": {
+            "theory": [
+              0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              0.0379,
+              0.013
+            ],
+            "std_single_run": 0.094
+          },
+          "C84": {
+            "theory": [
+              -11.5022,
+              -0.0
+            ],
+            "estimate_mean": [
+              -11.4964,
+              0.0
+            ],
+            "std_single_run": 0.0446
+          }
+        },
+        "4ASK": {
+          "C61": {
+            "theory": [
+              8.32,
+              0.0
+            ],
+            "estimate_mean": [
+              8.3118,
+              0.0
+            ],
+            "std_single_run": 0.0231
+          },
+          "C62": {
+            "theory": [
+              8.32,
+              0.0
+            ],
+            "estimate_mean": [
+              8.3118,
+              0.0
+            ],
+            "std_single_run": 0.0231
+          },
+          "C63": {
+            "theory": [
+              8.32,
+              0.0
+            ],
+            "estimate_mean": [
+              8.3118,
+              0.0
+            ],
+            "std_single_run": 0.0231
+          },
+          "C81": {
+            "theory": [
+              -111.8464,
+              0.0
+            ],
+            "estimate_mean": [
+              -111.6914,
+              0.0
+            ],
+            "std_single_run": 0.4292
+          },
+          "C82": {
+            "theory": [
+              -111.8464,
+              0.0
+            ],
+            "estimate_mean": [
+              -111.6914,
+              0.0
+            ],
+            "std_single_run": 0.4292
+          },
+          "C83": {
+            "theory": [
+              -111.8464,
+              0.0
+            ],
+            "estimate_mean": [
+              -111.6914,
+              0.0
+            ],
+            "std_single_run": 0.4292
+          },
+          "C84": {
+            "theory": [
+              -111.8464,
+              0.0
+            ],
+            "estimate_mean": [
+              -111.6914,
+              0.0
+            ],
+            "std_single_run": 0.4292
+          }
+        },
+        "16PSK": {
+          "C61": {
+            "theory": [
+              0.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              -0.0027,
+              -0.0008
+            ],
+            "std_single_run": 0.0105
+          },
+          "C62": {
+            "theory": [
+              -0.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              0.0002,
+              -0.0066
+            ],
+            "std_single_run": 0.0196
+          },
+          "C63": {
+            "theory": [
+              4.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              4.0,
+              0.0
+            ],
+            "std_single_run": 0.0
+          },
+          "C81": {
+            "theory": [
+              -0.0,
+              -0.0
+            ],
+            "estimate_mean": [
+              -0.0005,
+              0.0011
+            ],
+            "std_single_run": 0.0087
+          },
+          "C82": {
+            "theory": [
+              -0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              0.023,
+              0.0068
+            ],
+            "std_single_run": 0.0891
+          },
+          "C83": {
+            "theory": [
+              0.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -0.0019,
+              0.0683
+            ],
+            "std_single_run": 0.2026
+          },
+          "C84": {
+            "theory": [
+              -33.0,
+              0.0
+            ],
+            "estimate_mean": [
+              -33.0,
+              -0.0
+            ],
+            "std_single_run": 0.0008
+          }
+        }
+      }
+    },
+    "gaussian_cumulants_zero": {
+      "pass": true,
+      "mean_abs": {
+        "C61": 0.005524088527903476,
+        "C62": 0.009035895254447973,
+        "C63": 0.0025540359114251568,
+        "C81": 0.11341689799625156,
+        "C82": 0.04393631566654677,
+        "C83": 0.027474479158817962,
+        "C84": 0.01690337832677411,
+        "C40": 0.005399585454291087,
+        "C42": 0.00015162775107587791
+      },
+      "note": "8th-order estimator std on 50k samples is O(0.5); means over 20 frames"
+    },
+    "cyclic_features": {
+      "pass": true,
+      "BPSK": {
+        "cyc_C40": 1.996,
+        "theory_C40": 2.0,
+        "plain_abs_C40_under_CFO": 0.007
+      },
+      "QPSK": {
+        "cyc_C40": 0.995,
+        "theory_C40": 1.0,
+        "plain_abs_C40_under_CFO": 0.008
+      },
+      "8PSK": {
+        "cyc_C40": 0.089,
+        "theory_C40": 0.0,
+        "plain_abs_C40_under_CFO": 0.026
+      },
+      "16QAM": {
+        "cyc_C40": 0.672,
+        "theory_C40": 0.68,
+        "plain_abs_C40_under_CFO": 0.049
+      },
+      "BPSK_x2_line": {
+        "alpha_mean": 0.02459716796875,
+        "expected": 0.0246,
+        "M20_peak": 0.9989904260382723
+      },
+      "conj_alpha_sps4": {
+        "median_alpha": 0.25,
+        "expected": 0.25,
+        "frac_within_1_over_L": 1.0,
+        "median_err_bins": 0.015625
+      },
+      "conj_alpha_sps5": {
+        "median_alpha": 0.20001220703125,
+        "expected": 0.2,
+        "frac_within_1_over_L": 1.0,
+        "median_err_bins": 0.01875000000001137
+      },
+      "conj_alpha_sps8": {
+        "median_alpha": 0.125,
+        "expected": 0.125,
+        "frac_within_1_over_L": 0.95,
+        "median_err_bins": 0.03125
+      },
+      "conj_alpha_sps10": {
+        "median_alpha": 0.0999755859375,
+        "expected": 0.1,
+        "frac_within_1_over_L": 0.82,
+        "median_err_bins": 0.037499999999994316
+      }
+    },
+    "haar_wavelet": {
+      "pass": true,
+      "tone_closed_form_max_err": 9.547918011776346e-15,
+      "rectQPSK_transitions": 98,
+      "rectQPSK_nonzero_HWT_runs": 98,
+      "rectQPSK": {
+        "hwt_vmed_2": 6.806550891713223e-30,
+        "hwt_vmed_4": 1.4576616134659865e-30,
+        "hwt_amp_8": 0.0
+      },
+      "vmedu_4_psk_vs_fsk": [
+        0.0007150867022573948,
+        0.10413943231105804
+      ],
+      "hwt_amp_8_qam": 0.23868626356124878
+    }
+  }
+}

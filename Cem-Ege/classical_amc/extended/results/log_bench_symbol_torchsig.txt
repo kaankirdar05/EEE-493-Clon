@@ -1,0 +1,14 @@
+               features_hgb (base19): all  62.1 %  SNR>=10  85.4 %  85 % at 16 dB  2.048 ms/frame
+         features_hgb (base19+ext17): all  63.9 %  SNR>=10  85.2 %  85 % at 16 dB  6.812 ms/frame
+KS components, train accuracy: {'amp': 0.4033333333333333, 'iq': 0.5306666666666666, 'iqa': 0.568, 'ap': 0.654, 'iqap': 0.6513333333333333} -> ap
+               features_hgb (base19): all  62.1 %  SNR>=10  85.4 %  85 % at 16 dB  2.048 ms/frame
+         features_hgb (base19+ext17): all  63.9 %  SNR>=10  85.2 %  85 % at 16 dB  6.812 ms/frame
+  ks_amp [not chosen; for reference]: all  38.6 %  SNR>=10  47.0 %  85 % at None dB  62.581 ms/frame
+   ks_iq [not chosen; for reference]: all  52.1 %  SNR>=10  61.3 %  85 % at None dB  62.581 ms/frame
+  ks_iqa [not chosen; for reference]: all  56.7 %  SNR>=10  67.5 %  85 % at None dB  62.581 ms/frame
+             ks_ap [chosen on train]: all  66.2 %  SNR>=10  82.2 %  85 % at None dB  62.581 ms/frame
+  ks_iqap [not chosen; for reference]: all  67.0 %  SNR>=10  80.0 %  85 % at None dB  62.581 ms/frame
+                           em_gmm_ml: all  77.2 %  SNR>=10  95.1 %  85 % at 2 dB  700.853 ms/frame
+  alrt_sps_known (practical_alrt.py): all  76.3 %  SNR>=10  95.6 %  85 % at 4 dB  38.001 ms/frame
+  hlrt_sps_known (practical_alrt.py): all  76.1 %  SNR>=10  95.4 %  85 % at 4 dB  38.001 ms/frame
+  symbols 2.3 ms, KS 60.3 ms, EM 698.6 ms per frame (worker time, 6 parallel jobs; wall 429 s)

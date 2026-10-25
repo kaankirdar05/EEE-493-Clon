@@ -1,0 +1,70 @@
+{
+  "cvm_equals_scipy": {
+    "pass": true,
+    "max_abs_diff_vs_cramervonmises_2samp": 1.9539925233402755e-14
+  },
+  "ad_equals_scipy": {
+    "pass": true,
+    "max_abs_diff_vs_anderson_ksamp_continuous (standardised)": 1.4210854715202004e-14,
+    "max_abs_diff_vs_anderson_ksamp_right (standardised)": 7.105427357601002e-15
+  },
+  "null_calibration_iid": {
+    "pass": true,
+    "cvm_mean": 0.16802303128560647,
+    "cvm_theory_mean": 0.16667314670813893,
+    "cvm_reject_at_0.461": 0.049,
+    "ad_mean": 1.0138716635675304,
+    "ad_theory_mean": 1.0,
+    "ad_reject_at_2.492": 0.04633333333333333
+  },
+  "null_with_per_frame_normalisation (info)": {
+    "cvm_mean": 0.08062674979395493,
+    "cvm_reject": 0.0,
+    "ad_mean": 0.5626125366306929,
+    "ad_reject": 0.0025,
+    "note": "parameters estimated from the frame itself -> conservative test (Lilliefors effect), as for KS"
+  },
+  "synthetic_accuracy": {
+    "pass": true,
+    "table": {
+      "120 sym, 10 dB": {
+        "ks_ap": 0.73,
+        "ks_iqap": 0.766,
+        "cvm_ap": 0.72,
+        "cvm_iqap": 0.768,
+        "ad_ap": 0.75,
+        "ad_iqap": 0.772,
+        "oracle": 0.942
+      },
+      "120 sym, 25 dB": {
+        "ks_ap": 0.93,
+        "ks_iqap": 0.966,
+        "cvm_ap": 0.928,
+        "cvm_iqap": 0.956,
+        "ad_ap": 0.924,
+        "ad_iqap": 0.962,
+        "oracle": 1.0
+      },
+      "1000 sym, 10 dB": {
+        "ks_ap": 0.845,
+        "ks_iqap": 0.86,
+        "cvm_ap": 0.835,
+        "cvm_iqap": 0.835,
+        "ad_ap": 0.83,
+        "ad_iqap": 0.855,
+        "oracle": 1.0
+      },
+      "1000 sym, 25 dB": {
+        "ks_ap": 1.0,
+        "ks_iqap": 1.0,
+        "cvm_ap": 1.0,
+        "cvm_iqap": 1.0,
+        "ad_ap": 1.0,
+        "ad_iqap": 1.0,
+        "oracle": 1.0
+      }
+    },
+    "criterion": "oracle not beaten; CvM and AD (ap) > 97 % at 1000 symbols, 25 dB"
+  },
+  "all_pass": true
+}

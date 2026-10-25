@@ -1,0 +1,17 @@
+{
+  "L": {
+    "agm": 4,
+    "cond": 32,
+    "john": 4,
+    "med": 4
+  },
+  "kt": 8,
+  "cfg": {
+    "agm": "agm_L4",
+    "cond": "cond_L32",
+    "john": "john_L4",
+    "med": "med_L4",
+    "tkeo_sb": "tkeo_sb",
+    "tkeo_stft": "tkeo_stft_kt8"
+  }
+}

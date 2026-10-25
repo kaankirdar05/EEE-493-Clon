@@ -1,0 +1,10 @@
+impaired    gid_L4: box F1   7.3  emitter Pd  80.7  Pfa 3.0e-01
+impaired   grcr_L4: box F1   6.7  emitter Pd  82.9  Pfa 3.2e-01
+impaired  pride_L4: box F1   6.7  emitter Pd  82.9  Pfa 3.2e-01
+impaired    tid_L4: box F1   6.4  emitter Pd  83.2  Pfa 3.2e-01
+impaired    aid_L4: box F1   6.8  emitter Pd  81.4  Pfa 3.1e-01
+   clean    gid_L4: box F1  36.4  emitter Pd  75.7  Pfa 6.9e-02
+   clean   grcr_L4: box F1  36.9  emitter Pd  78.4  Pfa 7.3e-02
+   clean  pride_L4: box F1  36.8  emitter Pd  78.1  Pfa 7.2e-02
+   clean    tid_L4: box F1  36.8  emitter Pd  77.7  Pfa 7.0e-02
+   clean    aid_L4: box F1  35.4  emitter Pd  75.4  Pfa 6.9e-02

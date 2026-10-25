@@ -1,0 +1,18 @@
+dev choice: {'carrier': 'fc_centroid', 'bandwidth': 'bw_noisecross', 'snr': 'snr_peak512'}
+--- TEST clean ---
+fc_peak            med    58.74 kHz p90   273.10 | frac bw med 0.091 p90 0.308
+fc_centroid        med     2.35 kHz p90    56.31 | frac bw med 0.004 p90 0.091
+fc_mid10           med     3.89 kHz p90    60.18 | frac bw med 0.007 p90 0.102
+fc_obw99           med     9.93 kHz p90   105.58 | frac bw med 0.010 p90 0.208
+fc_noisecross      med     5.54 kHz p90    61.75 | frac bw med 0.010 p90 0.098
+bw_3db             med|rel| 0.522 p90 0.878 bias -0.522
+bw_10db            med|rel| 0.257 p90 0.671 bias -0.255
+bw_26db            med|rel| 0.143 p90 0.495 bias +0.001
+bw_obw99           med|rel| 0.184 p90 0.562 bias -0.130
+bw_noisecross      med|rel| 0.074 p90 0.486 bias -0.011
+snr_psd_obw        med|err| 2.50 dB p90 8.20 bias -1.86
+snr_psd_10db       med|err| 2.10 dB p90 5.83 bias -1.60
+snr_psd_trueband   med|err| 3.08 dB p90 8.66 bias -2.62
+snr_peak512        med|err| 0.45 dB p90 3.79 bias -0.15
+snr_m2m4           med|err| 9.50 dB p90 39.54 bias -8.74
+runtime {'median': 38.17770000023302, 'p90': 85.43346000005839, 'noise_map_ms_per_emitter_median': 19.8091749998639} m2m4 invalid 0.20239880059970017

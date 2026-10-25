@@ -1,0 +1,9 @@
+  26 groups, 26000 frames, 149 s
+  52 groups, 52000 frames, 323 s
+  78 groups, 78000 frames, 512 s
+  104 groups, 104000 frames, 743 s
+  130 groups, 130000 frames, 1004 s
+  156 groups, 156000 frames, 1403 s
+  182 groups, 182000 frames, 1720 s
+labels/SNR identical to extended/results/features_7.npz: True; max |base19 - cached| = 0.0
+ms/frame (worker CPU, single-threaded): {'base': 1.725987989011628, 'bis': 38.1416278956035, 'fd': 3.303849962636997, 'info': 97.51512626208802, 'st': 8.153646148351621}

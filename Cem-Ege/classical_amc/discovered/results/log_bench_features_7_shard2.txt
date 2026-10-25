@@ -1,0 +1,5 @@
+RadioML 7 classes: 182000 frames, train 136500, test 45500
+  shard 2/4: bis30 acc 63.91 %, fit 320 s
+  shard 2/4: base19+fd22 acc 72.29 %, fit 162 s
+  shard 2/4: base19+wav24+info24 acc 72.37 %, fit 84 s
+  shard 2/4: all4new acc 72.57 %, fit 58 s

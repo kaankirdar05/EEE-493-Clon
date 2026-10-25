@@ -1,0 +1,8 @@
+4 wishart {'lmax_TW (MED, known s2)': 0.00071, 'lmin_TW (lower edge)': 0.00059, 'cond_ZL': 0.00014, 'cond_TWC': 0.00039, 'john_asymN': 0.00549} 
+   hankel {'lmax_TW (MED, known s2)': 0.016645, 'lmin_TW (lower edge)': 0.01252, 'cond_ZL': 0.00264, 'cond_TWC': 0.00466, 'john_asymN': 0.019455}
+8 wishart {'lmax_TW (MED, known s2)': 0.00085, 'lmin_TW (lower edge)': 0.00077, 'cond_ZL': 0.00025, 'cond_TWC': 0.00059, 'john_asymN': 0.00317} 
+   hankel {'lmax_TW (MED, known s2)': 0.0614, 'lmin_TW (lower edge)': 0.04525, 'cond_ZL': 0.02508, 'cond_TWC': 0.03434, 'john_asymN': 0.055285}
+16 wishart {'lmax_TW (MED, known s2)': 0.00086, 'lmin_TW (lower edge)': 0.0008, 'cond_ZL': 0.00023, 'cond_TWC': 0.00065, 'john_asymN': 0.00192} 
+   hankel {'lmax_TW (MED, known s2)': 0.170905, 'lmin_TW (lower edge)': 0.124455, 'cond_ZL': 0.122115, 'cond_TWC': 0.1416, 'john_asymN': 0.11808}
+32 wishart {'lmax_TW (MED, known s2)': 0.00086, 'lmin_TW (lower edge)': 0.00094, 'cond_ZL': 0.00058, 'cond_TWC': 0.00124, 'john_asymN': 0.00126} 
+   hankel {'lmax_TW (MED, known s2)': 0.380895, 'lmin_TW (lower edge)': 0.26149, 'cond_ZL': 0.35178, 'cond_TWC': 0.371195, 'john_asymN': 0.19405}

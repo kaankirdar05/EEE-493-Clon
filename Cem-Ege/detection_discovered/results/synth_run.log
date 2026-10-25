@@ -1,0 +1,87 @@
+tone -26 {'energy': 0.012, 'fft_max (ref, tone GLRT)': 0.179, 'tkeo': 0.01, 'agm_L4': 0.008, 'cond_L32': 0.012, 'john_emr_L4': 0.009, 'med_known_L4': 0.008, 'sr_energy': 0.009, 'sr_fftmax': 0.012, 'cond_twc (analytic thr)': 0.556}
+tone -25 {'energy': 0.015, 'fft_max (ref, tone GLRT)': 0.336, 'tkeo': 0.011, 'agm_L4': 0.008, 'cond_L32': 0.024, 'john_emr_L4': 0.009, 'med_known_L4': 0.012, 'sr_energy': 0.006, 'sr_fftmax': 0.005, 'cond_twc (analytic thr)': 0.557}
+tone -24 {'energy': 0.018, 'fft_max (ref, tone GLRT)': 0.511, 'tkeo': 0.021, 'agm_L4': 0.014, 'cond_L32': 0.026, 'john_emr_L4': 0.015, 'med_known_L4': 0.018, 'sr_energy': 0.018, 'sr_fftmax': 0.017, 'cond_twc (analytic thr)': 0.592}
+tone -23 {'energy': 0.027, 'fft_max (ref, tone GLRT)': 0.719, 'tkeo': 0.022, 'agm_L4': 0.024, 'cond_L32': 0.035, 'john_emr_L4': 0.025, 'med_known_L4': 0.025, 'sr_energy': 0.015, 'sr_fftmax': 0.014, 'cond_twc (analytic thr)': 0.652}
+tone -22 {'energy': 0.034, 'fft_max (ref, tone GLRT)': 0.861, 'tkeo': 0.024, 'agm_L4': 0.026, 'cond_L32': 0.114, 'john_emr_L4': 0.028, 'med_known_L4': 0.038, 'sr_energy': 0.01, 'sr_fftmax': 0.009, 'cond_twc (analytic thr)': 0.78}
+tone -21 {'energy': 0.044, 'fft_max (ref, tone GLRT)': 0.949, 'tkeo': 0.044, 'agm_L4': 0.026, 'cond_L32': 0.204, 'john_emr_L4': 0.027, 'med_known_L4': 0.065, 'sr_energy': 0.012, 'sr_fftmax': 0.012, 'cond_twc (analytic thr)': 0.848}
+tone -20 {'energy': 0.048, 'fft_max (ref, tone GLRT)': 0.991, 'tkeo': 0.043, 'agm_L4': 0.044, 'cond_L32': 0.397, 'john_emr_L4': 0.047, 'med_known_L4': 0.083, 'sr_energy': 0.01, 'sr_fftmax': 0.011, 'cond_twc (analytic thr)': 0.942}
+tone -19 {'energy': 0.062, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.075, 'agm_L4': 0.093, 'cond_L32': 0.684, 'john_emr_L4': 0.101, 'med_known_L4': 0.181, 'sr_energy': 0.015, 'sr_fftmax': 0.015, 'cond_twc (analytic thr)': 0.994}
+tone -18 {'energy': 0.097, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.087, 'agm_L4': 0.15, 'cond_L32': 0.892, 'john_emr_L4': 0.161, 'med_known_L4': 0.298, 'sr_energy': 0.012, 'sr_fftmax': 0.014, 'cond_twc (analytic thr)': 0.999}
+tone -17 {'energy': 0.143, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.156, 'agm_L4': 0.293, 'cond_L32': 0.985, 'john_emr_L4': 0.307, 'med_known_L4': 0.477, 'sr_energy': 0.021, 'sr_fftmax': 0.022, 'cond_twc (analytic thr)': 1.0}
+tone -16 {'energy': 0.245, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.259, 'agm_L4': 0.551, 'cond_L32': 1.0, 'john_emr_L4': 0.57, 'med_known_L4': 0.757, 'sr_energy': 0.018, 'sr_fftmax': 0.021, 'cond_twc (analytic thr)': 1.0}
+tone -15 {'energy': 0.397, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.337, 'agm_L4': 0.794, 'cond_L32': 1.0, 'john_emr_L4': 0.802, 'med_known_L4': 0.944, 'sr_energy': 0.017, 'sr_fftmax': 0.029, 'cond_twc (analytic thr)': 1.0}
+tone -14 {'energy': 0.554, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.453, 'agm_L4': 0.96, 'cond_L32': 1.0, 'john_emr_L4': 0.963, 'med_known_L4': 0.99, 'sr_energy': 0.028, 'sr_fftmax': 0.057, 'cond_twc (analytic thr)': 1.0}
+tone -13 {'energy': 0.816, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.545, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.041, 'sr_fftmax': 0.055, 'cond_twc (analytic thr)': 1.0}
+tone -12 {'energy': 0.934, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.575, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.053, 'sr_fftmax': 0.071, 'cond_twc (analytic thr)': 1.0}
+tone -11 {'energy': 0.998, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.67, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.058, 'sr_fftmax': 0.082, 'cond_twc (analytic thr)': 1.0}
+tone -10 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.69, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.089, 'sr_fftmax': 0.12, 'cond_twc (analytic thr)': 1.0}
+tone -9 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.724, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.097, 'sr_fftmax': 0.128, 'cond_twc (analytic thr)': 1.0}
+tone -8 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.751, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.104, 'sr_fftmax': 0.122, 'cond_twc (analytic thr)': 1.0}
+tone -7 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.775, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.109, 'sr_fftmax': 0.138, 'cond_twc (analytic thr)': 1.0}
+tone -6 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.809, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.123, 'sr_fftmax': 0.158, 'cond_twc (analytic thr)': 1.0}
+tone -5 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.834, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.137, 'sr_fftmax': 0.192, 'cond_twc (analytic thr)': 1.0}
+tone -4 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.846, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.192, 'sr_fftmax': 0.238, 'cond_twc (analytic thr)': 1.0}
+tone -3 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.854, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.193, 'sr_fftmax': 0.261, 'cond_twc (analytic thr)': 1.0}
+tone -2 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.88, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.231, 'sr_fftmax': 0.291, 'cond_twc (analytic thr)': 1.0}
+tone -1 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.916, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.234, 'sr_fftmax': 0.302, 'cond_twc (analytic thr)': 1.0}
+tone 0 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.919, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.297, 'sr_fftmax': 0.383, 'cond_twc (analytic thr)': 1.0}
+tone 1 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.916, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.299, 'sr_fftmax': 0.37, 'cond_twc (analytic thr)': 1.0}
+tone 2 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.925, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.354, 'sr_fftmax': 0.463, 'cond_twc (analytic thr)': 1.0}
+qpsk -26 {'energy': 0.017, 'fft_max (ref, tone GLRT)': 0.008, 'tkeo': 0.02, 'agm_L4': 0.008, 'cond_L32': 0.007, 'john_emr_L4': 0.009, 'med_known_L4': 0.01, 'sr_energy': 0.011, 'sr_fftmax': 0.01, 'cond_twc (analytic thr)': 0.522}
+qpsk -25 {'energy': 0.017, 'fft_max (ref, tone GLRT)': 0.012, 'tkeo': 0.01, 'agm_L4': 0.01, 'cond_L32': 0.011, 'john_emr_L4': 0.01, 'med_known_L4': 0.013, 'sr_energy': 0.008, 'sr_fftmax': 0.011, 'cond_twc (analytic thr)': 0.503}
+qpsk -24 {'energy': 0.019, 'fft_max (ref, tone GLRT)': 0.02, 'tkeo': 0.019, 'agm_L4': 0.013, 'cond_L32': 0.012, 'john_emr_L4': 0.013, 'med_known_L4': 0.011, 'sr_energy': 0.014, 'sr_fftmax': 0.01, 'cond_twc (analytic thr)': 0.534}
+qpsk -23 {'energy': 0.026, 'fft_max (ref, tone GLRT)': 0.016, 'tkeo': 0.027, 'agm_L4': 0.017, 'cond_L32': 0.015, 'john_emr_L4': 0.017, 'med_known_L4': 0.02, 'sr_energy': 0.007, 'sr_fftmax': 0.009, 'cond_twc (analytic thr)': 0.502}
+qpsk -22 {'energy': 0.027, 'fft_max (ref, tone GLRT)': 0.017, 'tkeo': 0.036, 'agm_L4': 0.016, 'cond_L32': 0.018, 'john_emr_L4': 0.018, 'med_known_L4': 0.036, 'sr_energy': 0.011, 'sr_fftmax': 0.009, 'cond_twc (analytic thr)': 0.531}
+qpsk -21 {'energy': 0.039, 'fft_max (ref, tone GLRT)': 0.01, 'tkeo': 0.04, 'agm_L4': 0.035, 'cond_L32': 0.017, 'john_emr_L4': 0.038, 'med_known_L4': 0.05, 'sr_energy': 0.01, 'sr_fftmax': 0.012, 'cond_twc (analytic thr)': 0.6}
+qpsk -20 {'energy': 0.051, 'fft_max (ref, tone GLRT)': 0.014, 'tkeo': 0.051, 'agm_L4': 0.036, 'cond_L32': 0.023, 'john_emr_L4': 0.036, 'med_known_L4': 0.082, 'sr_energy': 0.012, 'sr_fftmax': 0.012, 'cond_twc (analytic thr)': 0.594}
+qpsk -19 {'energy': 0.056, 'fft_max (ref, tone GLRT)': 0.011, 'tkeo': 0.09, 'agm_L4': 0.066, 'cond_L32': 0.048, 'john_emr_L4': 0.069, 'med_known_L4': 0.139, 'sr_energy': 0.012, 'sr_fftmax': 0.017, 'cond_twc (analytic thr)': 0.67}
+qpsk -18 {'energy': 0.09, 'fft_max (ref, tone GLRT)': 0.016, 'tkeo': 0.109, 'agm_L4': 0.113, 'cond_L32': 0.046, 'john_emr_L4': 0.116, 'med_known_L4': 0.247, 'sr_energy': 0.015, 'sr_fftmax': 0.014, 'cond_twc (analytic thr)': 0.772}
+qpsk -17 {'energy': 0.141, 'fft_max (ref, tone GLRT)': 0.018, 'tkeo': 0.186, 'agm_L4': 0.229, 'cond_L32': 0.115, 'john_emr_L4': 0.239, 'med_known_L4': 0.444, 'sr_energy': 0.018, 'sr_fftmax': 0.009, 'cond_twc (analytic thr)': 0.861}
+qpsk -16 {'energy': 0.265, 'fft_max (ref, tone GLRT)': 0.017, 'tkeo': 0.284, 'agm_L4': 0.404, 'cond_L32': 0.212, 'john_emr_L4': 0.414, 'med_known_L4': 0.672, 'sr_energy': 0.024, 'sr_fftmax': 0.018, 'cond_twc (analytic thr)': 0.939}
+qpsk -15 {'energy': 0.364, 'fft_max (ref, tone GLRT)': 0.019, 'tkeo': 0.405, 'agm_L4': 0.674, 'cond_L32': 0.47, 'john_emr_L4': 0.693, 'med_known_L4': 0.894, 'sr_energy': 0.015, 'sr_fftmax': 0.012, 'cond_twc (analytic thr)': 0.974}
+qpsk -14 {'energy': 0.607, 'fft_max (ref, tone GLRT)': 0.03, 'tkeo': 0.54, 'agm_L4': 0.916, 'cond_L32': 0.715, 'john_emr_L4': 0.929, 'med_known_L4': 0.991, 'sr_energy': 0.016, 'sr_fftmax': 0.015, 'cond_twc (analytic thr)': 1.0}
+qpsk -13 {'energy': 0.803, 'fft_max (ref, tone GLRT)': 0.055, 'tkeo': 0.674, 'agm_L4': 0.992, 'cond_L32': 0.941, 'john_emr_L4': 0.993, 'med_known_L4': 1.0, 'sr_energy': 0.029, 'sr_fftmax': 0.022, 'cond_twc (analytic thr)': 1.0}
+qpsk -12 {'energy': 0.952, 'fft_max (ref, tone GLRT)': 0.079, 'tkeo': 0.739, 'agm_L4': 0.999, 'cond_L32': 0.993, 'john_emr_L4': 0.999, 'med_known_L4': 1.0, 'sr_energy': 0.034, 'sr_fftmax': 0.019, 'cond_twc (analytic thr)': 1.0}
+qpsk -11 {'energy': 0.996, 'fft_max (ref, tone GLRT)': 0.155, 'tkeo': 0.785, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.071, 'sr_fftmax': 0.039, 'cond_twc (analytic thr)': 1.0}
+qpsk -10 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 0.285, 'tkeo': 0.818, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.106, 'sr_fftmax': 0.063, 'cond_twc (analytic thr)': 1.0}
+qpsk -9 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 0.519, 'tkeo': 0.844, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.149, 'sr_fftmax': 0.099, 'cond_twc (analytic thr)': 1.0}
+qpsk -8 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 0.771, 'tkeo': 0.894, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.171, 'sr_fftmax': 0.135, 'cond_twc (analytic thr)': 1.0}
+qpsk -7 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 0.954, 'tkeo': 0.912, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.186, 'sr_fftmax': 0.162, 'cond_twc (analytic thr)': 1.0}
+qpsk -6 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.921, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.23, 'sr_fftmax': 0.199, 'cond_twc (analytic thr)': 1.0}
+qpsk -5 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.963, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.226, 'sr_fftmax': 0.179, 'cond_twc (analytic thr)': 1.0}
+qpsk -4 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.973, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.257, 'sr_fftmax': 0.19, 'cond_twc (analytic thr)': 1.0}
+qpsk -3 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.977, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.274, 'sr_fftmax': 0.221, 'cond_twc (analytic thr)': 1.0}
+qpsk -2 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 0.994, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.262, 'sr_fftmax': 0.193, 'cond_twc (analytic thr)': 1.0}
+qpsk -1 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 1.0, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.324, 'sr_fftmax': 0.222, 'cond_twc (analytic thr)': 1.0}
+qpsk 0 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 1.0, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.358, 'sr_fftmax': 0.238, 'cond_twc (analytic thr)': 1.0}
+qpsk 1 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 1.0, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.42, 'sr_fftmax': 0.269, 'cond_twc (analytic thr)': 1.0}
+qpsk 2 {'energy': 1.0, 'fft_max (ref, tone GLRT)': 1.0, 'tkeo': 1.0, 'agm_L4': 1.0, 'cond_L32': 1.0, 'john_emr_L4': 1.0, 'med_known_L4': 1.0, 'sr_energy': 0.504, 'sr_fftmax': 0.314, 'cond_twc (analytic thr)': 1.0}
+{
+ "tone": {
+  "energy": -14.343949044585987,
+  "fft_max (ref, tone GLRT)": -24.062857142857144,
+  "tkeo": -13.48913043478261,
+  "agm_L4": -16.197674418604652,
+  "cond_L32": -19.641114982578397,
+  "john_emr_L4": -16.26615969581749,
+  "med_known_L4": -16.917857142857144,
+  "sr_energy": NaN,
+  "sr_fftmax": NaN,
+  "cond_twc (analytic thr)": -26.0,
+  "energy (analytic)": -14.3701265398594
+ },
+ "qpsk": {
+  "energy": -14.440329218106996,
+  "fft_max (ref, tone GLRT)": -9.081196581196581,
+  "tkeo": -14.296296296296296,
+  "agm_L4": -15.644444444444444,
+  "cond_L32": -14.877551020408163,
+  "john_emr_L4": -15.691756272401433,
+  "med_known_L4": -16.75438596491228,
+  "sr_energy": 1.9523809523809523,
+  "sr_fftmax": NaN,
+  "cond_twc (analytic thr)": -26.0
+ }
+} 
+cond_twc measured Pfa 0.50795
+SYNTH_DONE

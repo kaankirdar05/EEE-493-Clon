@@ -1,0 +1,19 @@
+FIM code check (MC vs closed-form DA CRB): [1.0, 1.001, 1.001]
+BPSK_N256       0 dB  NMSE/CRB_DA_sym: da_ml=1.06 dd_ml=5.66 m2m4=9.37 | NMSE/CRB_NDA_sym m2m4=6.67 | ssme/CRB_split=2.12 eig/CRB_NDA_sample=6.21 | bias% m2m4 +2.5 ssme +1.0 eig -17.0 dd +23.5
+BPSK_N256      10 dB  NMSE/CRB_DA_sym: da_ml=1.14 dd_ml=1.13 m2m4=2.43 | NMSE/CRB_NDA_sym m2m4=2.42 | ssme/CRB_split=2.18 eig/CRB_NDA_sample=1.19 | bias% m2m4 +2.1 ssme +0.2 eig -1.2 dd +0.8
+BPSK_N256      20 dB  NMSE/CRB_DA_sym: da_ml=1.05 dd_ml=1.03 m2m4=2.07 | NMSE/CRB_NDA_sym m2m4=2.07 | ssme/CRB_split=2.13 eig/CRB_NDA_sample=1.29 | bias% m2m4 +1.1 ssme +0.2 eig -0.7 dd +0.5
+BPSK_N1024      0 dB  NMSE/CRB_DA_sym: da_ml=0.97 dd_ml=19.05 m2m4=8.63 | NMSE/CRB_NDA_sym m2m4=6.15 | ssme/CRB_split=2.08 eig/CRB_NDA_sample=3.14 | bias% m2m4 +0.2 ssme +0.6 eig -4.6 dd +23.0
+BPSK_N1024     10 dB  NMSE/CRB_DA_sym: da_ml=0.95 dd_ml=0.95 m2m4=2.32 | NMSE/CRB_NDA_sym m2m4=2.31 | ssme/CRB_split=1.80 eig/CRB_NDA_sample=1.62 | bias% m2m4 +0.0 ssme +0.1 eig -1.1 dd +0.1
+BPSK_N1024     20 dB  NMSE/CRB_DA_sym: da_ml=1.03 dd_ml=1.02 m2m4=2.36 | NMSE/CRB_NDA_sym m2m4=2.35 | ssme/CRB_split=2.11 eig/CRB_NDA_sample=1.44 | bias% m2m4 +0.5 ssme -0.0 eig -0.6 dd +0.2
+QPSK_N256       0 dB  NMSE/CRB_DA_sym: da_ml=1.00 dd_ml=112.62 m2m4=9.42 | NMSE/CRB_NDA_sym m2m4=2.09 | ssme/CRB_split=1.51 eig/CRB_NDA_sample=5.26 | bias% m2m4 +2.7 ssme +0.9 eig -19.4 dd +114.1
+QPSK_N256      10 dB  NMSE/CRB_DA_sym: da_ml=1.07 dd_ml=1.05 m2m4=2.59 | NMSE/CRB_NDA_sym m2m4=2.55 | ssme/CRB_split=2.29 eig/CRB_NDA_sample=1.22 | bias% m2m4 +0.8 ssme +0.2 eig -0.9 dd +0.9
+QPSK_N256      20 dB  NMSE/CRB_DA_sym: da_ml=0.99 dd_ml=0.99 m2m4=2.20 | NMSE/CRB_NDA_sym m2m4=2.19 | ssme/CRB_split=1.87 eig/CRB_NDA_sample=1.29 | bias% m2m4 +1.2 ssme +0.1 eig -0.7 dd +0.6
+QPSK_N1024      0 dB  NMSE/CRB_DA_sym: da_ml=0.99 dd_ml=440.35 m2m4=9.02 | NMSE/CRB_NDA_sym m2m4=2.00 | ssme/CRB_split=1.49 eig/CRB_NDA_sample=2.43 | bias% m2m4 +1.2 ssme +0.9 eig -5.0 dd +113.4
+QPSK_N1024     10 dB  NMSE/CRB_DA_sym: da_ml=1.01 dd_ml=1.03 m2m4=2.64 | NMSE/CRB_NDA_sym m2m4=2.61 | ssme/CRB_split=2.03 eig/CRB_NDA_sample=1.47 | bias% m2m4 +0.4 ssme +0.3 eig -1.0 dd +0.5
+QPSK_N1024     20 dB  NMSE/CRB_DA_sym: da_ml=1.06 dd_ml=1.05 m2m4=2.09 | NMSE/CRB_NDA_sym m2m4=2.09 | ssme/CRB_split=2.20 eig/CRB_NDA_sample=1.67 | bias% m2m4 +0.3 ssme +0.1 eig -0.8 dd +0.3
+16QAM_N256      0 dB  NMSE/CRB_DA_sym: da_ml=1.04 dd_ml=6847.86 m2m4=29.71 | NMSE/CRB_NDA_sym m2m4=1.95 | ssme/CRB_split=1.03 eig/CRB_NDA_sample=3.81 | bias% m2m4 +12.5 ssme +0.0 eig -17.5 dd +891.9
+16QAM_N256     10 dB  NMSE/CRB_DA_sym: da_ml=1.06 dd_ml=57.93 m2m4=189.61 | NMSE/CRB_NDA_sym m2m4=60.17 | ssme/CRB_split=1.38 eig/CRB_NDA_sample=1.43 | bias% m2m4 +24.2 ssme +0.8 eig -0.7 dd +51.5
+16QAM_N256     20 dB  NMSE/CRB_DA_sym: da_ml=0.95 dd_ml=0.94 m2m4=90677820.13 | NMSE/CRB_NDA_sym m2m4=90617930.94 | ssme/CRB_split=2.81 eig/CRB_NDA_sample=3.57 | bias% m2m4 +36213.3 ssme +0.8 eig -0.6 dd +0.3
+16QAM_N1024     0 dB  NMSE/CRB_DA_sym: da_ml=1.03 dd_ml=26176.55 m2m4=22.88 | NMSE/CRB_NDA_sym m2m4=1.51 | ssme/CRB_split=1.11 eig/CRB_NDA_sample=2.33 | bias% m2m4 +0.9 ssme -0.4 eig -4.9 dd +874.7
+16QAM_N1024    10 dB  NMSE/CRB_DA_sym: da_ml=1.04 dd_ml=215.85 m2m4=36.62 | NMSE/CRB_NDA_sym m2m4=11.62 | ssme/CRB_split=1.44 eig/CRB_NDA_sample=1.78 | bias% m2m4 +2.6 ssme +0.2 eig -1.4 dd +50.1
+16QAM_N1024    20 dB  NMSE/CRB_DA_sym: da_ml=1.07 dd_ml=1.07 m2m4=184406284.04 | NMSE/CRB_NDA_sym m2m4=184284490.82 | ssme/CRB_split=2.66 eig/CRB_NDA_sample=3.75 | bias% m2m4 +18497.2 ssme +0.4 eig -0.6 dd +0.2

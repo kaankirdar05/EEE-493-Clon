@@ -1,0 +1,185 @@
+{
+  "bispectrum_gaussian_real": {
+    "pass": true,
+    "K": 256,
+    "mean_b2": 0.004353437215262449,
+    "theory_mean_b2_about_1_over_K": 0.00390625,
+    "frac_above_5pct_thr": 0.06790834613415259,
+    "normalised_|B|_level": 0.059112370000060296
+  },
+  "bispectrum_gaussian_complex": {
+    "pass": true,
+    "K": 256,
+    "mean_b2": 0.0040678833521060696,
+    "theory_mean_b2_about_1_over_K": 0.00390625,
+    "frac_above_5pct_thr": 0.057251664106502814,
+    "normalised_|B|_level": 0.05703927872423049
+  },
+  "bispectrum_qpc_peak": {
+    "pass": true,
+    "b2_at_(10,17)_coupled": 0.9971398806686761,
+    "b2_at_(10,17)_uncoupled": 0.00024047638356250106,
+    "argmax_b2": [
+      27,
+      47
+    ],
+    "median_b2_elsewhere": 0.003644308966461963
+  },
+  "bispectrum_features_on_gaussian_frames_K16 (info)": {
+    "bis_x_bic_mean": 0.064174123108387,
+    "bis_x_bic_max": 0.4287773072719574,
+    "bis_x_bic_frac": 0.04899130016565323,
+    "bis_x_log_skew": -0.653380274772644,
+    "bis_x_ent1": 0.9803749322891235,
+    "bis_x_ent2": 0.9375152587890625,
+    "bis_x_diag_frac": 0.02187264896929264,
+    "bis_x_peak_r": 0.3360415995121002,
+    "bis_x_wcob": 0.25322023034095764,
+    "bis_x_aib_pmr": 4.3442463874816895,
+    "theory_mean_b2": 0.0625
+  },
+  "higuchi_known_values": {
+    "pass": true,
+    "higuchi_line": 1.0000000000000002,
+    "higuchi_white": 2.000011077923173,
+    "higuchi_brown": 1.504677997777325,
+    "higuchi_fbm_H0.3 (theory 1.7)": 1.7024861976260608,
+    "higuchi_fbm_H0.7 (theory 1.3)": 1.3005459692914259
+  },
+  "katz_petrosian_known_values": {
+    "pass": true,
+    "katz_line": 1.0,
+    "petrosian_line": 1.0,
+    "petrosian_white": 1.0352245019563708,
+    "petrosian_white_theory": 1.035244225273184,
+    "katz_white (no closed form)": 5.48842059814876,
+    "katz_brown (no closed form)": 1.8532950127417913
+  },
+  "boxcount_known_values": {
+    "pass": true,
+    "box_line": 1.0082096576912023,
+    "box_sine": 1.0161994119158384,
+    "box_brown": 1.3438870966655798,
+    "box_white": 1.6905014547424846,
+    "box_vs_bruteforce_max_abs_diff (brownian)": 0.002309236067624898,
+    "box_fbm_H0.9..0.1 (theory 1.1..1.9)": [
+      1.0714874524817402,
+      1.1951255970315193,
+      1.3385252892122994,
+      1.4875224158204474,
+      1.620854351383073
+    ],
+    "note": "finite-size bias: with 1024 samples the box-counting estimate of rough graphs is low (Brownian ~1.34 instead of 1.5, white ~1.69 instead of 2); the implementation agrees with an independent rasterised count and orders fBm correctly"
+  },
+  "permutation_entropy_known_values": {
+    "pass": true,
+    "white_d1": 0.9967775204001825,
+    "white_d4": 0.996856715669426,
+    "ramp": -0.0,
+    "sine_period64 (info)": 0.3120195260384658
+  },
+  "sampen_apen_rqa_equal_naive_loops": {
+    "pass": true,
+    "max_abs_diff": 0.0
+  },
+  "sampen_known_values": {
+    "pass": true,
+    "white_sampen": 2.1800082166098225,
+    "theory_-ln_erf(0.1)": 2.185131747072374,
+    "white_apen": 1.6715206550464614,
+    "sine_p16_r0.05_sampen": -0.0,
+    "sine_p16_r0.05_apen": -6.25709682244846e-06,
+    "sine_r0.2_[sampen,apen,rr,det,lam]_by_period": {
+      "16": [
+        0.22710705257975247,
+        0.17344992884975152,
+        0.07725445860664597,
+        0.797152408072304,
+        0.39935619660765137
+      ],
+      "64": [
+        0.22519310656507344,
+        0.2595040041789747,
+        0.11153451056234971,
+        0.9036789297658863,
+        0.9298001886630649
+      ],
+      "256": [
+        0.056677818789293656,
+        0.06701139260269917,
+        0.13568358287757315,
+        0.9997603237039857,
+        0.9998731125491689
+      ]
+    }
+  },
+  "rqa_known_values": {
+    "pass": true,
+    "white_RR": 0.012694331739846543,
+    "theory_RR_white_p^2": 0.012647907479335802,
+    "white_DET": 0.2131746433098054,
+    "sine_p16_r0.05_DET": 1.0,
+    "sine_p256_DET": 0.9997603237039857
+  },
+  "histogram_entropy_known_values": {
+    "pass": true,
+    "uniform_shannon": 0.9999556210327176,
+    "uniform_renyi2": 0.9999112552167819,
+    "constant_shannon": -0.0,
+    "constant_renyi2": -0.0
+  },
+  "stransform_tone_peak": {
+    "pass": true,
+    "peak_voice_all_times": 37,
+    "|S| at f0": 1.6999999999999995,
+    "max_err_vs_closed_form": 7.757683384568281e-15
+  },
+  "stransform_real_tone_peak": {
+    "pass": true,
+    "peak_voices": [
+      -100,
+      100
+    ]
+  },
+  "stransform_time_integral_equals_dft": {
+    "pass": true,
+    "max_abs_err": 2.0097183471152322e-14
+  },
+  "stransform_chirp_tracking": {
+    "pass": true,
+    "median_abs_err_bins (100<k<924)": 0.265625
+  },
+  "extraction_smoke_bis": {
+    "pass": true,
+    "n_features": 30,
+    "shape_ok": true,
+    "finite": true,
+    "constant_columns": [],
+    "ms_per_frame_single_process": 7.032561666710535
+  },
+  "extraction_smoke_fd": {
+    "pass": true,
+    "n_features": 22,
+    "shape_ok": true,
+    "finite": true,
+    "constant_columns": [],
+    "ms_per_frame_single_process": 0.5412316667692114
+  },
+  "extraction_smoke_info": {
+    "pass": true,
+    "n_features": 24,
+    "shape_ok": true,
+    "finite": true,
+    "constant_columns": [],
+    "ms_per_frame_single_process": 15.87819000002734
+  },
+  "extraction_smoke_st": {
+    "pass": true,
+    "n_features": 23,
+    "shape_ok": true,
+    "finite": true,
+    "constant_columns": [],
+    "ms_per_frame_single_process": 1.4837033333606087
+  },
+  "all_pass": true
+}
