@@ -37,6 +37,7 @@ All tests are on synthetic data (RadioML 2018.01A, TorchSig, or purpose-built si
 | Feature: autocorrelation | Generic normalised-autocorrelation detector | T | `detection_extended/`: box F1 7.3 % impaired (Pfa 0.34) / 38.7 % clean. Impaired failure = receiver filter colours the noise (whiteness test fires); prewhitening helps impaired, hurts clean |
 | Feature: covariance | Max/min eigenvalue (MME) | T | §1 |
 | Feature: covariance | Covariance absolute value (CAV) | T | `detection_extended/`: box F1 6.6 % impaired (Pfa 0.32) / 36.8 % clean; same coloured-noise limitation. **Independent re-calibration on fresh noise hits target (1e-3 → 1.0e-3); subset re-run consistent** |
+| Feature: covariance | Covariance-index detectors: Gini (GID), Gerschgorin (GRCR), Pietra–Ricci (PRIDe), Theil (TID), Atkinson (AID) | T | `extra_methods/cov_index_detectors.py` (Sensors 2026, doi 10.3390/s26082557): fresh-noise Pfa 0.8–1.2e-2 for a 1e-2 target, correlated signal raises every statistic; box F1 6.4–7.3 % impaired (Pfa 0.30–0.32) / 35.4–36.9 % clean (Pfa 0.07), the same coloured-noise limit as CAV and MME; GRCR and PRIDe give near-identical results |
 | Distribution | Anderson–Darling goodness of fit | T | §1 |
 | Distribution | Spectral kurtosis | T | §1 |
 | Information | Entropy-based detection | T | `detection_extended/`: spectral entropy F1 7.5 % / 39.1 %; histogram (Zhang) entropy 6.4 % / 12.5 %. **Independently re-run: consistent** |
@@ -87,8 +88,10 @@ All tests are on synthetic data (RadioML 2018.01A, TorchSig, or purpose-built si
 | Symbol rate | Envelope, 4th-power envelope, delay-multiply, Haar, instantaneous frequency (two test generators) | T | §3 |
 | Symbol rate | FSK-specific estimators (closing the 32–66 % gap) | T | `characterization_extended/`: background-normalised line measurement + dev-tuned vote of 12 estimators: overall 72.7 → **89.9 %**, FSK family 49 → **83 %** (2FSK 95, 4FSK 97, MSK 88, GMSK 71, GFSK 64); GFSK/GMSK still weak below 5 dB. **Independent re-run on 200 random held-out frames: 94.5 %** |
 | Symbol rate | MSK/GMSK squared-signal line pair | T | `extra_methods/msk_line_pair.py`: held-out GMSK at 0 dB 93 % (vote: 5 %), MSK at 0 dB 100 % (vote: 45 %); does not apply to GFSK with random index (25 %) |
+| Symbol rate | Band-limiting before the FM discriminator; gated by constant envelope; diagnosis vs in-band SNR | T | `extra_methods/fsk_prefilter.py`: always band-limiting trades FSK (+2.8 dev / +5.7 held-out points) against PSK/QAM (−3.4 / −4.6), so the rule chosen on dev is not to add it; gate σ_aa < 0.375 (chosen on dev): held-out 89.9 → 91.3 %, FSK family 82.9 → 86.3 %, PSK/QAM 96.9 → 96.3 %, GMSK at 5 dB 63 → 97 %, GFSK 30 → 65 %. At 0 dB no gain (GFSK 8 %, GMSK 5 %): vote accuracy for GFSK/GMSK collapses below about 12 dB in-band SNR (2 % at 3–6 dB, 83 % at 12–15 dB) vs 3–6 dB for 2FSK/4FSK/MSK |
 | Symbol rate → classification | Blind likelihood classifier with improved symbol rate on RadioML | T | `characterization_extended/`: same 4,800 RadioML test frames, blind ALRT 80.4 → **91.8 %** at SNR ≥ 10 (sps-known bound 93.3), 85 % now at 8 dB; symbol rate within 2 % rises 70.6 → 92.7 %. **Independent re-run on 150 random frames: 90.0 %** |
 | Number of signals | MDL / AIC | T | §4 |
+| OFDM parameters (FFT size, cyclic prefix) | Blind cyclic-prefix correlation search over 20 candidates (van de Beek / Sandell style) | T | `extra_methods/ofdm_params.py`: clean frames 100/100; standardised noise statistic comparable across candidates (mean 1.9–2.4, std 0.3–0.4). Exact (N, cp) 90 % from −2 dB per-sample SNR; cp = N/4 from −6 dB, cp = N/32 needs about +2 dB (less correlated energy, as theory says) |
 
 ## D. Discovery log (methods found after the first catalogue)
 
@@ -104,4 +107,29 @@ A targeted search for classical methods outside the survey taxonomies found thes
 | AGM, MED, John's test, eigenvalue moment ratio, condition number with Tracy–Widom thresholds | Huang & Fang 2015; Sedighi et al. 2017; small-sample sensing (arXiv 1404.5331) | T (`detection_discovered/`): box F1 6–9 % impaired / 35–37 % clean (coloured-noise limitation, like MME); Tracy–Widom thresholds miscalibrated on smoothed covariances (Pfa 5e-3–0.37 for 1e-3); EMR identical to John's test |
 | Teager–Kaiser energy operator detector | MIT LL transient detection; arXiv 1504.08177 | T: on the spectrogram ≈ energy detector (54.8 vs 53.0 impaired, 65.2 vs 67.4 clean) with half the false alarms on impaired scenes; weaker at 0–5 dB. **Independent re-run (scenes 100–159): 54.0 vs 53.7 / 68.8 vs 72.0** |
 | Stochastic-resonance pre-treated energy detector | arXiv 0906.0739 | T: paper's gain not reproduced; never better than plain energy detection (synthetic, 4,096 samples) |
+| Covariance-index detectors (Gini, Gerschgorin, Pietra–Ricci, Theil, Atkinson) | Sensors 2026 (doi 10.3390/s26082557), found in the 2020–2026 sweep | T (row A): no better than CAV |
+| OFDM blind parameter estimation (FFT size, cyclic prefix) | 2022 blind-OFDM parameter-estimation literature, found in the 2020–2026 sweep | T (row C) |
 | Hough trade-off | – | full held-out curve done: thinness rule 0.5 → 73 % / 81 % chirp recall at 0.10–0.17 false boxes/scene; ≥ 2 or off → 77 % / 84 % at 1.4–1.5 |
+
+## E. How the catalogue was built, and what it does not claim
+
+A literally exhaustive list of "all statistical methods" does not exist, so this catalogue cannot prove completeness.
+What it shows is **saturation of the published taxonomies**: the search ran in rounds and each round added fewer families.
+
+| Round | Sources and queries | Families added |
+|---|---|---|
+| 1 | Survey taxonomies: Axell, Leus & Larsson spectrum-sensing overview; Ahmad wideband sensing survey (arXiv 2001.02574); Dobre et al. modulation-classification survey; Zhu & Nandi book; classical estimation literature (Pauluzzi & Beaulieu, Kay, Quinn) | 52 rows (48 tested, 4 not applicable) |
+| 2 | Four targeted queries: bispectrum / fractal / entropy features; eigenvalue detectors (AGM, EMR, Tracy–Widom); CvM / AD distribution tests; Teager–Kaiser detection (the stochastic-resonance paper came from this search) | 8 families, all tested |
+| 3 | Three sweep queries (extended search): modulation-classification surveys 2023–24; spectrum-sensing surveys 2022–24; blind parameter-estimation surveys 2021–23 | 2 families (covariance-index detectors, OFDM parameter estimation), both tested; every other method the results named was already in the catalogue |
+
+**Stopping rule:** repeat targeted rounds until one returns no family that is missing. Round 3 still returned two, so the rule is not yet met; one more round with new queries would be the next step. The yield 52 → 8 → 2 shows diminishing returns, not an end.
+
+**Known untested areas (from the sweeps and from the requirements document), so nothing here is hidden:**
+
+| Area | Why not tested |
+|---|---|
+| Subcarrier modulation classification inside OFDM (survey doi 10.3390/s22031020) | Needs OFDM signals with known subcarrier mappings; RadioML has none, TorchSig only gives the OFDM label |
+| Morlet-wavelet symbol-rate estimator | Haar-wavelet and the other estimators were tested; the Morlet variant was not run separately |
+| Detectors for DSSS, FHSS, PPM (ADS-B), PM, VSB, AFSK, π/4-DQPSK, D8PSK listed in the requirements document | Signal-specific; not in RadioML, and TorchSig covers only a few of them |
+| Deep-learning methods | Out of scope: this is the classical baseline the AI work is compared against |
+| Real-data coverage | One public recording; our own SDR recordings (job 2.1) are not made yet |

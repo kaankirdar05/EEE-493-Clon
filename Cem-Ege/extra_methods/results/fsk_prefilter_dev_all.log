@@ -1,0 +1,30 @@
+3000 frames from the dev set
+overall   plain_if: all  71.1 %   FSK family  47.5 %   PSK/QAM  94.6 %
+overall      bl_if: all  79.1 %   FSK family  61.0 %   PSK/QAM  97.1 %
+overall plain_vote: all  90.9 %   FSK family  84.5 %   PSK/QAM  97.3 %
+overall    bl_vote: all  90.6 %   FSK family  87.3 %   PSK/QAM  93.9 %
+  2fsk  0 dB: inst-freq   22 ->   72 %   vote   93 ->   80 % (double band-limited)
+  2fsk  5 dB: inst-freq   63 ->   98 %   vote  100 ->   98 % (double band-limited)
+  2fsk 10 dB: inst-freq   77 ->   90 %   vote  100 ->  100 % (double band-limited)
+  4fsk  0 dB: inst-freq    5 ->   30 %   vote   95 ->   68 % (double band-limited)
+  4fsk  5 dB: inst-freq   42 ->   72 %   vote  100 ->  100 % (double band-limited)
+  4fsk 10 dB: inst-freq   42 ->   45 %   vote  100 ->  100 % (double band-limited)
+ 2gfsk  0 dB: inst-freq    0 ->    2 %   vote    3 ->   10 % (double band-limited)
+ 2gfsk  5 dB: inst-freq    5 ->   18 %   vote   20 ->   52 % (double band-limited)
+ 2gfsk 10 dB: inst-freq   32 ->   43 %   vote   95 ->   90 % (double band-limited)
+  2msk  0 dB: inst-freq   13 ->   85 %   vote   67 ->   87 % (double band-limited)
+  2msk  5 dB: inst-freq   75 ->  100 %   vote  100 ->   98 % (double band-limited)
+  2msk 10 dB: inst-freq   85 ->  100 %   vote  100 ->  100 % (double band-limited)
+ 2gmsk  0 dB: inst-freq    0 ->    5 %   vote    5 ->   33 % (double band-limited)
+ 2gmsk  5 dB: inst-freq   28 ->   48 %   vote   58 ->   92 % (double band-limited)
+ 2gmsk 10 dB: inst-freq   43 ->   58 %   vote   95 ->   98 % (double band-limited)
+
+plain vote accuracy vs IN-BAND SNR (per-sample SNR + filter gain), by class group:
+   in-band SNR [dB)       GFSK/GMSK   2FSK/4FSK/MSK      n
+   [ -5,  0)                  n<10            n<10       0
+   [  0,  3)                  n<10            n<10       1
+   [  3,  6)                    7 %             87 %     117
+   [  6,  9)                   26 %             91 %     248
+   [  9, 12)                   23 %             97 %     176
+   [ 12, 15)                   76 %            100 %     245
+   [ 15, 40)                   97 %             98 %     713

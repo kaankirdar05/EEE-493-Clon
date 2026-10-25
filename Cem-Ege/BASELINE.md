@@ -299,6 +299,17 @@ plateaus sit exactly on those bands. Code: `real_data/analyze_atarfi.py`.
 choice. Needed next: longer integration, spur suppression (notch known receiver lines), and a
 noise-floor estimate that does not sit on wide signals. Real SDR recordings of our own (job 2.1) remain the priority.
 
+## 5d. Gap checks, second round
+
+| Item | Result |
+|---|---|
+| Covariance-index detectors (Gini, Gerschgorin, Pietra–Ricci, Theil, Atkinson), from the 2020–26 literature sweep | Pfa calibrated on noise; box F1 6.4–7.3 % impaired, 35.4–36.9 % clean: no better than CAV |
+| OFDM blind parameter estimation (FFT size and cyclic prefix, 20 candidates) | Exact match 90 % from −2 dB per-sample SNR; cp = N/4 from −6 dB; cp = N/32 needs about +2 dB |
+| GFSK/GMSK symbol rate below 5 dB: diagnosis | Vote accuracy vs in-band SNR (per-sample SNR + filter gain): GFSK/GMSK 2 % (3–6 dB), 27 % (6–9), 34 % (9–12), 83 % (12–15), 94 % (≥ 15); 2FSK/4FSK/MSK 77 / 87 / 94 / 100 / 96 %. A 6–9 dB higher threshold, consistent with the weaker frequency swing of Gaussian-filtered signals (mechanism not tested separately) |
+| Band-limiting every frame before the vote | dev 90.9 → 90.6 %, held-out 89.9 → 90.4 %: FSK family +2.8 / +5.7 points, PSK/QAM −3.4 / −4.6 points. Rule chosen on dev: do not apply to every frame |
+| Gate: band-limit only when σ_aa < 0.375 (threshold chosen on dev, held-out scored once) | Held-out 89.9 → 91.3 %; FSK family 82.9 → 86.3 %, PSK/QAM 96.9 → 96.3 %; GMSK at 5 dB 63 → 97 %, GFSK 30 → 65 %. At 0 dB no change (noise lifts σ_aa of FSK frames to about 0.47, above the gate): GFSK 8 %, GMSK 5 %, **still open: a threshold limit** |
+| Completeness of the method list | Cannot be proven. CATALOG.md section E: search rounds yielded 52 → 8 → 2 new families, the stopping rule is not yet met, and the untested areas are listed |
+
 ## 6. Verification of delegated work
 
 WP5 classifier comparison and WP6 estimators were written by helper agents; their key results were re-derived
@@ -324,6 +335,7 @@ independently:
 | Real SDR recordings | Not recorded yet (2.1 / 2.4). Every number here is synthetic. |
 | Matched filter / CP detector on TorchSig scenes | TorchSig does not expose preambles or OFDM parameters per emitter; tested on synthetic signals with known waveforms instead (section 4). Apply per standard once İLTAREN's signal list is fixed (M1). |
 | Sub-Nyquist / compressive sensing, cooperative sensing, multi-antenna detection, MCMC classification | Not applicable: Nyquist-rate single-receiver, single-antenna system; MCMC targets the same posterior as the tested EM classifier (CATALOG.md). |
+| Further untested areas: subcarrier modulation classification inside OFDM, Morlet-wavelet symbol rate, detectors for DSSS / FHSS / PPM / PM / VSB / AFSK / π/4-DQPSK / D8PSK, learning-based methods | Not tested; see CATALOG.md section E for the reasons |
 | MDL / AIC for emitter counting in wideband scenes | With one channel, MDL/AIC count signal-subspace dimensions (tones), not emitters; a wideband emitter spans many dimensions. Tested on its valid use case (section 4). |
 
 ## Reproduce

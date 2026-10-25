@@ -1,0 +1,24 @@
+{
+  "gate": "sigma_aa < thr -> band-limited vote else plain vote",
+  "threshold_chosen_on_dev": 0.375,
+  "dev_overall": {
+    "plain": 0.909,
+    "always_bl": 0.9056666666666666,
+    "gated": 0.915
+  },
+  "heldout_overall": {
+    "plain": 0.8993333333333333,
+    "always_bl": 0.9043333333333333,
+    "gated": 0.913
+  },
+  "heldout_fsk": {
+    "plain": 0.8293333333333334,
+    "always_bl": 0.886,
+    "gated": 0.8626666666666667
+  },
+  "heldout_psk_qam": {
+    "plain": 0.9693333333333334,
+    "always_bl": 0.9226666666666666,
+    "gated": 0.9633333333333334
+  }
+}

@@ -1,10 +1,10 @@
 # Cem-Ege: classical baseline for detection, identification and characterization
 
 Classical (non-deep-learning) baseline for the V/UHF project: signal **detection**, modulation
-**identification** and parameter **characterization**. Results were produced on 2026-10-15 and pushed on
-2026-10-25. This is the reference the AI models (CNN / ResNet / YOLO) will be compared against.
+**identification** and parameter **characterization**. Results were produced between 2026-10-15
+and 2026-10-25. This is the reference the AI models (CNN / ResNet / YOLO) will be compared against.
 
-Start with **`Classical_Baseline_Report.pdf`** (13 pages) or **`BASELINE.md`** (same content as text).
+Start with **`Classical_Baseline_Report.pdf`** (14 pages) or **`BASELINE.md`** (same content as text).
 `CATALOG.md` lists every method family we looked at and whether it was tested; `WORK_SPLIT.md` is how the
 work is divided between Cem, Ege and Ertuğ for jobs 5.1 + 6.1.
 
@@ -17,7 +17,7 @@ work is divided between Cem, Ege and Ertuğ for jobs 5.1 + 6.1.
 | `characterization_extended/` | Estimators vs the Cramér–Rao bound, symbol-rate vote of 12 estimators, blind likelihood classifier with the improved symbol rate |
 | `wp4_detection/` | Detection framework and scoring: 14 detectors (energy, multitaper, FCME, LAD, CFAR variants, eigenvalue, cyclostationary, …), segmentation, Hough/wavelet/CUSUM refinement, TorchSig scene generator |
 | `detection_extended/`, `detection_discovered/` | Further detectors: covariance / autocorrelation / entropy / spectral-correlation, chirp (WVD, FrFT), change-point family; eigenvalue family, Teager–Kaiser, stochastic resonance |
-| `extra_methods/` | Waveform-specific and auxiliary methods: matched filter, OFDM cyclic prefix, MDL/AIC, S-transform, Hilbert–Huang features, MSK line-pair symbol rate, TorchSig symbol-rate frame generators |
+| `extra_methods/` | Waveform-specific and auxiliary methods: matched filter, OFDM cyclic prefix and blind OFDM parameter estimation, MDL/AIC, S-transform, Hilbert–Huang features, covariance-index detectors, MSK line-pair symbol rate, FSK band-limiting study, TorchSig symbol-rate frame generators |
 | `real_data/` | First test on a real over-the-air recording (Allen Telescope Array, Pluto SDR, 753 MHz LTE) |
 
 Each folder has its own `README.md` or docstrings with the run commands; the full list is in the
@@ -32,7 +32,7 @@ Each folder has its own `README.md` or docstrings with the run commands; the ful
 | Likelihood classifier | optimal bound reaches 85 % at 8 dB vs 14 dB for features (6 dB gap); blind version 91.8 % at SNR ≥ 10 dB |
 | Detection (TorchSig scenes) | energy detector box F1 67 % clean / 53 % with receiver impairments |
 | Characterization | carrier error 0.4 % of the bandwidth, SNR error 0.45 dB median (clean) |
-| Symbol rate | 90 % within 2 % (vote of 12 estimators); GFSK below 5 dB still open |
+| Symbol rate | 91 % within 2 % (vote of 12 estimators, band-limited when the envelope is constant); GFSK/GMSK at 0 dB is a diagnosed threshold limit |
 | Real recording | LTE carriers only ~2 dB above noise; receiver spurs dominate |
 
 ## Data (not in Git)
@@ -63,11 +63,13 @@ Scene generation needs `torchsig==2.2.0` (installs PyTorch) in its own environme
   source, `utils/dsp.py`). It matches Es/N0 for PSK/QAM but is off by tens of dB for chirps and multi-tone FSK.
 - Everything is synthetic except one public real recording.
 
-## Not finished / not yet in the report
+## Open items
 
-- `extra_methods/fsk_prefilter.py`: band-limiting before the FM discriminator for FSK symbol rate. The run log
-  is partial (the instantaneous-frequency estimator improves strongly, the 12-estimator vote gets slightly
-  worse); not in `BASELINE.md`.
-- `extra_methods/cov_index_detectors.py`: five covariance-index detectors (Gini, Gerschgorin, Pietra–Ricci,
-  Theil, Atkinson). Run completed (impaired box F1 about 6–7 %, clean about 35–37 %, the same coloured-noise
-  limitation as the other whiteness tests) but not yet added to `CATALOG.md` / `BASELINE.md`.
+- **GFSK/GMSK symbol rate at 0 dB** is a diagnosed limit, not a bug: the estimators need about 12 dB in-band SNR for
+  these low-deviation signals (`extra_methods/fsk_prefilter.py`). The constant-envelope gate closes the 5 dB case
+  (GMSK 63 → 97 %), chosen on a dev set and scored once on held-out frames.
+- **Completeness of the method list cannot be proven.** `CATALOG.md` section E documents how the list was built
+  (search rounds that added 52, then 8, then 2 new families), why that shows saturation of the published taxonomies
+  rather than completeness, and what is untested (subcarrier classification inside OFDM, DSSS/FHSS/PPM/PM/VSB/AFSK
+  detectors, learning-based methods).
+- **Real data:** one public recording only; our own SDR recordings (job 2.1) are still to do.
