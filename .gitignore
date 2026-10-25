@@ -14,3 +14,10 @@ __pycache__/
 .venv/
 venv/
 .ipynb_checkpoints/
+# Exported spectrogram PNG folders and files created by the Claude app
+spec_png/
+Claude outputs/
+# Pictures the scripts write next to themselves (the curated copies live in synthetic/figures/)
+synthetic/examples.png
+synthetic/accuracy_vs_snr.png
+synthetic/spectrogram_examples.png

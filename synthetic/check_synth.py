@@ -38,7 +38,7 @@ for c, name in enumerate(classes):
     sel = np.where((Y == c) & (Z == 10) & (BW < 0.5))[0][:200]
     if name == "NOISE" or len(sel) == 0: continue
     m = [measured_inband(f["X"][i, :, 0] + 1j * f["X"][i, :, 1], BW[i]) for i in sel]
-    print(f"  {name:6s} stored {np.mean(Zi[sel]):5.1f} dB   measured {np.median(m):5.1f} dB   (Z label {np.mean(Z[sel]):.0f} dB)")
+    print(f"  {name:9s} stored {np.mean(Zi[sel]):5.1f} dB   measured {np.median(m):5.1f} dB   (Z label {np.mean(Z[sel]):.0f} dB)")
 
 # 3. one example per class at the highest SNR: spectrum and I/Q scatter
 top = np.nanmax(Z)

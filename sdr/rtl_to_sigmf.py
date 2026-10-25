@@ -1,5 +1,5 @@
 """Turn a raw SDR recording into a SigMF recording (cf32_le) with one labelled signal.
-Example: python rtl_to_sigmf.py fm.cu8 --rate 2.4e6 --freq 100e6 --offset 200e3 --bw 200e3 --label FM --author Kagan --hw "RTL-SDR Blog V4" --comment "gain 20 dB"
+Example: python rtl_to_sigmf.py fm.cu8 --rate 2.4e6 --freq 100e6 --offset 200e3 --bw 200e3 --label WBFM --author Kagan --hw "RTL-SDR Blog V4" --comment "gain 20 dB"
 """
 import argparse, datetime, os
 import numpy as np

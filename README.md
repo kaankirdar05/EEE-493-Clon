@@ -6,20 +6,22 @@ EEE 493/494 project with TÜBİTAK BİLGEM İLTAREN. Bilkent University, 2026-20
 
 | Folder | What is in it |
 |---|---|
-| `synthetic/` | Dataset 1 generator (`make_synth_v2.py`), checker (`check_synth.py`), dataset card (`README.md`) |
+| `synthetic/` | Dataset 1 generator (`make_synth_v3.py`), checker (`check_synth.py`), spectrogram images (`make_spectrograms.py`, `preview_spectrograms.py`), dataset card (`README.md`) |
 | `sdr/` | Recording and preprocessing: raw SDR file -> SigMF -> HDF5 training clips, SNR measurement, practice kit |
-| `classes.txt` | The shared class list. Its order defines the class numbers in every dataset. Change it only together. |
+| `classes.txt` | The shared class list (14 classes). Its order defines the class numbers in every dataset. Change it only together. |
 
 ## Quick start
 
 ```bash
 pip install -r requirements.txt
 cd synthetic
-python make_synth_v2.py --per-snr 1000 --out ds1_v2.h5     # about 1 minute, 1.45 GB
-python check_synth.py ds1_v2.h5 --baseline                 # format checks, SNR check, quick baseline
+python make_synth_v3.py --per-snr 1000 --out ds1_v3.h5        # 224,000 clips, 1.84 GB
+python check_synth.py ds1_v3.h5 --baseline                    # format checks, SNR check, test classifier
+python make_spectrograms.py ds1_v3.h5 --out ds1_v3_spec.h5    # 64 x 64 spectrogram images, 0.92 GB
+python preview_spectrograms.py ds1_v3_spec.h5                 # spectrogram_examples.png
 ```
 
 ## Data
 
-Datasets are **not** stored in Git. Download `ds1_v2.h5` from the shared drive, or regenerate it with the command above
+Datasets are **not** stored in Git. Download them from the shared drive, or regenerate them with the commands above
 (fixed seed, so everyone gets the same clips). Recordings (`.cu8`, `.sigmf-*`) also go to the shared drive.
