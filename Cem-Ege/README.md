@@ -19,6 +19,7 @@ work is divided between Cem, Ege and Ertuğ for jobs 5.1 + 6.1.
 | `detection_extended/`, `detection_discovered/` | Further detectors: covariance / autocorrelation / entropy / spectral-correlation, chirp (WVD, FrFT), change-point family; eigenvalue family, Teager–Kaiser, stochastic resonance |
 | `extra_methods/` | Waveform-specific and auxiliary methods: matched filter, OFDM cyclic prefix and blind OFDM parameter estimation, MDL/AIC, S-transform, Hilbert–Huang features, covariance-index detectors, MSK line-pair symbol rate, FSK band-limiting study, TorchSig symbol-rate frame generators |
 | `real_data/` | First test on a real over-the-air recording (Allen Telescope Array, Pluto SDR, 753 MHz LTE) |
+| `spread_spectrum/`, `analog_differential/`, `ofdm_wavelet/`, `pulse_signals/`, `interference_jammers/` | **Partial, stopped on 2026-10-25**: signal-specific methods for DSSS/FHSS, analog and differential modulations, OFDM, ADS-B/radar pulses and jammers. See "Last round" below |
 
 Each folder has its own `README.md` or docstrings with the run commands; the full list is in the
 "Reproduce" section of `BASELINE.md`.
@@ -62,6 +63,24 @@ Scene generation needs `torchsig==2.2.0` (installs PyTorch) in its own environme
 - TorchSig's `snr_db` is the spectrum **peak** over the noise level, not the in-band SNR (verified in its
   source, `utils/dsp.py`). It matches Es/N0 for PSK/QAM but is off by tens of dB for chirps and multi-tone FSK.
 - Everything is synthetic except one public real recording.
+
+## Last round: partial work, runs stopped on 2026-10-25
+
+Five parallel studies for the signal types in the requirements document were **stopped before they finished**
+(requested by the team). Code and partial results are pushed as they were. **None of it has a README, none of it
+was independently re-run, and none of it is in `Classical_Baseline_Report.pdf` or `BASELINE.md`.**
+
+| Folder | Topic | What exists |
+|---|---|---|
+| `spread_spectrum/` | DSSS and FHSS detection and parameter estimation | signal generators and method code for both; DSSS calibration only; no benchmark results |
+| `analog_differential/` | analog modulations (AM, SSB, VSB, FM, PM), AFSK, differential PSK | analog generators and features; first accuracy-vs-SNR table with sanity and SSB-leakage checks for the analog part; AFSK and differential PSK not finished |
+| `ofdm_wavelet/` | OFDM vs single carrier, subcarrier modulation classification, Morlet-wavelet symbol rate | OFDM vs single-carrier benchmark finished (agent-reported, not re-run: 99.6 % overall, 97.2 % at -5 dB with cumulants + cyclic-prefix statistic) with sanity checks; subcarrier classification and the Morlet estimator unfinished |
+| `pulse_signals/` | ADS-B Mode S detection and decoding, radar PRI estimation | Mode S and PRI code; ADS-B dev and sanity results; no held-out benchmark |
+| `interference_jammers/` | jammer detection and classification | dataset, feature and classifier code and sanity checks only |
+
+A finding from these runs that matters for existing code: `classical_amc/requirements_methods.py` (`hier_classify`)
+uses an M2M4 noise estimate that is biased for QAM; pass a guard-band noise estimate instead (see `ofdm_wavelet/`).
+The open-items list below still applies, and `CATALOG.md` section E states the coverage criterion as **not met**.
 
 ## Open items
 

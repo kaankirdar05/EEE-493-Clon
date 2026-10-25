@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "D:\Bitirme - 493\pulse_signals\radar_bench.py", line 301, in <module>
+    stage_cal(ex)
+    ~~~~~~~~~^^^^
+  File "D:\Bitirme - 493\pulse_signals\radar_bench.py", line 76, in stage_cal
+    out = R.calibrate(seed=ns, reps=reps, ex=ex)
+  File "D:\Bitirme - 493\pulse_signals\radar_pri.py", line 462, in calibrate
+    res = list(ex.map(_cal_job, jobs)) if ex is not None else [_cal_job(j) for j in jobs]
+          ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kullanýcý\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\process.py", line 617, in _chain_from_iterable_of_lists
+    for element in iterable:
+                   ^^^^^^^^
+  File "C:\Users\kullanýcý\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\_base.py", line 639, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\kullanýcý\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\_base.py", line 311, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\kullanýcý\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\_base.py", line 450, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kullanýcý\AppData\Local\Python\pythoncore-3.14-64\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+concurrent.futures.process.BrokenProcessPool: A process in the process pool was terminated abruptly while the future was running or pending.

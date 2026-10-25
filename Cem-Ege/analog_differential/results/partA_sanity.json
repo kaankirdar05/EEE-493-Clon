@@ -1,0 +1,125 @@
+{
+ "construction": {
+  "SSB-USB: |corr(Re s, m)|, |corr(Im s, hilbert(m))| (expect 1)": [
+   0.9999999997023445,
+   0.9986429826189931
+  ],
+  "VSB: corr(Re s, m) (sum rule H(f)+H(-f)=1 -> Re s = m/2; expect 1)": 0.9999999997520448,
+  "NBFM: corr(discriminator, m) (expect 1)": 0.9941562875267396,
+  "PM: corr(discriminator, dm/dt) (expect 1)": 1.0
+ },
+ "spectral_symmetry_noiseless_dB": {
+  "AM-DSB-WC": {
+   "median_dB_up_over_low": -2.710340762823627e-08,
+   "median_abs_dB": 2.710340762823627e-08,
+   "p10": -1.7962225133009764e-07,
+   "p90": -9.693073501316483e-10
+  },
+  "AM-DSB-SC": {
+   "median_dB_up_over_low": -3.6660656639292673e-08,
+   "median_abs_dB": 3.6660656639292673e-08,
+   "p10": -1.544628938666336e-07,
+   "p90": -7.518777843041194e-10
+  },
+  "SSB-USB": {
+   "median_dB_up_over_low": 32.609740022129785,
+   "median_abs_dB": 32.609740022129785,
+   "p10": 28.113349951633968,
+   "p90": 41.143417790161614
+  },
+  "SSB-LSB": {
+   "median_dB_up_over_low": -32.16764016096863,
+   "median_abs_dB": 32.16764016096863,
+   "p10": -39.69271344307752,
+   "p90": -27.937926889733767
+  },
+  "VSB": {
+   "median_dB_up_over_low": 13.426228638017982,
+   "median_abs_dB": 18.130922038434317,
+   "p10": -22.185127701869202,
+   "p90": 22.129551962021853
+  },
+  "NBFM": {
+   "median_dB_up_over_low": 0.0012183473040025068,
+   "median_abs_dB": 0.1999093543445691,
+   "p10": -0.4894000395244255,
+   "p90": 0.4768669030781879
+  },
+  "WBFM": {
+   "median_dB_up_over_low": 0.04810932193286745,
+   "median_abs_dB": 0.1846486986196239,
+   "p10": -0.3904409587713992,
+   "p90": 0.47605870170183207
+  },
+  "PM": {
+   "median_dB_up_over_low": 0.003500320984403619,
+   "median_abs_dB": 0.02363270617900419,
+   "p10": -0.0784371626437008,
+   "p90": 0.08754194855927795
+  }
+ },
+ "envelope_noise_message": {
+  "AM-DSB-SC": {
+   "measured_std_over_mean": 0.7473225605572117,
+   "theory": 0.7555106397628669
+  },
+  "SSB-USB": {
+   "measured_std_over_mean": 0.5190328744791926,
+   "theory": 0.5227232008770634
+  }
+ },
+ "fm_slope_noiseless": {
+  "flat message (tau=0)": {
+   "NBFM_slope_median": 0.05923233926296234,
+   "PM_slope_median": 1.8772543668746948,
+   "NBFM_p10_p90": [
+    -0.5455071330070496,
+    0.7092581391334534
+   ],
+   "PM_p10_p90": [
+    1.20424222946167,
+    2.5319652557373047
+   ],
+   "midpoint_threshold": 0.9682433605194092,
+   "balanced_accuracy_noiseless": 0.9675
+  },
+  "random tilt tau~U(0,1.2), noise message": {
+   "NBFM_slope_median": -0.4195292890071869,
+   "PM_slope_median": 1.4715036153793335,
+   "NBFM_p10_p90": [
+    -1.0989412069320679,
+    0.27344247698783875
+   ],
+   "PM_p10_p90": [
+    0.74961918592453,
+    2.2138595581054688
+   ],
+   "midpoint_threshold": 0.5259871482849121,
+   "balanced_accuracy_noiseless": 0.96375
+  },
+  "random tilt, 30 % two-tone mix": {
+   "NBFM_slope_median": -0.6945809125900269,
+   "PM_slope_median": 1.35260009765625,
+   "NBFM_p10_p90": [
+    -1.6709434986114502,
+    0.0771709531545639
+   ],
+   "PM_p10_p90": [
+    0.4261794686317444,
+    2.142510414123535
+   ],
+   "midpoint_threshold": 0.3290095925331116,
+   "balanced_accuracy_noiseless": 0.94125
+  }
+ },
+ "snr_estimate_mean_for_true_snr": {
+  "-5": -4.988536834716797,
+  "0": -0.009303891099989414,
+  "10": 10.012626647949219,
+  "20": 20.018192291259766
+ },
+ "x2_line_log10_median": {
+  "AM-DSB-SC": 2.122760772705078,
+  "SSB-USB": 1.5005519390106201
+ }
+}

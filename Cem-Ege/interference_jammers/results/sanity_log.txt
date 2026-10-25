@@ -1,0 +1,259 @@
+S1 H0 theory
+  S1 done 240 frames in 43s
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+D:\Bitirme - 493\interference_jammers\features.py:208: RuntimeWarning: divide by zero encountered in scalar divide
+  f["top5_med"] = float(top.mean() / np.median(pw))
+{
+ "cell_mean": 1.0029059686193946,
+ "cell_var": 1.0079218083835255,
+ "cell_theory": [
+  1.0,
+  1.0
+ ],
+ "pbar_std": 0.04423117683378561,
+ "pbar_std_theory": 0.044194173824159216,
+ "pow_excess_db_std": 0.00893208851601902,
+ "pow_excess_db_std_theory": 0.008482314099672886,
+ "pow_excess_db_mean": 0.0003722806774998977,
+ "sk_mean": 1.9959853915548533,
+ "sk_theory": 2.0,
+ "env_kurt": 1.9998222107115908,
+ "duty_mean": 0.0009943644205729167,
+ "duty_theory": 0.001,
+ "duty_ci_halfwidth": 4.420337998483073e-05,
+ "bw_frac_max": 0.0,
+ "n_peaks_max": 0,
+ "bis_x_bic_mean": 0.0020161710049574596,
+ "bis_x_bic_mean_theory_1_over_K": 0.001953125,
+ "chirp_G_noise_mean": {
+  "chirp_G256": 0.05374968533319749,
+  "chirp_G1024": 0.015592776770818613,
+  "chirp_G0_256": 0.036739821285121585,
+  "chirp_G0_1024": 0.010034291172377582
+ }
+}
+S2 dechirp
+{
+ "L256_max_rel_diff_vs_ext": 1.6127169510634983e-07,
+ "L256_noiseless": {
+  "on_grid": {
+   "Gmax": 0.8751419202614905,
+   "k_err_in_grid_steps": 0.0
+  },
+  "half_step": {
+   "Gmax": 0.8648539181529378,
+   "k_err_in_grid_steps": 0.5
+  }
+ },
+ "L1024_max_rel_diff_vs_ext": 9.138325484985987e-08,
+ "L1024_noiseless": {
+  "on_grid": {
+   "Gmax": 0.8751402484409548,
+   "k_err_in_grid_steps": 0.0
+  },
+  "half_step": {
+   "Gmax": 0.8640022280514716,
+   "k_err_in_grid_steps": -0.5
+  }
+ }
+}
+S3 bispectrum
+{
+ "bic_max_coupled_tones": 0.9998024269628988,
+ "bic_max_uncoupled_tones": 0.875972019885909,
+ "K": 512,
+ "floor_mean_theory": 0.001953125
+}
+  S4 inr=30.0 noise=False done 700 frames in 71s
+  S4 inr=10.0 noise=True done 700 frames in 117s
+  S4 inr=0.0 noise=True done 700 frames in 133s
+{
+ "cw": {
+  "freq_err_bins": {
+   "median": 0.23086635627504393,
+   "p90": 0.43972488008711824,
+   "mean": 0.2348005940283423,
+   "n": 100
+  },
+  "n_lines_correct_frac": 0.99,
+  "bw_frac_measured_median": 0.01953125
+ },
+ "comb": {
+  "n_lines_correct_frac": 1.0,
+  "n_lines_abs_err_mean": 0.0,
+  "spacing_rel_err": {
+   "median": 0.005670463029423842,
+   "p90": 0.017586964988163468,
+   "mean": 0.008690435139596057,
+   "n": 100
+  }
+ },
+ "spot": {
+  "bw_err_frac_of_fs": {
+   "median": 0.010932475568205756,
+   "p90": 0.013224021805035239,
+   "mean": 0.01124070076015802,
+   "n": 100
+  },
+  "bw_err_bins": {
+   "median": 5.597427490921347,
+   "p90": 6.770699164178042,
+   "mean": 5.755238789200906,
+   "n": 100
+  },
+  "bw_rel_err": {
+   "median": 0.3380412708598748,
+   "p90": 0.7337851174964624,
+   "mean": 0.4111320639905335,
+   "n": 100
+  },
+  "center_err_bins": {
+   "median": 0.13670468761985433,
+   "p90": 0.3337405635661896,
+   "mean": 0.3536269421925749,
+   "n": 100
+  }
+ },
+ "barrage": {
+  "bw_err_frac_of_fs": {
+   "median": 0.006688576374141858,
+   "p90": 0.007766292823170895,
+   "mean": 0.006651829351490655,
+   "n": 100
+  },
+  "bw_err_bins": {
+   "median": 3.4245511035606313,
+   "p90": 3.9763419254634984,
+   "mean": 3.4057366279632153,
+   "n": 100
+  },
+  "bw_rel_err": {
+   "median": 0.01060116695501978,
+   "p90": 0.019277880602211025,
+   "mean": 0.011738703820148006,
+   "n": 100
+  },
+  "center_err_bins": {
+   "median": 0.1488955848698268,
+   "p90": 0.3526731748796906,
+   "mean": 0.19355412170045075,
+   "n": 100
+  }
+ },
+ "sweep": {
+  "bw_err_frac_of_fs": {
+   "median": 0.11469650315730046,
+   "p90": 0.23854837023007494,
+   "mean": 0.1447814339432907,
+   "n": 100
+  },
+  "bw_rel_err": {
+   "median": 0.29387591706369287,
+   "p90": 0.7403697460705396,
+   "mean": 0.3940580734429443,
+   "n": 100
+  },
+  "rate_k_rel_err(dechirp)": {
+   "median": 0.009244447835577898,
+   "p90": 0.04454541715656763,
+   "mean": 0.020725118430811068,
+   "n": 100
+  },
+  "hough_slope_rel_err(slope<=30 bins/frame)": {
+   "median": 0.042477932757636824,
+   "p90": 0.9832226376180576,
+   "mean": 0.18015585281272578,
+   "n": 67
+  },
+  "period_rel_err(P>=4 frames)": {
+   "median": 0.9908287074724437,
+   "p90": 2.0050293326263287,
+   "mean": 0.8654656409101661,
+   "n": 86
+  },
+  "period_found_frac(P>=4 frames)": 1.0,
+  "n_P_ge_4frames": 86,
+  "n_hough_slope_le_30": 67
+ },
+ "pnoise": {
+  "duty_err_abs": {
+   "median": 0.003261566162109375,
+   "p90": 0.007228469848632814,
+   "mean": 0.003941497802734375,
+   "n": 100
+  },
+  "duty_err_rel": {
+   "median": 0.01316781598821384,
+   "p90": 0.035723777213942556,
+   "mean": 0.018496687284789745,
+   "n": 100
+  },
+  "period_rel_err": {
+   "median": 0.0007146849695684181,
+   "p90": 0.004284153974007135,
+   "mean": 0.06170889024573295,
+   "n": 100
+  },
+  "period_found_frac": 1.0,
+  "bw_err_frac_of_fs": {
+   "median": 0.04264366930840738,
+   "p90": 0.15778317109619372,
+   "mean": 0.06934949474327498,
+   "n": 100
+  }
+ },
+ "pcw": {
+  "duty_err_abs": {
+   "median": 0.004917144775390625,
+   "p90": 0.009571075439453127,
+   "mean": 0.005768890380859375,
+   "n": 100
+  },
+  "duty_err_rel": {
+   "median": 0.019604241404850002,
+   "p90": 0.056836906653308546,
+   "mean": 0.028062212307592153,
+   "n": 100
+  },
+  "period_rel_err": {
+   "median": 0.0005722316447522445,
+   "p90": 0.002124118180132937,
+   "mean": 0.0009491711851310758,
+   "n": 100
+  },
+  "period_found_frac": 1.0
+ }
+}

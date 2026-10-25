@@ -1,0 +1,9 @@
+{
+ "oracle_noeq_hier": 0.9966666666666667,
+ "oracle_noeq_hier_default": 0.3,
+ "oracle_noeq_em": 1.0,
+ "oracle_eq_hier": 1.0,
+ "oracle_eq_em": 1.0,
+ "blind_eq_hier": 1.0,
+ "blind_eq_em": 1.0
+}

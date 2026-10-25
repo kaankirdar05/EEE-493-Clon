@@ -1,0 +1,121 @@
+{
+ "crc_examples": {
+  "8D4840D6202CC371C32CE0576098": 0,
+  "8D40621D58C382D690C8AC2863A7": 0,
+  "8D40621D58C386435CC412692AD6": 0
+ },
+ "crc_examples_pass": true,
+ "crc_parity_matches_PI": true,
+ "table_equals_bitwise": true,
+ "random_words": {
+  "n": 200000000,
+  "crc_pass": 14,
+  "crc_pass_expected": 11.920928955078125,
+  "single_bit_fixable": 1312,
+  "single_bit_fixable_expected": 1335.14404296875
+ },
+ "noiseless": {
+  "10": {
+   "energy": 1.0,
+   "auto": 1.0
+  },
+  "4": {
+   "energy": 1.0,
+   "auto": 1.0
+  },
+  "2": {
+   "energy": 0.886,
+   "auto": 1.0
+  }
+ },
+ "ber": {
+  "10": [
+   {
+    "snr": 0.0,
+    "ber_meas": 0.12142857142857143,
+    "ber_theory": 0.12062956017763493,
+    "msg_ok_meas": 0.0,
+    "msg_ok_theory": 5.587899889663707e-07
+   },
+   {
+    "snr": 2.0,
+    "ber_meas": 0.04705357142857143,
+    "ber_theory": 0.04629275283699382,
+    "msg_ok_meas": 0.0025,
+    "msg_ok_theory": 0.004948678913840541
+   },
+   {
+    "snr": 4.0,
+    "ber_meas": 0.008794642857142857,
+    "ber_theory": 0.008992288557292201,
+    "msg_ok_meas": 0.375,
+    "msg_ok_theory": 0.36360328607105985
+   },
+   {
+    "snr": 6.0,
+    "ber_meas": 0.0005580357142857143,
+    "ber_theory": 0.000546663446574049,
+    "msg_ok_meas": 0.9375,
+    "msg_ok_theory": 0.940594603098823
+   },
+   {
+    "snr": 8.0,
+    "ber_meas": 0.0,
+    "ber_theory": 4.725749989301419e-06,
+    "msg_ok_meas": 1.0,
+    "msg_ok_theory": 0.9994708547972874
+   },
+   {
+    "snr": 10.0,
+    "ber_meas": 0.0,
+    "ber_theory": 1.6328833634310123e-09,
+    "msg_ok_meas": 1.0,
+    "msg_ok_theory": 0.9999998171170775
+   }
+  ],
+  "2": [
+   {
+    "snr": 0.0,
+    "ber_meas": 0.30330357142857145,
+    "ber_theory": 0.30326532985631677,
+    "msg_ok_meas": 0.0,
+    "msg_ok_theory": 2.651864069888345e-18
+   },
+   {
+    "snr": 2.0,
+    "ber_meas": 0.22573660714285715,
+    "ber_theory": 0.22636788876474329,
+    "msg_ok_meas": 0.0,
+    "msg_ok_theory": 3.2799153023513736e-13
+   },
+   {
+    "snr": 4.0,
+    "ber_meas": 0.14410714285714285,
+    "ber_theory": 0.14240354348147585,
+    "msg_ok_meas": 0.0,
+    "msg_ok_theory": 3.370493741104004e-08
+   },
+   {
+    "snr": 6.0,
+    "ber_meas": 0.06763392857142857,
+    "ber_theory": 0.06831109822261483,
+    "msg_ok_meas": 0.0,
+    "msg_ok_theory": 0.00036169565338647284
+   },
+   {
+    "snr": 8.0,
+    "ber_meas": 0.02169642857142857,
+    "ber_theory": 0.021323747889132938,
+    "msg_ok_meas": 0.07,
+    "msg_ok_theory": 0.0894486143315754
+   },
+   {
+    "snr": 10.0,
+    "ber_meas": 0.00328125,
+    "ber_theory": 0.0033689734995427352,
+    "msg_ok_meas": 0.68,
+    "msg_ok_theory": 0.6852564973471278
+   }
+  ]
+ }
+}
