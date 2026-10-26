@@ -13,7 +13,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)                       # Cem-Ege
 RESULTS = os.path.join(HERE, "results")
 os.makedirs(RESULTS, exist_ok=True)
-DS1 = os.environ.get("DS1", "/home/claude/data/ds1_v3.h5")
+DS1 = os.environ.get("DS1", os.path.join(ROOT, "..", "synthetic", "ds1_v3.h5"))   # where the README quick start writes it
 
 for p in ("classical_amc", "wp4_detection", "detection_discovered", "detection_extended",
           "wp6_characterization", "characterization_extended", "extra_methods"):

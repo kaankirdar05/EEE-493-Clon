@@ -24,8 +24,8 @@ Biggest confusions (Z >= 10 dB, 19 features): WBFM->NBFM 27 %, NBFM->WBFM 23 %, 
 
 ```bash
 # 0. Dataset 1 (not in Git): seed 2026, 224,000 clips, 1.84 GB
-python ../../synthetic/make_synth_v3.py --per-snr 1000 --out <data>/ds1_v3.h5
-export DS1=<data>/ds1_v3.h5                       # default in ds1common.py: /home/claude/data/ds1_v3.h5
+cd ../../synthetic && python make_synth_v3.py --per-snr 1000 --out ds1_v3.h5 && cd ../Cem-Ege/dataset1_eval
+# default path is ../../synthetic/ds1_v3.h5; elsewhere set DS1 (PowerShell: $env:DS1="D:\data\ds1_v3.h5")
 
 python gen_offsets.py                             # carrier offset per clip (file does not store it); checks bit-identical regeneration
 python extract_ds1_features.py 19                 # 19 features, ~0.5 ms/clip
@@ -75,6 +75,7 @@ split, so it is trained on 60,000 clips (`RF_MAX_TRAIN`); SVM on 40,000 as in `c
 | `results/tables/*.csv` | compact tables (class rows x SNR columns), incl. `id_acc_vs_snr.csv` in the 5.1 format |
 | `results/figures/*.png` | accuracy / Pd vs SNR, class x SNR heatmaps, confusion matrices |
 | `results/*.log` | console output of every run |
+| `presentation/Dataset1_Classical_Baseline_Briefing.pptx` | briefing + results deck (23 slides, speaker notes on every slide) |
 
 Large caches (`features_*.npz`, `ds1_v3_offsets.npz`, `symbol_rate_bank.npz`, `wp6_errors.npz`, `pred_*.npy`)
 are not included; the scripts regenerate them.
