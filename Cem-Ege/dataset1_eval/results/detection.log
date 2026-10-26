@@ -1,0 +1,16 @@
+     eigen_mme  Pfa(1e-2) measured 0.0126  Pd all  79.1 %  90% from 0 dB   cal 9 s, 0.544 ms/clip
+        agm_L8  Pfa(1e-2) measured 0.0076  Pd all  79.1 %  90% from 0 dB   cal 7 s, 0.367 ms/clip
+       john_L8  Pfa(1e-2) measured 0.0092  Pd all  79.8 %  90% from 0 dB   cal 8 s, 0.370 ms/clip
+           cav  Pfa(1e-2) measured 0.0126  Pd all  79.7 %  90% from 0 dB   cal 4 s, 0.205 ms/clip
+         acorr  Pfa(1e-2) measured 0.0118  Pd all  79.2 %  90% from 0 dB   cal 3 s, 0.098 ms/clip
+  entropy_spec  Pfa(1e-2) measured 0.0118  Pd all  73.3 %  90% from 2 dB   cal 0 s, 0.023 ms/clip
+  entropy_hist  Pfa(1e-2) measured 0.0164  Pd all  64.7 %  90% from 6 dB   cal 1 s, 0.034 ms/clip
+         cyclo  Pfa(1e-2) measured 0.0084  Pd all  42.4 %  90% from 14 dB   cal 1 s, 0.076 ms/clip
+       scd_fam  Pfa(1e-2) measured 0.0130  Pd all  30.2 %  90% from None dB   cal 478 s, 15.350 ms/clip
+        energy  Pfa(1e-2) measured 0.0109  Pd all  59.7 %  90% from 6 dB   cal 72 s, 3.492 ms/clip
+ psd_occupancy  Pfa(1e-2) measured 0.0097  Pd all  64.3 %  90% from 4 dB   cal 79 s, 4.811 ms/clip
+        gid_L4  Pfa(1e-2) measured 0.0101  Pd all  78.5 %  90% from 0 dB   cal 3 s, 0.120 ms/clip
+       grcr_L4  Pfa(1e-2) measured 0.0101  Pd all  79.0 %  90% from 0 dB   cal 3 s, 0.134 ms/clip
+      pride_L4  Pfa(1e-2) measured 0.0101  Pd all  79.0 %  90% from 0 dB   cal 3 s, 0.126 ms/clip
+        tid_L4  Pfa(1e-2) measured 0.0101  Pd all  78.9 %  90% from 0 dB   cal 3 s, 0.127 ms/clip
+        aid_L4  Pfa(1e-2) measured 0.0088  Pd all  78.6 %  90% from 0 dB   cal 2 s, 0.081 ms/clip

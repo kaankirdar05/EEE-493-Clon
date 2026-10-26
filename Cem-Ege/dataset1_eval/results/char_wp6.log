@@ -1,0 +1,22 @@
+0/31218  6.0 ms/clip
+5000/31218  1.7 ms/clip
+10000/31218  1.6 ms/clip
+15000/31218  1.6 ms/clip
+20000/31218  1.6 ms/clip
+25000/31218  1.6 ms/clip
+30000/31218  1.6 ms/clip
+           fc_peak  median |err| 0.1144  p90 0.3430  bias +0.0067  invalid 0.0 %
+       fc_centroid  median |err| 0.0211  p90 0.2807  bias +0.0000  invalid 0.0 %
+          fc_mid10  median |err| 0.0242  p90 0.2966  bias +0.0059  invalid 0.0 %
+          fc_obw99  median |err| 0.0977  p90 0.3715  bias -0.0745  invalid 0.0 %
+     fc_noisecross  median |err| 0.0564  p90 0.3804  bias -0.0000  invalid 0.0 %
+            bw_3db  median |err| 0.8807  p90 0.9391  bias -0.8807  invalid 0.0 %
+           bw_10db  median |err| 0.4977  p90 0.9015  bias -0.4977  invalid 0.0 %
+           bw_26db  median |err| 0.2428  p90 0.8513  bias -0.0072  invalid 0.0 %
+          bw_obw99  median |err| 0.1503  p90 0.5428  bias +0.0154  invalid 0.0 %
+     bw_noisecross  median |err| 0.7831  p90 0.9625  bias -0.7831  invalid 0.0 %
+       snr_psd_obw  median |err| 0.8510  p90 3.6760  bias -0.2370  invalid 0.2 %
+      snr_psd_10db  median |err| 1.9524  p90 8.8649  bias +1.9351  invalid 0.0 %
+  snr_psd_trueband  median |err| 0.5785  p90 2.6109  bias -0.1149  invalid 3.2 %
+       snr_peak512  median |err| 8.5091  p90 15.7302  bias +8.5091  invalid 0.0 %
+          snr_m2m4  median |err| 4.1197  p90 24.9598  bias -2.8471  invalid 0.0 %

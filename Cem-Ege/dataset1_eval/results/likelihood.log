@@ -1,0 +1,9 @@
+     ALRT, sps sps_known: 4 classes  54.4 %  SNR>=10  96.2 %  85 % first at 10.0  sps ok 100 %  PI4DQPSK->QPSK
+     HLRT, sps sps_known: 4 classes  55.2 %  SNR>=10  96.5 %  85 % first at 10.0  sps ok 100 %  PI4DQPSK->QPSK
+  ALRT, sps inst_freq_s3: 4 classes  47.9 %  SNR>=10  89.8 %  85 % first at 12.0  sps ok 36 %  PI4DQPSK->QPSK
+  HLRT, sps inst_freq_s3: 4 classes  49.5 %  SNR>=10  89.6 %  85 % first at 12.0  sps ok 36 %  PI4DQPSK->QPSK
+   ALRT, sps cons_sr_dev: 4 classes  44.7 %  SNR>=10  86.2 %  85 % first at 14.0  sps ok 32 %  PI4DQPSK->QPSK
+   HLRT, sps cons_sr_dev: 4 classes  46.4 %  SNR>=10  86.5 %  85 % first at 14.0  sps ok 32 %  PI4DQPSK->QPSK
+  ALRT, sps cons_lin_dev: 4 classes  48.0 %  SNR>=10  92.3 %  85 % first at 12.0  sps ok 37 %  PI4DQPSK->QPSK
+  HLRT, sps cons_lin_dev: 4 classes  49.4 %  SNR>=10  92.3 %  85 % first at 12.0  sps ok 37 %  PI4DQPSK->QPSK
+          features + HGB: 4 classes  59.1 %  SNR>=10  94.2 %  85 % first at 12.0

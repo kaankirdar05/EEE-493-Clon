@@ -1,0 +1,16 @@
+[hgb] all 48.1 %  signals 44.8 %  SNR>=10 78.7 %  85% sustained from 16.0  fit 358 s  0.425 ms/clip
+   top confusions: WBFM->NBFM 27%, NBFM->WBFM 23%, QPSK->PI4DQPSK 20%, 4FSK->NBFM 18%, NBFM->4FSK 18%
+[rf] all 47.6 %  signals 44.5 %  SNR>=10 77.8 %  85% sustained from 18.0  fit 213 s  0.102 ms/clip
+   top confusions: WBFM->NBFM 30%, NBFM->WBFM 24%, QPSK->PI4DQPSK 20%, 4FSK->NBFM 18%, NBFM->4FSK 18%
+[svm] all 48.1 %  signals 44.7 %  SNR>=10 79.0 %  85% sustained from 18.0  fit 119 s  4.036 ms/clip
+   top confusions: WBFM->NBFM 34%, NBFM->4FSK 21%, WBFM->4FSK 21%, QPSK->PI4DQPSK 20%, PI4DQPSK->QPSK 16%
+[tree] all 31.0 %  signals 27.0 %  SNR>=10 52.2 %  85% sustained from None  fit 6 s  0.000 ms/clip
+   top confusions: WBFM->NBFM 81%, PI4DQPSK->QPSK 63%, 2FSK->NBFM 57%, 4FSK->NBFM 54%, 4FSK->8PSK 45%
+[knn] all 42.7 %  signals 41.7 %  SNR>=10 74.9 %  85% sustained from 20.0  fit 0 s  1.372 ms/clip
+   top confusions: WBFM->NBFM 34%, QPSK->PI4DQPSK 27%, 4FSK->NBFM 26%, NBFM->WBFM 23%, NBFM->4FSK 19%
+[lda] all 41.1 %  signals 37.4 %  SNR>=10 66.0 %  85% sustained from None  fit 0 s  0.001 ms/clip
+   top confusions: PI4DQPSK->QPSK 62%, WBFM->NBFM 51%, 4FSK->NBFM 36%, 4FSK->8PSK 26%, OOK->BPSK 20%
+[nearest_centroid] all 25.6 %  signals 19.9 %  SNR>=10 37.2 %  85% sustained from None  fit 0 s  0.003 ms/clip
+   top confusions: PI4DQPSK->GMSK 81%, 8PSK->GMSK 78%, QPSK->GMSK 73%, 2FSK->GMSK 62%, NBFM->GMSK 60%
+[cumulant_theory] all 29.1 %  signals 29.1 %  SNR>=10 34.4 %  85% sustained from None  fit 0 s  0.001 ms/clip
+   top confusions: QPSK->8PSK 79%, BPSK->8PSK 57%, 16QAM->8PSK 49%, BPSK->16QAM 35%, QPSK->16QAM 21%

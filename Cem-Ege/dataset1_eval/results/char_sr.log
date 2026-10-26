@@ -1,0 +1,16 @@
+  0/5760  157 ms/frame
+  500/5760  92 ms/frame
+  1000/5760  89 ms/frame
+  1500/5760  88 ms/frame
+  2000/5760  89 ms/frame
+  2500/5760  89 ms/frame
+  3000/5760  90 ms/frame
+  3500/5760  90 ms/frame
+  4000/5760  90 ms/frame
+  4500/5760  90 ms/frame
+  5000/5760  91 ms/frame
+  5500/5760  91 ms/frame
+               inst_freq_s3 (baseline, BASELINE.md sec. 3)  all  22.7 %  (in range  23.5 %)  OOK 1 2FSK 4 4FSK 4 GMSK 13 BPSK 41 QPSK 38 PI4DQPSK 40 8PSK 38 16QAM 25
+                    consensus, 12 estimators (cons_sr_dev)  all  24.8 %  (in range  25.7 %)  OOK 12 2FSK 19 4FSK 10 GMSK 21 BPSK 36 QPSK 34 PI4DQPSK 33 8PSK 33 16QAM 25
+             consensus, 1,024-sample linear (cons_lin_dev)  all  26.9 %  (in range  27.8 %)  OOK 12 2FSK 20 4FSK 6 GMSK 20 BPSK 41 QPSK 38 PI4DQPSK 37 8PSK 38 16QAM 30
+      class-family aware (FSK consensus on 2FSK/4FSK/GMSK)  all  24.5 %  (in range  25.4 %)  OOK 12 2FSK 18 4FSK 9 GMSK 22 BPSK 36 QPSK 34 PI4DQPSK 33 8PSK 33 16QAM 25

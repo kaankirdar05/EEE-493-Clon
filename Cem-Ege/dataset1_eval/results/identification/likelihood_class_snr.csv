@@ -1,0 +1,577 @@
+method,class,snr_db,accuracy
+"ALRT, sps sps_known",BPSK,-10,0.0500
+"ALRT, sps sps_known",BPSK,-8,0.1000
+"ALRT, sps sps_known",BPSK,-6,0.2000
+"ALRT, sps sps_known",BPSK,-4,0.1000
+"ALRT, sps sps_known",BPSK,-2,0.0000
+"ALRT, sps sps_known",BPSK,0,0.0000
+"ALRT, sps sps_known",BPSK,2,0.1500
+"ALRT, sps sps_known",BPSK,4,0.6000
+"ALRT, sps sps_known",BPSK,6,0.9500
+"ALRT, sps sps_known",BPSK,8,1.0000
+"ALRT, sps sps_known",BPSK,10,1.0000
+"ALRT, sps sps_known",BPSK,12,1.0000
+"ALRT, sps sps_known",BPSK,14,1.0000
+"ALRT, sps sps_known",BPSK,16,1.0000
+"ALRT, sps sps_known",BPSK,18,1.0000
+"ALRT, sps sps_known",BPSK,20,1.0000
+"ALRT, sps sps_known",QPSK,-10,0.1500
+"ALRT, sps sps_known",QPSK,-8,0.0500
+"ALRT, sps sps_known",QPSK,-6,0.1000
+"ALRT, sps sps_known",QPSK,-4,0.0500
+"ALRT, sps sps_known",QPSK,-2,0.1500
+"ALRT, sps sps_known",QPSK,0,0.1500
+"ALRT, sps sps_known",QPSK,2,0.1500
+"ALRT, sps sps_known",QPSK,4,0.1500
+"ALRT, sps sps_known",QPSK,6,0.9000
+"ALRT, sps sps_known",QPSK,8,1.0000
+"ALRT, sps sps_known",QPSK,10,1.0000
+"ALRT, sps sps_known",QPSK,12,1.0000
+"ALRT, sps sps_known",QPSK,14,1.0000
+"ALRT, sps sps_known",QPSK,16,1.0000
+"ALRT, sps sps_known",QPSK,18,1.0000
+"ALRT, sps sps_known",QPSK,20,1.0000
+"ALRT, sps sps_known",8PSK,-10,0.0500
+"ALRT, sps sps_known",8PSK,-8,0.0000
+"ALRT, sps sps_known",8PSK,-6,0.0500
+"ALRT, sps sps_known",8PSK,-4,0.0000
+"ALRT, sps sps_known",8PSK,-2,0.1500
+"ALRT, sps sps_known",8PSK,0,0.0000
+"ALRT, sps sps_known",8PSK,2,0.2000
+"ALRT, sps sps_known",8PSK,4,0.3500
+"ALRT, sps sps_known",8PSK,6,0.7000
+"ALRT, sps sps_known",8PSK,8,0.9000
+"ALRT, sps sps_known",8PSK,10,0.9500
+"ALRT, sps sps_known",8PSK,12,1.0000
+"ALRT, sps sps_known",8PSK,14,1.0000
+"ALRT, sps sps_known",8PSK,16,1.0000
+"ALRT, sps sps_known",8PSK,18,1.0000
+"ALRT, sps sps_known",8PSK,20,1.0000
+"ALRT, sps sps_known",16QAM,-10,0.4000
+"ALRT, sps sps_known",16QAM,-8,0.1500
+"ALRT, sps sps_known",16QAM,-6,0.1000
+"ALRT, sps sps_known",16QAM,-4,0.1500
+"ALRT, sps sps_known",16QAM,-2,0.5500
+"ALRT, sps sps_known",16QAM,0,0.3500
+"ALRT, sps sps_known",16QAM,2,0.3000
+"ALRT, sps sps_known",16QAM,4,0.6500
+"ALRT, sps sps_known",16QAM,6,0.4500
+"ALRT, sps sps_known",16QAM,8,0.2000
+"ALRT, sps sps_known",16QAM,10,0.4500
+"ALRT, sps sps_known",16QAM,12,0.7500
+"ALRT, sps sps_known",16QAM,14,1.0000
+"ALRT, sps sps_known",16QAM,16,0.9500
+"ALRT, sps sps_known",16QAM,18,1.0000
+"ALRT, sps sps_known",16QAM,20,1.0000
+"HLRT, sps sps_known",BPSK,-10,0.1000
+"HLRT, sps sps_known",BPSK,-8,0.2000
+"HLRT, sps sps_known",BPSK,-6,0.2500
+"HLRT, sps sps_known",BPSK,-4,0.2000
+"HLRT, sps sps_known",BPSK,-2,0.2000
+"HLRT, sps sps_known",BPSK,0,0.0000
+"HLRT, sps sps_known",BPSK,2,0.1500
+"HLRT, sps sps_known",BPSK,4,0.6000
+"HLRT, sps sps_known",BPSK,6,0.9500
+"HLRT, sps sps_known",BPSK,8,1.0000
+"HLRT, sps sps_known",BPSK,10,1.0000
+"HLRT, sps sps_known",BPSK,12,1.0000
+"HLRT, sps sps_known",BPSK,14,1.0000
+"HLRT, sps sps_known",BPSK,16,1.0000
+"HLRT, sps sps_known",BPSK,18,1.0000
+"HLRT, sps sps_known",BPSK,20,1.0000
+"HLRT, sps sps_known",QPSK,-10,0.2500
+"HLRT, sps sps_known",QPSK,-8,0.0500
+"HLRT, sps sps_known",QPSK,-6,0.1500
+"HLRT, sps sps_known",QPSK,-4,0.1000
+"HLRT, sps sps_known",QPSK,-2,0.2000
+"HLRT, sps sps_known",QPSK,0,0.2000
+"HLRT, sps sps_known",QPSK,2,0.2000
+"HLRT, sps sps_known",QPSK,4,0.1500
+"HLRT, sps sps_known",QPSK,6,0.9000
+"HLRT, sps sps_known",QPSK,8,1.0000
+"HLRT, sps sps_known",QPSK,10,1.0000
+"HLRT, sps sps_known",QPSK,12,1.0000
+"HLRT, sps sps_known",QPSK,14,1.0000
+"HLRT, sps sps_known",QPSK,16,1.0000
+"HLRT, sps sps_known",QPSK,18,1.0000
+"HLRT, sps sps_known",QPSK,20,1.0000
+"HLRT, sps sps_known",8PSK,-10,0.0000
+"HLRT, sps sps_known",8PSK,-8,0.0000
+"HLRT, sps sps_known",8PSK,-6,0.0000
+"HLRT, sps sps_known",8PSK,-4,0.0000
+"HLRT, sps sps_known",8PSK,-2,0.0500
+"HLRT, sps sps_known",8PSK,0,0.0000
+"HLRT, sps sps_known",8PSK,2,0.1000
+"HLRT, sps sps_known",8PSK,4,0.2500
+"HLRT, sps sps_known",8PSK,6,0.7000
+"HLRT, sps sps_known",8PSK,8,0.8500
+"HLRT, sps sps_known",8PSK,10,0.9500
+"HLRT, sps sps_known",8PSK,12,1.0000
+"HLRT, sps sps_known",8PSK,14,1.0000
+"HLRT, sps sps_known",8PSK,16,1.0000
+"HLRT, sps sps_known",8PSK,18,1.0000
+"HLRT, sps sps_known",8PSK,20,1.0000
+"HLRT, sps sps_known",16QAM,-10,0.5000
+"HLRT, sps sps_known",16QAM,-8,0.1500
+"HLRT, sps sps_known",16QAM,-6,0.1500
+"HLRT, sps sps_known",16QAM,-4,0.1500
+"HLRT, sps sps_known",16QAM,-2,0.5000
+"HLRT, sps sps_known",16QAM,0,0.3000
+"HLRT, sps sps_known",16QAM,2,0.3500
+"HLRT, sps sps_known",16QAM,4,0.6500
+"HLRT, sps sps_known",16QAM,6,0.4000
+"HLRT, sps sps_known",16QAM,8,0.2000
+"HLRT, sps sps_known",16QAM,10,0.5000
+"HLRT, sps sps_known",16QAM,12,0.7500
+"HLRT, sps sps_known",16QAM,14,1.0000
+"HLRT, sps sps_known",16QAM,16,0.9500
+"HLRT, sps sps_known",16QAM,18,1.0000
+"HLRT, sps sps_known",16QAM,20,1.0000
+"ALRT, sps inst_freq_s3",BPSK,-10,0.0500
+"ALRT, sps inst_freq_s3",BPSK,-8,0.1000
+"ALRT, sps inst_freq_s3",BPSK,-6,0.1500
+"ALRT, sps inst_freq_s3",BPSK,-4,0.1500
+"ALRT, sps inst_freq_s3",BPSK,-2,0.2000
+"ALRT, sps inst_freq_s3",BPSK,0,0.1000
+"ALRT, sps inst_freq_s3",BPSK,2,0.3500
+"ALRT, sps inst_freq_s3",BPSK,4,0.8500
+"ALRT, sps inst_freq_s3",BPSK,6,1.0000
+"ALRT, sps inst_freq_s3",BPSK,8,1.0000
+"ALRT, sps inst_freq_s3",BPSK,10,1.0000
+"ALRT, sps inst_freq_s3",BPSK,12,1.0000
+"ALRT, sps inst_freq_s3",BPSK,14,1.0000
+"ALRT, sps inst_freq_s3",BPSK,16,1.0000
+"ALRT, sps inst_freq_s3",BPSK,18,1.0000
+"ALRT, sps inst_freq_s3",BPSK,20,1.0000
+"ALRT, sps inst_freq_s3",QPSK,-10,0.0500
+"ALRT, sps inst_freq_s3",QPSK,-8,0.2500
+"ALRT, sps inst_freq_s3",QPSK,-6,0.3000
+"ALRT, sps inst_freq_s3",QPSK,-4,0.1000
+"ALRT, sps inst_freq_s3",QPSK,-2,0.1000
+"ALRT, sps inst_freq_s3",QPSK,0,0.1000
+"ALRT, sps inst_freq_s3",QPSK,2,0.1000
+"ALRT, sps inst_freq_s3",QPSK,4,0.0500
+"ALRT, sps inst_freq_s3",QPSK,6,0.2000
+"ALRT, sps inst_freq_s3",QPSK,8,0.5000
+"ALRT, sps inst_freq_s3",QPSK,10,0.6500
+"ALRT, sps inst_freq_s3",QPSK,12,0.9500
+"ALRT, sps inst_freq_s3",QPSK,14,1.0000
+"ALRT, sps inst_freq_s3",QPSK,16,1.0000
+"ALRT, sps inst_freq_s3",QPSK,18,1.0000
+"ALRT, sps inst_freq_s3",QPSK,20,1.0000
+"ALRT, sps inst_freq_s3",8PSK,-10,0.0000
+"ALRT, sps inst_freq_s3",8PSK,-8,0.0500
+"ALRT, sps inst_freq_s3",8PSK,-6,0.0500
+"ALRT, sps inst_freq_s3",8PSK,-4,0.0500
+"ALRT, sps inst_freq_s3",8PSK,-2,0.0000
+"ALRT, sps inst_freq_s3",8PSK,0,0.0000
+"ALRT, sps inst_freq_s3",8PSK,2,0.0500
+"ALRT, sps inst_freq_s3",8PSK,4,0.1500
+"ALRT, sps inst_freq_s3",8PSK,6,0.1000
+"ALRT, sps inst_freq_s3",8PSK,8,0.4000
+"ALRT, sps inst_freq_s3",8PSK,10,0.6500
+"ALRT, sps inst_freq_s3",8PSK,12,0.9500
+"ALRT, sps inst_freq_s3",8PSK,14,1.0000
+"ALRT, sps inst_freq_s3",8PSK,16,1.0000
+"ALRT, sps inst_freq_s3",8PSK,18,1.0000
+"ALRT, sps inst_freq_s3",8PSK,20,1.0000
+"ALRT, sps inst_freq_s3",16QAM,-10,0.1500
+"ALRT, sps inst_freq_s3",16QAM,-8,0.2500
+"ALRT, sps inst_freq_s3",16QAM,-6,0.2500
+"ALRT, sps inst_freq_s3",16QAM,-4,0.3000
+"ALRT, sps inst_freq_s3",16QAM,-2,0.1500
+"ALRT, sps inst_freq_s3",16QAM,0,0.3000
+"ALRT, sps inst_freq_s3",16QAM,2,0.2000
+"ALRT, sps inst_freq_s3",16QAM,4,0.3500
+"ALRT, sps inst_freq_s3",16QAM,6,0.3000
+"ALRT, sps inst_freq_s3",16QAM,8,0.3000
+"ALRT, sps inst_freq_s3",16QAM,10,0.4500
+"ALRT, sps inst_freq_s3",16QAM,12,0.5500
+"ALRT, sps inst_freq_s3",16QAM,14,0.6500
+"ALRT, sps inst_freq_s3",16QAM,16,0.9000
+"ALRT, sps inst_freq_s3",16QAM,18,0.9000
+"ALRT, sps inst_freq_s3",16QAM,20,0.9000
+"HLRT, sps inst_freq_s3",BPSK,-10,0.2500
+"HLRT, sps inst_freq_s3",BPSK,-8,0.2500
+"HLRT, sps inst_freq_s3",BPSK,-6,0.2000
+"HLRT, sps inst_freq_s3",BPSK,-4,0.1500
+"HLRT, sps inst_freq_s3",BPSK,-2,0.3500
+"HLRT, sps inst_freq_s3",BPSK,0,0.4000
+"HLRT, sps inst_freq_s3",BPSK,2,0.3500
+"HLRT, sps inst_freq_s3",BPSK,4,0.9000
+"HLRT, sps inst_freq_s3",BPSK,6,1.0000
+"HLRT, sps inst_freq_s3",BPSK,8,1.0000
+"HLRT, sps inst_freq_s3",BPSK,10,1.0000
+"HLRT, sps inst_freq_s3",BPSK,12,1.0000
+"HLRT, sps inst_freq_s3",BPSK,14,1.0000
+"HLRT, sps inst_freq_s3",BPSK,16,1.0000
+"HLRT, sps inst_freq_s3",BPSK,18,1.0000
+"HLRT, sps inst_freq_s3",BPSK,20,1.0000
+"HLRT, sps inst_freq_s3",QPSK,-10,0.0000
+"HLRT, sps inst_freq_s3",QPSK,-8,0.3000
+"HLRT, sps inst_freq_s3",QPSK,-6,0.3000
+"HLRT, sps inst_freq_s3",QPSK,-4,0.1500
+"HLRT, sps inst_freq_s3",QPSK,-2,0.1500
+"HLRT, sps inst_freq_s3",QPSK,0,0.1500
+"HLRT, sps inst_freq_s3",QPSK,2,0.1500
+"HLRT, sps inst_freq_s3",QPSK,4,0.1000
+"HLRT, sps inst_freq_s3",QPSK,6,0.2500
+"HLRT, sps inst_freq_s3",QPSK,8,0.4500
+"HLRT, sps inst_freq_s3",QPSK,10,0.6500
+"HLRT, sps inst_freq_s3",QPSK,12,0.9500
+"HLRT, sps inst_freq_s3",QPSK,14,1.0000
+"HLRT, sps inst_freq_s3",QPSK,16,1.0000
+"HLRT, sps inst_freq_s3",QPSK,18,1.0000
+"HLRT, sps inst_freq_s3",QPSK,20,1.0000
+"HLRT, sps inst_freq_s3",8PSK,-10,0.0000
+"HLRT, sps inst_freq_s3",8PSK,-8,0.0000
+"HLRT, sps inst_freq_s3",8PSK,-6,0.0000
+"HLRT, sps inst_freq_s3",8PSK,-4,0.0500
+"HLRT, sps inst_freq_s3",8PSK,-2,0.0000
+"HLRT, sps inst_freq_s3",8PSK,0,0.0000
+"HLRT, sps inst_freq_s3",8PSK,2,0.0000
+"HLRT, sps inst_freq_s3",8PSK,4,0.0500
+"HLRT, sps inst_freq_s3",8PSK,6,0.1000
+"HLRT, sps inst_freq_s3",8PSK,8,0.4000
+"HLRT, sps inst_freq_s3",8PSK,10,0.6500
+"HLRT, sps inst_freq_s3",8PSK,12,0.9500
+"HLRT, sps inst_freq_s3",8PSK,14,1.0000
+"HLRT, sps inst_freq_s3",8PSK,16,1.0000
+"HLRT, sps inst_freq_s3",8PSK,18,1.0000
+"HLRT, sps inst_freq_s3",8PSK,20,1.0000
+"HLRT, sps inst_freq_s3",16QAM,-10,0.1500
+"HLRT, sps inst_freq_s3",16QAM,-8,0.2500
+"HLRT, sps inst_freq_s3",16QAM,-6,0.3000
+"HLRT, sps inst_freq_s3",16QAM,-4,0.2500
+"HLRT, sps inst_freq_s3",16QAM,-2,0.1500
+"HLRT, sps inst_freq_s3",16QAM,0,0.3000
+"HLRT, sps inst_freq_s3",16QAM,2,0.3500
+"HLRT, sps inst_freq_s3",16QAM,4,0.4000
+"HLRT, sps inst_freq_s3",16QAM,6,0.3000
+"HLRT, sps inst_freq_s3",16QAM,8,0.3000
+"HLRT, sps inst_freq_s3",16QAM,10,0.4000
+"HLRT, sps inst_freq_s3",16QAM,12,0.5500
+"HLRT, sps inst_freq_s3",16QAM,14,0.6500
+"HLRT, sps inst_freq_s3",16QAM,16,0.9000
+"HLRT, sps inst_freq_s3",16QAM,18,0.9000
+"HLRT, sps inst_freq_s3",16QAM,20,0.9000
+"ALRT, sps cons_sr_dev",BPSK,-10,0.0500
+"ALRT, sps cons_sr_dev",BPSK,-8,0.2000
+"ALRT, sps cons_sr_dev",BPSK,-6,0.1500
+"ALRT, sps cons_sr_dev",BPSK,-4,0.0000
+"ALRT, sps cons_sr_dev",BPSK,-2,0.1500
+"ALRT, sps cons_sr_dev",BPSK,0,0.0000
+"ALRT, sps cons_sr_dev",BPSK,2,0.2500
+"ALRT, sps cons_sr_dev",BPSK,4,0.5000
+"ALRT, sps cons_sr_dev",BPSK,6,0.8000
+"ALRT, sps cons_sr_dev",BPSK,8,1.0000
+"ALRT, sps cons_sr_dev",BPSK,10,1.0000
+"ALRT, sps cons_sr_dev",BPSK,12,1.0000
+"ALRT, sps cons_sr_dev",BPSK,14,1.0000
+"ALRT, sps cons_sr_dev",BPSK,16,1.0000
+"ALRT, sps cons_sr_dev",BPSK,18,1.0000
+"ALRT, sps cons_sr_dev",BPSK,20,1.0000
+"ALRT, sps cons_sr_dev",QPSK,-10,0.0500
+"ALRT, sps cons_sr_dev",QPSK,-8,0.0500
+"ALRT, sps cons_sr_dev",QPSK,-6,0.0500
+"ALRT, sps cons_sr_dev",QPSK,-4,0.0500
+"ALRT, sps cons_sr_dev",QPSK,-2,0.0000
+"ALRT, sps cons_sr_dev",QPSK,0,0.1000
+"ALRT, sps cons_sr_dev",QPSK,2,0.2500
+"ALRT, sps cons_sr_dev",QPSK,4,0.2500
+"ALRT, sps cons_sr_dev",QPSK,6,0.3000
+"ALRT, sps cons_sr_dev",QPSK,8,0.3000
+"ALRT, sps cons_sr_dev",QPSK,10,0.5500
+"ALRT, sps cons_sr_dev",QPSK,12,0.9500
+"ALRT, sps cons_sr_dev",QPSK,14,0.9500
+"ALRT, sps cons_sr_dev",QPSK,16,1.0000
+"ALRT, sps cons_sr_dev",QPSK,18,1.0000
+"ALRT, sps cons_sr_dev",QPSK,20,1.0000
+"ALRT, sps cons_sr_dev",8PSK,-10,0.0000
+"ALRT, sps cons_sr_dev",8PSK,-8,0.0000
+"ALRT, sps cons_sr_dev",8PSK,-6,0.0000
+"ALRT, sps cons_sr_dev",8PSK,-4,0.0500
+"ALRT, sps cons_sr_dev",8PSK,-2,0.0000
+"ALRT, sps cons_sr_dev",8PSK,0,0.1000
+"ALRT, sps cons_sr_dev",8PSK,2,0.0500
+"ALRT, sps cons_sr_dev",8PSK,4,0.1500
+"ALRT, sps cons_sr_dev",8PSK,6,0.0500
+"ALRT, sps cons_sr_dev",8PSK,8,0.2500
+"ALRT, sps cons_sr_dev",8PSK,10,0.4500
+"ALRT, sps cons_sr_dev",8PSK,12,0.7500
+"ALRT, sps cons_sr_dev",8PSK,14,0.9500
+"ALRT, sps cons_sr_dev",8PSK,16,1.0000
+"ALRT, sps cons_sr_dev",8PSK,18,1.0000
+"ALRT, sps cons_sr_dev",8PSK,20,1.0000
+"ALRT, sps cons_sr_dev",16QAM,-10,0.1000
+"ALRT, sps cons_sr_dev",16QAM,-8,0.1000
+"ALRT, sps cons_sr_dev",16QAM,-6,0.2000
+"ALRT, sps cons_sr_dev",16QAM,-4,0.3000
+"ALRT, sps cons_sr_dev",16QAM,-2,0.2000
+"ALRT, sps cons_sr_dev",16QAM,0,0.4500
+"ALRT, sps cons_sr_dev",16QAM,2,0.2000
+"ALRT, sps cons_sr_dev",16QAM,4,0.3500
+"ALRT, sps cons_sr_dev",16QAM,6,0.3000
+"ALRT, sps cons_sr_dev",16QAM,8,0.5500
+"ALRT, sps cons_sr_dev",16QAM,10,0.2000
+"ALRT, sps cons_sr_dev",16QAM,12,0.6000
+"ALRT, sps cons_sr_dev",16QAM,14,0.6500
+"ALRT, sps cons_sr_dev",16QAM,16,0.7500
+"ALRT, sps cons_sr_dev",16QAM,18,0.9500
+"ALRT, sps cons_sr_dev",16QAM,20,0.9500
+"HLRT, sps cons_sr_dev",BPSK,-10,0.3500
+"HLRT, sps cons_sr_dev",BPSK,-8,0.2500
+"HLRT, sps cons_sr_dev",BPSK,-6,0.2000
+"HLRT, sps cons_sr_dev",BPSK,-4,0.1500
+"HLRT, sps cons_sr_dev",BPSK,-2,0.2500
+"HLRT, sps cons_sr_dev",BPSK,0,0.1000
+"HLRT, sps cons_sr_dev",BPSK,2,0.4500
+"HLRT, sps cons_sr_dev",BPSK,4,0.5000
+"HLRT, sps cons_sr_dev",BPSK,6,0.8000
+"HLRT, sps cons_sr_dev",BPSK,8,1.0000
+"HLRT, sps cons_sr_dev",BPSK,10,1.0000
+"HLRT, sps cons_sr_dev",BPSK,12,1.0000
+"HLRT, sps cons_sr_dev",BPSK,14,1.0000
+"HLRT, sps cons_sr_dev",BPSK,16,1.0000
+"HLRT, sps cons_sr_dev",BPSK,18,1.0000
+"HLRT, sps cons_sr_dev",BPSK,20,1.0000
+"HLRT, sps cons_sr_dev",QPSK,-10,0.2000
+"HLRT, sps cons_sr_dev",QPSK,-8,0.1500
+"HLRT, sps cons_sr_dev",QPSK,-6,0.0000
+"HLRT, sps cons_sr_dev",QPSK,-4,0.1500
+"HLRT, sps cons_sr_dev",QPSK,-2,0.0000
+"HLRT, sps cons_sr_dev",QPSK,0,0.1000
+"HLRT, sps cons_sr_dev",QPSK,2,0.2500
+"HLRT, sps cons_sr_dev",QPSK,4,0.2500
+"HLRT, sps cons_sr_dev",QPSK,6,0.3000
+"HLRT, sps cons_sr_dev",QPSK,8,0.3000
+"HLRT, sps cons_sr_dev",QPSK,10,0.5500
+"HLRT, sps cons_sr_dev",QPSK,12,0.9500
+"HLRT, sps cons_sr_dev",QPSK,14,0.9500
+"HLRT, sps cons_sr_dev",QPSK,16,1.0000
+"HLRT, sps cons_sr_dev",QPSK,18,1.0000
+"HLRT, sps cons_sr_dev",QPSK,20,1.0000
+"HLRT, sps cons_sr_dev",8PSK,-10,0.0000
+"HLRT, sps cons_sr_dev",8PSK,-8,0.0000
+"HLRT, sps cons_sr_dev",8PSK,-6,0.0000
+"HLRT, sps cons_sr_dev",8PSK,-4,0.0500
+"HLRT, sps cons_sr_dev",8PSK,-2,0.0000
+"HLRT, sps cons_sr_dev",8PSK,0,0.0000
+"HLRT, sps cons_sr_dev",8PSK,2,0.0500
+"HLRT, sps cons_sr_dev",8PSK,4,0.0500
+"HLRT, sps cons_sr_dev",8PSK,6,0.0500
+"HLRT, sps cons_sr_dev",8PSK,8,0.2500
+"HLRT, sps cons_sr_dev",8PSK,10,0.4500
+"HLRT, sps cons_sr_dev",8PSK,12,0.7500
+"HLRT, sps cons_sr_dev",8PSK,14,0.9500
+"HLRT, sps cons_sr_dev",8PSK,16,1.0000
+"HLRT, sps cons_sr_dev",8PSK,18,1.0000
+"HLRT, sps cons_sr_dev",8PSK,20,1.0000
+"HLRT, sps cons_sr_dev",16QAM,-10,0.1500
+"HLRT, sps cons_sr_dev",16QAM,-8,0.1500
+"HLRT, sps cons_sr_dev",16QAM,-6,0.2000
+"HLRT, sps cons_sr_dev",16QAM,-4,0.2500
+"HLRT, sps cons_sr_dev",16QAM,-2,0.2000
+"HLRT, sps cons_sr_dev",16QAM,0,0.4000
+"HLRT, sps cons_sr_dev",16QAM,2,0.2000
+"HLRT, sps cons_sr_dev",16QAM,4,0.3500
+"HLRT, sps cons_sr_dev",16QAM,6,0.3000
+"HLRT, sps cons_sr_dev",16QAM,8,0.5500
+"HLRT, sps cons_sr_dev",16QAM,10,0.2000
+"HLRT, sps cons_sr_dev",16QAM,12,0.6000
+"HLRT, sps cons_sr_dev",16QAM,14,0.6500
+"HLRT, sps cons_sr_dev",16QAM,16,0.8000
+"HLRT, sps cons_sr_dev",16QAM,18,0.9500
+"HLRT, sps cons_sr_dev",16QAM,20,0.9500
+"ALRT, sps cons_lin_dev",BPSK,-10,0.0500
+"ALRT, sps cons_lin_dev",BPSK,-8,0.0500
+"ALRT, sps cons_lin_dev",BPSK,-6,0.0500
+"ALRT, sps cons_lin_dev",BPSK,-4,0.1000
+"ALRT, sps cons_lin_dev",BPSK,-2,0.2500
+"ALRT, sps cons_lin_dev",BPSK,0,0.1000
+"ALRT, sps cons_lin_dev",BPSK,2,0.2000
+"ALRT, sps cons_lin_dev",BPSK,4,0.5500
+"ALRT, sps cons_lin_dev",BPSK,6,0.8500
+"ALRT, sps cons_lin_dev",BPSK,8,1.0000
+"ALRT, sps cons_lin_dev",BPSK,10,1.0000
+"ALRT, sps cons_lin_dev",BPSK,12,1.0000
+"ALRT, sps cons_lin_dev",BPSK,14,1.0000
+"ALRT, sps cons_lin_dev",BPSK,16,1.0000
+"ALRT, sps cons_lin_dev",BPSK,18,1.0000
+"ALRT, sps cons_lin_dev",BPSK,20,1.0000
+"ALRT, sps cons_lin_dev",QPSK,-10,0.1000
+"ALRT, sps cons_lin_dev",QPSK,-8,0.1500
+"ALRT, sps cons_lin_dev",QPSK,-6,0.0500
+"ALRT, sps cons_lin_dev",QPSK,-4,0.1000
+"ALRT, sps cons_lin_dev",QPSK,-2,0.1000
+"ALRT, sps cons_lin_dev",QPSK,0,0.1500
+"ALRT, sps cons_lin_dev",QPSK,2,0.1000
+"ALRT, sps cons_lin_dev",QPSK,4,0.0500
+"ALRT, sps cons_lin_dev",QPSK,6,0.3500
+"ALRT, sps cons_lin_dev",QPSK,8,0.6000
+"ALRT, sps cons_lin_dev",QPSK,10,0.7500
+"ALRT, sps cons_lin_dev",QPSK,12,0.9500
+"ALRT, sps cons_lin_dev",QPSK,14,1.0000
+"ALRT, sps cons_lin_dev",QPSK,16,1.0000
+"ALRT, sps cons_lin_dev",QPSK,18,1.0000
+"ALRT, sps cons_lin_dev",QPSK,20,1.0000
+"ALRT, sps cons_lin_dev",8PSK,-10,0.0000
+"ALRT, sps cons_lin_dev",8PSK,-8,0.0000
+"ALRT, sps cons_lin_dev",8PSK,-6,0.0000
+"ALRT, sps cons_lin_dev",8PSK,-4,0.0000
+"ALRT, sps cons_lin_dev",8PSK,-2,0.0000
+"ALRT, sps cons_lin_dev",8PSK,0,0.0500
+"ALRT, sps cons_lin_dev",8PSK,2,0.0500
+"ALRT, sps cons_lin_dev",8PSK,4,0.2000
+"ALRT, sps cons_lin_dev",8PSK,6,0.1500
+"ALRT, sps cons_lin_dev",8PSK,8,0.4000
+"ALRT, sps cons_lin_dev",8PSK,10,0.6000
+"ALRT, sps cons_lin_dev",8PSK,12,0.9000
+"ALRT, sps cons_lin_dev",8PSK,14,1.0000
+"ALRT, sps cons_lin_dev",8PSK,16,1.0000
+"ALRT, sps cons_lin_dev",8PSK,18,1.0000
+"ALRT, sps cons_lin_dev",8PSK,20,1.0000
+"ALRT, sps cons_lin_dev",16QAM,-10,0.1000
+"ALRT, sps cons_lin_dev",16QAM,-8,0.2500
+"ALRT, sps cons_lin_dev",16QAM,-6,0.1000
+"ALRT, sps cons_lin_dev",16QAM,-4,0.5500
+"ALRT, sps cons_lin_dev",16QAM,-2,0.2000
+"ALRT, sps cons_lin_dev",16QAM,0,0.5500
+"ALRT, sps cons_lin_dev",16QAM,2,0.3000
+"ALRT, sps cons_lin_dev",16QAM,4,0.2500
+"ALRT, sps cons_lin_dev",16QAM,6,0.3500
+"ALRT, sps cons_lin_dev",16QAM,8,0.1500
+"ALRT, sps cons_lin_dev",16QAM,10,0.2500
+"ALRT, sps cons_lin_dev",16QAM,12,0.8000
+"ALRT, sps cons_lin_dev",16QAM,14,1.0000
+"ALRT, sps cons_lin_dev",16QAM,16,0.9000
+"ALRT, sps cons_lin_dev",16QAM,18,1.0000
+"ALRT, sps cons_lin_dev",16QAM,20,1.0000
+"HLRT, sps cons_lin_dev",BPSK,-10,0.2000
+"HLRT, sps cons_lin_dev",BPSK,-8,0.2000
+"HLRT, sps cons_lin_dev",BPSK,-6,0.2000
+"HLRT, sps cons_lin_dev",BPSK,-4,0.1500
+"HLRT, sps cons_lin_dev",BPSK,-2,0.3500
+"HLRT, sps cons_lin_dev",BPSK,0,0.1500
+"HLRT, sps cons_lin_dev",BPSK,2,0.3000
+"HLRT, sps cons_lin_dev",BPSK,4,0.6000
+"HLRT, sps cons_lin_dev",BPSK,6,0.8500
+"HLRT, sps cons_lin_dev",BPSK,8,1.0000
+"HLRT, sps cons_lin_dev",BPSK,10,1.0000
+"HLRT, sps cons_lin_dev",BPSK,12,1.0000
+"HLRT, sps cons_lin_dev",BPSK,14,1.0000
+"HLRT, sps cons_lin_dev",BPSK,16,1.0000
+"HLRT, sps cons_lin_dev",BPSK,18,1.0000
+"HLRT, sps cons_lin_dev",BPSK,20,1.0000
+"HLRT, sps cons_lin_dev",QPSK,-10,0.0500
+"HLRT, sps cons_lin_dev",QPSK,-8,0.3000
+"HLRT, sps cons_lin_dev",QPSK,-6,0.1000
+"HLRT, sps cons_lin_dev",QPSK,-4,0.0500
+"HLRT, sps cons_lin_dev",QPSK,-2,0.2000
+"HLRT, sps cons_lin_dev",QPSK,0,0.2000
+"HLRT, sps cons_lin_dev",QPSK,2,0.1000
+"HLRT, sps cons_lin_dev",QPSK,4,0.0500
+"HLRT, sps cons_lin_dev",QPSK,6,0.4000
+"HLRT, sps cons_lin_dev",QPSK,8,0.6000
+"HLRT, sps cons_lin_dev",QPSK,10,0.7500
+"HLRT, sps cons_lin_dev",QPSK,12,0.9500
+"HLRT, sps cons_lin_dev",QPSK,14,1.0000
+"HLRT, sps cons_lin_dev",QPSK,16,1.0000
+"HLRT, sps cons_lin_dev",QPSK,18,1.0000
+"HLRT, sps cons_lin_dev",QPSK,20,1.0000
+"HLRT, sps cons_lin_dev",8PSK,-10,0.0000
+"HLRT, sps cons_lin_dev",8PSK,-8,0.0000
+"HLRT, sps cons_lin_dev",8PSK,-6,0.0000
+"HLRT, sps cons_lin_dev",8PSK,-4,0.0000
+"HLRT, sps cons_lin_dev",8PSK,-2,0.0000
+"HLRT, sps cons_lin_dev",8PSK,0,0.0000
+"HLRT, sps cons_lin_dev",8PSK,2,0.0000
+"HLRT, sps cons_lin_dev",8PSK,4,0.1500
+"HLRT, sps cons_lin_dev",8PSK,6,0.1000
+"HLRT, sps cons_lin_dev",8PSK,8,0.3500
+"HLRT, sps cons_lin_dev",8PSK,10,0.5500
+"HLRT, sps cons_lin_dev",8PSK,12,0.9000
+"HLRT, sps cons_lin_dev",8PSK,14,1.0000
+"HLRT, sps cons_lin_dev",8PSK,16,1.0000
+"HLRT, sps cons_lin_dev",8PSK,18,1.0000
+"HLRT, sps cons_lin_dev",8PSK,20,1.0000
+"HLRT, sps cons_lin_dev",16QAM,-10,0.1500
+"HLRT, sps cons_lin_dev",16QAM,-8,0.2500
+"HLRT, sps cons_lin_dev",16QAM,-6,0.1500
+"HLRT, sps cons_lin_dev",16QAM,-4,0.5000
+"HLRT, sps cons_lin_dev",16QAM,-2,0.2500
+"HLRT, sps cons_lin_dev",16QAM,0,0.4500
+"HLRT, sps cons_lin_dev",16QAM,2,0.3000
+"HLRT, sps cons_lin_dev",16QAM,4,0.2500
+"HLRT, sps cons_lin_dev",16QAM,6,0.3000
+"HLRT, sps cons_lin_dev",16QAM,8,0.2000
+"HLRT, sps cons_lin_dev",16QAM,10,0.2500
+"HLRT, sps cons_lin_dev",16QAM,12,0.8000
+"HLRT, sps cons_lin_dev",16QAM,14,1.0000
+"HLRT, sps cons_lin_dev",16QAM,16,0.9500
+"HLRT, sps cons_lin_dev",16QAM,18,1.0000
+"HLRT, sps cons_lin_dev",16QAM,20,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,-10,0.1500
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,-8,0.2500
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,-6,0.2500
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,-4,0.3000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,-2,0.2000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,0,0.3000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,2,0.7000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,4,0.9500
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,6,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,8,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,10,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,12,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,14,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,16,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,18,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",BPSK,20,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,-10,0.2000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,-8,0.2000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,-6,0.2000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,-4,0.1500
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,-2,0.2500
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,0,0.2000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,2,0.3000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,4,0.3500
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,6,0.4000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,8,0.2500
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,10,0.4500
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,12,0.8000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,14,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,16,0.9500
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,18,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",QPSK,20,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,-10,0.3000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,-8,0.2500
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,-6,0.3000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,-4,0.3000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,-2,0.4000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,0,0.4500
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,2,0.4000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,4,0.3500
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,6,0.5000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,8,0.6500
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,10,0.6500
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,12,0.8500
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,14,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,16,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,18,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",8PSK,20,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,-10,0.2000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,-8,0.2000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,-6,0.3000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,-4,0.2500
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,-2,0.2500
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,0,0.2500
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,2,0.3500
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,4,0.3500
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,6,0.6500
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,8,0.9500
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,10,0.9000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,12,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,14,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,16,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,18,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16QAM,20,1.0000

@@ -1,0 +1,3 @@
+Azzouz-Nandi: all 35.5 %  SNR>=10 58.7 %  85% from None
+  node train errors: {'N1': 0.184, 'N2': 0.112, 'N3': 0.02, 'N4': 0.001, 'N5': 0.33, 'N6': 0.185}
+Swami-Sadler: all 48.7 %  SNR>=10 77.2 %  85% from None

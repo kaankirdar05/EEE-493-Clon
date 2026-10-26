@@ -1,0 +1,577 @@
+estimator,class,snr_db,success_within_2pct
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,-10,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,-8,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,-6,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,-4,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,-2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,0,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,4,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,6,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,8,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,10,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,12,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,14,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,16,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,18,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",OOK,20,0.0750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,-10,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,-8,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,-6,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,-4,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,-2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,0,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,4,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,6,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,8,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,10,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,12,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,14,0.1000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,16,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,18,0.1250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",2FSK,20,0.2000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,-10,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,-8,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,-6,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,-4,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,-2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,0,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,4,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,6,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,8,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,10,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,12,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,14,0.0750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,16,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,18,0.1750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",4FSK,20,0.1750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,-10,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,-8,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,-6,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,-4,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,-2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,0,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,4,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,6,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,8,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,10,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,12,0.1750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,14,0.2500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,16,0.3500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,18,0.5750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",GMSK,20,0.6250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,-10,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,-8,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,-6,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,-4,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,-2,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,0,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,2,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,4,0.0750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,6,0.1750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,8,0.4750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,10,0.8750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,12,0.9250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,14,0.9500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,16,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,18,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",BPSK,20,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,-10,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,-8,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,-6,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,-4,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,-2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,0,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,2,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,4,0.0750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,6,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,8,0.3000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,10,0.6500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,12,0.9500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,14,0.9750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,16,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,18,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",QPSK,20,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,-10,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,-8,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,-6,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,-4,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,-2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,0,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,4,0.0750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,6,0.1750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,8,0.4250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,10,0.6750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,12,0.9000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,14,0.9250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,16,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,18,0.9750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",PI4DQPSK,20,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,-10,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,-8,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,-6,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,-4,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,-2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,0,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,2,0.0500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,4,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,6,0.1250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,8,0.3000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,10,0.6250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,12,0.9000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,14,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,16,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,18,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",8PSK,20,1.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,-10,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,-8,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,-6,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,-4,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,-2,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,0,0.0250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,2,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,4,0.0000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,6,0.0750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,8,0.1250
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,10,0.4000
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,12,0.4500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,14,0.4750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,16,0.7500
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,18,0.7750
+"inst_freq_s3 (baseline, BASELINE.md sec. 3)",16QAM,20,0.9000
+"consensus, 12 estimators (cons_sr_dev)",OOK,-10,0.0250
+"consensus, 12 estimators (cons_sr_dev)",OOK,-8,0.0250
+"consensus, 12 estimators (cons_sr_dev)",OOK,-6,0.0250
+"consensus, 12 estimators (cons_sr_dev)",OOK,-4,0.0250
+"consensus, 12 estimators (cons_sr_dev)",OOK,-2,0.0250
+"consensus, 12 estimators (cons_sr_dev)",OOK,0,0.0000
+"consensus, 12 estimators (cons_sr_dev)",OOK,2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",OOK,4,0.0250
+"consensus, 12 estimators (cons_sr_dev)",OOK,6,0.0250
+"consensus, 12 estimators (cons_sr_dev)",OOK,8,0.0000
+"consensus, 12 estimators (cons_sr_dev)",OOK,10,0.0750
+"consensus, 12 estimators (cons_sr_dev)",OOK,12,0.1250
+"consensus, 12 estimators (cons_sr_dev)",OOK,14,0.0250
+"consensus, 12 estimators (cons_sr_dev)",OOK,16,0.3000
+"consensus, 12 estimators (cons_sr_dev)",OOK,18,0.5000
+"consensus, 12 estimators (cons_sr_dev)",OOK,20,0.7000
+"consensus, 12 estimators (cons_sr_dev)",2FSK,-10,0.0000
+"consensus, 12 estimators (cons_sr_dev)",2FSK,-8,0.0250
+"consensus, 12 estimators (cons_sr_dev)",2FSK,-6,0.0000
+"consensus, 12 estimators (cons_sr_dev)",2FSK,-4,0.0000
+"consensus, 12 estimators (cons_sr_dev)",2FSK,-2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",2FSK,0,0.0250
+"consensus, 12 estimators (cons_sr_dev)",2FSK,2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",2FSK,4,0.0000
+"consensus, 12 estimators (cons_sr_dev)",2FSK,6,0.0250
+"consensus, 12 estimators (cons_sr_dev)",2FSK,8,0.0250
+"consensus, 12 estimators (cons_sr_dev)",2FSK,10,0.1500
+"consensus, 12 estimators (cons_sr_dev)",2FSK,12,0.3000
+"consensus, 12 estimators (cons_sr_dev)",2FSK,14,0.4750
+"consensus, 12 estimators (cons_sr_dev)",2FSK,16,0.6500
+"consensus, 12 estimators (cons_sr_dev)",2FSK,18,0.7000
+"consensus, 12 estimators (cons_sr_dev)",2FSK,20,0.7000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,-10,0.0000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,-8,0.0000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,-6,0.0000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,-4,0.0500
+"consensus, 12 estimators (cons_sr_dev)",4FSK,-2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,0,0.0000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,4,0.0250
+"consensus, 12 estimators (cons_sr_dev)",4FSK,6,0.0000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,8,0.0000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,10,0.0000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,12,0.1000
+"consensus, 12 estimators (cons_sr_dev)",4FSK,14,0.1750
+"consensus, 12 estimators (cons_sr_dev)",4FSK,16,0.3750
+"consensus, 12 estimators (cons_sr_dev)",4FSK,18,0.3250
+"consensus, 12 estimators (cons_sr_dev)",4FSK,20,0.6000
+"consensus, 12 estimators (cons_sr_dev)",GMSK,-10,0.0250
+"consensus, 12 estimators (cons_sr_dev)",GMSK,-8,0.0500
+"consensus, 12 estimators (cons_sr_dev)",GMSK,-6,0.0000
+"consensus, 12 estimators (cons_sr_dev)",GMSK,-4,0.0500
+"consensus, 12 estimators (cons_sr_dev)",GMSK,-2,0.0750
+"consensus, 12 estimators (cons_sr_dev)",GMSK,0,0.0000
+"consensus, 12 estimators (cons_sr_dev)",GMSK,2,0.0250
+"consensus, 12 estimators (cons_sr_dev)",GMSK,4,0.0000
+"consensus, 12 estimators (cons_sr_dev)",GMSK,6,0.0000
+"consensus, 12 estimators (cons_sr_dev)",GMSK,8,0.0250
+"consensus, 12 estimators (cons_sr_dev)",GMSK,10,0.0250
+"consensus, 12 estimators (cons_sr_dev)",GMSK,12,0.1500
+"consensus, 12 estimators (cons_sr_dev)",GMSK,14,0.5750
+"consensus, 12 estimators (cons_sr_dev)",GMSK,16,0.6250
+"consensus, 12 estimators (cons_sr_dev)",GMSK,18,0.9000
+"consensus, 12 estimators (cons_sr_dev)",GMSK,20,0.8750
+"consensus, 12 estimators (cons_sr_dev)",BPSK,-10,0.0000
+"consensus, 12 estimators (cons_sr_dev)",BPSK,-8,0.0000
+"consensus, 12 estimators (cons_sr_dev)",BPSK,-6,0.0000
+"consensus, 12 estimators (cons_sr_dev)",BPSK,-4,0.0000
+"consensus, 12 estimators (cons_sr_dev)",BPSK,-2,0.0500
+"consensus, 12 estimators (cons_sr_dev)",BPSK,0,0.0500
+"consensus, 12 estimators (cons_sr_dev)",BPSK,2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",BPSK,4,0.0750
+"consensus, 12 estimators (cons_sr_dev)",BPSK,6,0.2000
+"consensus, 12 estimators (cons_sr_dev)",BPSK,8,0.3000
+"consensus, 12 estimators (cons_sr_dev)",BPSK,10,0.5250
+"consensus, 12 estimators (cons_sr_dev)",BPSK,12,0.7500
+"consensus, 12 estimators (cons_sr_dev)",BPSK,14,0.8250
+"consensus, 12 estimators (cons_sr_dev)",BPSK,16,0.9750
+"consensus, 12 estimators (cons_sr_dev)",BPSK,18,1.0000
+"consensus, 12 estimators (cons_sr_dev)",BPSK,20,0.9500
+"consensus, 12 estimators (cons_sr_dev)",QPSK,-10,0.0250
+"consensus, 12 estimators (cons_sr_dev)",QPSK,-8,0.0500
+"consensus, 12 estimators (cons_sr_dev)",QPSK,-6,0.0250
+"consensus, 12 estimators (cons_sr_dev)",QPSK,-4,0.0250
+"consensus, 12 estimators (cons_sr_dev)",QPSK,-2,0.0500
+"consensus, 12 estimators (cons_sr_dev)",QPSK,0,0.0000
+"consensus, 12 estimators (cons_sr_dev)",QPSK,2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",QPSK,4,0.0750
+"consensus, 12 estimators (cons_sr_dev)",QPSK,6,0.1750
+"consensus, 12 estimators (cons_sr_dev)",QPSK,8,0.1250
+"consensus, 12 estimators (cons_sr_dev)",QPSK,10,0.3750
+"consensus, 12 estimators (cons_sr_dev)",QPSK,12,0.6750
+"consensus, 12 estimators (cons_sr_dev)",QPSK,14,0.9250
+"consensus, 12 estimators (cons_sr_dev)",QPSK,16,0.9750
+"consensus, 12 estimators (cons_sr_dev)",QPSK,18,0.9500
+"consensus, 12 estimators (cons_sr_dev)",QPSK,20,0.9750
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,-10,0.0250
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,-8,0.0250
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,-6,0.0000
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,-4,0.0000
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,-2,0.0500
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,0,0.0750
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,4,0.0750
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,6,0.1250
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,8,0.2750
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,10,0.3000
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,12,0.6750
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,14,0.7750
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,16,0.9250
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,18,0.9750
+"consensus, 12 estimators (cons_sr_dev)",PI4DQPSK,20,0.9500
+"consensus, 12 estimators (cons_sr_dev)",8PSK,-10,0.0250
+"consensus, 12 estimators (cons_sr_dev)",8PSK,-8,0.0250
+"consensus, 12 estimators (cons_sr_dev)",8PSK,-6,0.0000
+"consensus, 12 estimators (cons_sr_dev)",8PSK,-4,0.0500
+"consensus, 12 estimators (cons_sr_dev)",8PSK,-2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",8PSK,0,0.0250
+"consensus, 12 estimators (cons_sr_dev)",8PSK,2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",8PSK,4,0.0000
+"consensus, 12 estimators (cons_sr_dev)",8PSK,6,0.1250
+"consensus, 12 estimators (cons_sr_dev)",8PSK,8,0.2500
+"consensus, 12 estimators (cons_sr_dev)",8PSK,10,0.3000
+"consensus, 12 estimators (cons_sr_dev)",8PSK,12,0.7250
+"consensus, 12 estimators (cons_sr_dev)",8PSK,14,0.8750
+"consensus, 12 estimators (cons_sr_dev)",8PSK,16,1.0000
+"consensus, 12 estimators (cons_sr_dev)",8PSK,18,0.9250
+"consensus, 12 estimators (cons_sr_dev)",8PSK,20,1.0000
+"consensus, 12 estimators (cons_sr_dev)",16QAM,-10,0.0000
+"consensus, 12 estimators (cons_sr_dev)",16QAM,-8,0.0250
+"consensus, 12 estimators (cons_sr_dev)",16QAM,-6,0.0250
+"consensus, 12 estimators (cons_sr_dev)",16QAM,-4,0.0000
+"consensus, 12 estimators (cons_sr_dev)",16QAM,-2,0.0000
+"consensus, 12 estimators (cons_sr_dev)",16QAM,0,0.0250
+"consensus, 12 estimators (cons_sr_dev)",16QAM,2,0.0250
+"consensus, 12 estimators (cons_sr_dev)",16QAM,4,0.0250
+"consensus, 12 estimators (cons_sr_dev)",16QAM,6,0.0500
+"consensus, 12 estimators (cons_sr_dev)",16QAM,8,0.1250
+"consensus, 12 estimators (cons_sr_dev)",16QAM,10,0.3250
+"consensus, 12 estimators (cons_sr_dev)",16QAM,12,0.4000
+"consensus, 12 estimators (cons_sr_dev)",16QAM,14,0.5000
+"consensus, 12 estimators (cons_sr_dev)",16QAM,16,0.6750
+"consensus, 12 estimators (cons_sr_dev)",16QAM,18,0.8750
+"consensus, 12 estimators (cons_sr_dev)",16QAM,20,0.9750
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,-10,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,-8,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,-6,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,-4,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,-2,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,0,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,2,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,4,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,6,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,8,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,10,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,12,0.1000
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,14,0.0750
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,16,0.3500
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,18,0.5500
+"consensus, 1,024-sample linear (cons_lin_dev)",OOK,20,0.6750
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,-10,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,-8,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,-6,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,-4,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,-2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,0,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,4,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,6,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,8,0.1500
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,10,0.3500
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,12,0.4000
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,14,0.4000
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,16,0.5750
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,18,0.5750
+"consensus, 1,024-sample linear (cons_lin_dev)",2FSK,20,0.6250
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,-10,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,-8,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,-6,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,-4,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,-2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,0,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,4,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,6,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,8,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,10,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,12,0.1000
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,14,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,16,0.1500
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,18,0.2250
+"consensus, 1,024-sample linear (cons_lin_dev)",4FSK,20,0.3000
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,-10,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,-8,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,-6,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,-4,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,-2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,0,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,2,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,4,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,6,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,8,0.0750
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,10,0.0750
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,12,0.1750
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,14,0.4500
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,16,0.6250
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,18,0.7750
+"consensus, 1,024-sample linear (cons_lin_dev)",GMSK,20,0.8250
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,-10,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,-8,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,-6,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,-4,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,-2,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,0,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,2,0.0750
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,4,0.1000
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,6,0.2500
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,8,0.5500
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,10,0.8000
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,12,0.9000
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,14,0.9250
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,16,0.9750
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,18,1.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",BPSK,20,1.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,-10,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,-8,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,-6,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,-4,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,-2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,0,0.0750
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,4,0.1500
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,6,0.1500
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,8,0.3250
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,10,0.5750
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,12,0.8750
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,14,0.9250
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,16,0.9750
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,18,0.9750
+"consensus, 1,024-sample linear (cons_lin_dev)",QPSK,20,1.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,-10,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,-8,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,-6,0.1000
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,-4,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,-2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,0,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,2,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,4,0.1000
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,6,0.1500
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,8,0.4000
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,10,0.4750
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,12,0.7750
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,14,0.8250
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,16,0.9750
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,18,1.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",PI4DQPSK,20,1.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,-10,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,-8,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,-6,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,-4,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,-2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,0,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,4,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,6,0.2250
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,8,0.3750
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,10,0.5000
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,12,0.8250
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,14,0.9500
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,16,1.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,18,1.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",8PSK,20,1.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,-10,0.0250
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,-8,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,-6,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,-4,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,-2,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,0,0.0000
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,2,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,4,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,6,0.0500
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,8,0.1500
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,10,0.4750
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,12,0.6250
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,14,0.6500
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,16,0.8250
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,18,0.9500
+"consensus, 1,024-sample linear (cons_lin_dev)",16QAM,20,1.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,-10,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,-8,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,-6,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,-4,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,-2,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,0,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,2,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,4,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,6,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,8,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,10,0.0750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,12,0.1250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,14,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,16,0.3000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,18,0.5000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),OOK,20,0.7000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,-10,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,-8,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,-6,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,-4,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,-2,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,0,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,2,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,4,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,6,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,8,0.0750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,10,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,12,0.2750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,14,0.4750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,16,0.5750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,18,0.6250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),2FSK,20,0.6750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,-10,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,-8,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,-6,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,-4,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,-2,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,0,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,2,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,4,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,6,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,8,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,10,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,12,0.0750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,14,0.1750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,16,0.3000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,18,0.3250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),4FSK,20,0.4250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,-10,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,-8,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,-6,0.0750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,-4,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,-2,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,0,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,2,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,4,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,6,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,8,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,10,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,12,0.2250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,14,0.5000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,16,0.6000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,18,0.8750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),GMSK,20,0.8750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,-10,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,-8,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,-6,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,-4,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,-2,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,0,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,2,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,4,0.0750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,6,0.2000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,8,0.3000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,10,0.5250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,12,0.7500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,14,0.8250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,16,0.9750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,18,1.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),BPSK,20,0.9500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,-10,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,-8,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,-6,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,-4,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,-2,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,0,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,2,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,4,0.0750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,6,0.1750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,8,0.1250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,10,0.3750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,12,0.6750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,14,0.9250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,16,0.9750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,18,0.9500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),QPSK,20,0.9750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,-10,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,-8,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,-6,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,-4,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,-2,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,0,0.0750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,2,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,4,0.0750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,6,0.1250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,8,0.2750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,10,0.3000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,12,0.6750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,14,0.7750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,16,0.9250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,18,0.9750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),PI4DQPSK,20,0.9500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,-10,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,-8,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,-6,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,-4,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,-2,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,0,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,2,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,4,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,6,0.1250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,8,0.2500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,10,0.3000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,12,0.7250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,14,0.8750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,16,1.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,18,0.9250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),8PSK,20,1.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,-10,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,-8,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,-6,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,-4,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,-2,0.0000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,0,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,2,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,4,0.0250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,6,0.0500
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,8,0.1250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,10,0.3250
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,12,0.4000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,14,0.5000
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,16,0.6750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,18,0.8750
+class-family aware (FSK consensus on 2FSK/4FSK/GMSK),16QAM,20,0.9750

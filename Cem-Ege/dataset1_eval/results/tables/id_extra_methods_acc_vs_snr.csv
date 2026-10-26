@@ -1,0 +1,241 @@
+method,snr_db,accuracy
+HGB: 19 features,-10,0.0364
+HGB: 19 features,-8,0.0573
+HGB: 19 features,-6,0.0889
+HGB: 19 features,-4,0.1374
+HGB: 19 features,-2,0.1740
+HGB: 19 features,0,0.2488
+HGB: 19 features,2,0.3102
+HGB: 19 features,4,0.3928
+HGB: 19 features,6,0.4765
+HGB: 19 features,8,0.5433
+HGB: 19 features,10,0.6240
+HGB: 19 features,12,0.7069
+HGB: 19 features,14,0.7748
+HGB: 19 features,16,0.8501
+HGB: 19 features,18,0.8734
+HGB: 19 features,20,0.8966
+HGB: 19 features + 8 histogram entropies,-10,0.0338
+HGB: 19 features + 8 histogram entropies,-8,0.0602
+HGB: 19 features + 8 histogram entropies,-6,0.0915
+HGB: 19 features + 8 histogram entropies,-4,0.1314
+HGB: 19 features + 8 histogram entropies,-2,0.1771
+HGB: 19 features + 8 histogram entropies,0,0.2478
+HGB: 19 features + 8 histogram entropies,2,0.3194
+HGB: 19 features + 8 histogram entropies,4,0.4085
+HGB: 19 features + 8 histogram entropies,6,0.4801
+HGB: 19 features + 8 histogram entropies,8,0.5563
+HGB: 19 features + 8 histogram entropies,10,0.6302
+HGB: 19 features + 8 histogram entropies,12,0.7054
+HGB: 19 features + 8 histogram entropies,14,0.7878
+HGB: 19 features + 8 histogram entropies,16,0.8506
+HGB: 19 features + 8 histogram entropies,18,0.8855
+HGB: 19 features + 8 histogram entropies,20,0.9013
+HGB: 19 features + 24 Haar wavelet,-10,0.0579
+HGB: 19 features + 24 Haar wavelet,-8,0.1107
+HGB: 19 features + 24 Haar wavelet,-6,0.1714
+HGB: 19 features + 24 Haar wavelet,-4,0.2323
+HGB: 19 features + 24 Haar wavelet,-2,0.3121
+HGB: 19 features + 24 Haar wavelet,0,0.4054
+HGB: 19 features + 24 Haar wavelet,2,0.4816
+HGB: 19 features + 24 Haar wavelet,4,0.5612
+HGB: 19 features + 24 Haar wavelet,6,0.6531
+HGB: 19 features + 24 Haar wavelet,8,0.7194
+HGB: 19 features + 24 Haar wavelet,10,0.7932
+HGB: 19 features + 24 Haar wavelet,12,0.8573
+HGB: 19 features + 24 Haar wavelet,14,0.9104
+HGB: 19 features + 24 Haar wavelet,16,0.9416
+HGB: 19 features + 24 Haar wavelet,18,0.9473
+HGB: 19 features + 24 Haar wavelet,20,0.9612
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,-10,0.0568
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,-8,0.1009
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,-6,0.1741
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,-4,0.2363
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,-2,0.3152
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,0,0.3940
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,2,0.4883
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,4,0.5675
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,6,0.6536
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,8,0.7224
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,10,0.7948
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,12,0.8598
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,14,0.9109
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,16,0.9406
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,18,0.9504
+HGB: 19 features + 24 Haar wavelet + 8 histogram entropies,20,0.9622
+Azzouz-Nandi hand tree (7 classes),-10,0.1407
+Azzouz-Nandi hand tree (7 classes),-8,0.1468
+Azzouz-Nandi hand tree (7 classes),-6,0.1413
+Azzouz-Nandi hand tree (7 classes),-4,0.1510
+Azzouz-Nandi hand tree (7 classes),-2,0.1829
+Azzouz-Nandi hand tree (7 classes),0,0.2119
+Azzouz-Nandi hand tree (7 classes),2,0.2313
+Azzouz-Nandi hand tree (7 classes),4,0.2713
+Azzouz-Nandi hand tree (7 classes),6,0.3170
+Azzouz-Nandi hand tree (7 classes),8,0.3943
+Azzouz-Nandi hand tree (7 classes),10,0.3895
+Azzouz-Nandi hand tree (7 classes),12,0.4498
+Azzouz-Nandi hand tree (7 classes),14,0.5869
+Azzouz-Nandi hand tree (7 classes),16,0.6834
+Azzouz-Nandi hand tree (7 classes),18,0.7080
+Azzouz-Nandi hand tree (7 classes),20,0.7048
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",-10,0.2799
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",-8,0.2430
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",-6,0.2654
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",-4,0.2410
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",-2,0.2402
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",0,0.2435
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",2,0.2915
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",4,0.3777
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",6,0.5046
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",8,0.5246
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",10,0.6655
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",12,0.7692
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",14,0.7886
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",16,0.7877
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",18,0.8110
+"Swami-Sadler hierarchy (BPSK/QPSK/8PSK/16QAM, symbol rate known)",20,0.8055
+"ALRT, sps sps_known",-10,0.1625
+"ALRT, sps sps_known",-8,0.0750
+"ALRT, sps sps_known",-6,0.1125
+"ALRT, sps sps_known",-4,0.0750
+"ALRT, sps sps_known",-2,0.2125
+"ALRT, sps sps_known",0,0.1250
+"ALRT, sps sps_known",2,0.2000
+"ALRT, sps sps_known",4,0.4375
+"ALRT, sps sps_known",6,0.7500
+"ALRT, sps sps_known",8,0.7750
+"ALRT, sps sps_known",10,0.8500
+"ALRT, sps sps_known",12,0.9375
+"ALRT, sps sps_known",14,1.0000
+"ALRT, sps sps_known",16,0.9875
+"ALRT, sps sps_known",18,1.0000
+"ALRT, sps sps_known",20,1.0000
+"HLRT, sps sps_known",-10,0.2125
+"HLRT, sps sps_known",-8,0.1000
+"HLRT, sps sps_known",-6,0.1375
+"HLRT, sps sps_known",-4,0.1125
+"HLRT, sps sps_known",-2,0.2375
+"HLRT, sps sps_known",0,0.1250
+"HLRT, sps sps_known",2,0.2000
+"HLRT, sps sps_known",4,0.4125
+"HLRT, sps sps_known",6,0.7375
+"HLRT, sps sps_known",8,0.7625
+"HLRT, sps sps_known",10,0.8625
+"HLRT, sps sps_known",12,0.9375
+"HLRT, sps sps_known",14,1.0000
+"HLRT, sps sps_known",16,0.9875
+"HLRT, sps sps_known",18,1.0000
+"HLRT, sps sps_known",20,1.0000
+"ALRT, sps inst_freq_s3",-10,0.0625
+"ALRT, sps inst_freq_s3",-8,0.1625
+"ALRT, sps inst_freq_s3",-6,0.1875
+"ALRT, sps inst_freq_s3",-4,0.1500
+"ALRT, sps inst_freq_s3",-2,0.1125
+"ALRT, sps inst_freq_s3",0,0.1250
+"ALRT, sps inst_freq_s3",2,0.1750
+"ALRT, sps inst_freq_s3",4,0.3500
+"ALRT, sps inst_freq_s3",6,0.4000
+"ALRT, sps inst_freq_s3",8,0.5500
+"ALRT, sps inst_freq_s3",10,0.6875
+"ALRT, sps inst_freq_s3",12,0.8625
+"ALRT, sps inst_freq_s3",14,0.9125
+"ALRT, sps inst_freq_s3",16,0.9750
+"ALRT, sps inst_freq_s3",18,0.9750
+"ALRT, sps inst_freq_s3",20,0.9750
+"HLRT, sps inst_freq_s3",-10,0.1000
+"HLRT, sps inst_freq_s3",-8,0.2000
+"HLRT, sps inst_freq_s3",-6,0.2000
+"HLRT, sps inst_freq_s3",-4,0.1500
+"HLRT, sps inst_freq_s3",-2,0.1625
+"HLRT, sps inst_freq_s3",0,0.2125
+"HLRT, sps inst_freq_s3",2,0.2125
+"HLRT, sps inst_freq_s3",4,0.3625
+"HLRT, sps inst_freq_s3",6,0.4125
+"HLRT, sps inst_freq_s3",8,0.5375
+"HLRT, sps inst_freq_s3",10,0.6750
+"HLRT, sps inst_freq_s3",12,0.8625
+"HLRT, sps inst_freq_s3",14,0.9125
+"HLRT, sps inst_freq_s3",16,0.9750
+"HLRT, sps inst_freq_s3",18,0.9750
+"HLRT, sps inst_freq_s3",20,0.9750
+"ALRT, sps cons_sr_dev",-10,0.0500
+"ALRT, sps cons_sr_dev",-8,0.0875
+"ALRT, sps cons_sr_dev",-6,0.1000
+"ALRT, sps cons_sr_dev",-4,0.1000
+"ALRT, sps cons_sr_dev",-2,0.0875
+"ALRT, sps cons_sr_dev",0,0.1625
+"ALRT, sps cons_sr_dev",2,0.1875
+"ALRT, sps cons_sr_dev",4,0.3125
+"ALRT, sps cons_sr_dev",6,0.3625
+"ALRT, sps cons_sr_dev",8,0.5250
+"ALRT, sps cons_sr_dev",10,0.5500
+"ALRT, sps cons_sr_dev",12,0.8250
+"ALRT, sps cons_sr_dev",14,0.8875
+"ALRT, sps cons_sr_dev",16,0.9375
+"ALRT, sps cons_sr_dev",18,0.9875
+"ALRT, sps cons_sr_dev",20,0.9875
+"HLRT, sps cons_sr_dev",-10,0.1750
+"HLRT, sps cons_sr_dev",-8,0.1375
+"HLRT, sps cons_sr_dev",-6,0.1000
+"HLRT, sps cons_sr_dev",-4,0.1500
+"HLRT, sps cons_sr_dev",-2,0.1125
+"HLRT, sps cons_sr_dev",0,0.1500
+"HLRT, sps cons_sr_dev",2,0.2375
+"HLRT, sps cons_sr_dev",4,0.2875
+"HLRT, sps cons_sr_dev",6,0.3625
+"HLRT, sps cons_sr_dev",8,0.5250
+"HLRT, sps cons_sr_dev",10,0.5500
+"HLRT, sps cons_sr_dev",12,0.8250
+"HLRT, sps cons_sr_dev",14,0.8875
+"HLRT, sps cons_sr_dev",16,0.9500
+"HLRT, sps cons_sr_dev",18,0.9875
+"HLRT, sps cons_sr_dev",20,0.9875
+"ALRT, sps cons_lin_dev",-10,0.0625
+"ALRT, sps cons_lin_dev",-8,0.1125
+"ALRT, sps cons_lin_dev",-6,0.0500
+"ALRT, sps cons_lin_dev",-4,0.1875
+"ALRT, sps cons_lin_dev",-2,0.1375
+"ALRT, sps cons_lin_dev",0,0.2125
+"ALRT, sps cons_lin_dev",2,0.1625
+"ALRT, sps cons_lin_dev",4,0.2625
+"ALRT, sps cons_lin_dev",6,0.4250
+"ALRT, sps cons_lin_dev",8,0.5375
+"ALRT, sps cons_lin_dev",10,0.6500
+"ALRT, sps cons_lin_dev",12,0.9125
+"ALRT, sps cons_lin_dev",14,1.0000
+"ALRT, sps cons_lin_dev",16,0.9750
+"ALRT, sps cons_lin_dev",18,1.0000
+"ALRT, sps cons_lin_dev",20,1.0000
+"HLRT, sps cons_lin_dev",-10,0.1000
+"HLRT, sps cons_lin_dev",-8,0.1875
+"HLRT, sps cons_lin_dev",-6,0.1125
+"HLRT, sps cons_lin_dev",-4,0.1750
+"HLRT, sps cons_lin_dev",-2,0.2000
+"HLRT, sps cons_lin_dev",0,0.2000
+"HLRT, sps cons_lin_dev",2,0.1750
+"HLRT, sps cons_lin_dev",4,0.2625
+"HLRT, sps cons_lin_dev",6,0.4125
+"HLRT, sps cons_lin_dev",8,0.5375
+"HLRT, sps cons_lin_dev",10,0.6375
+"HLRT, sps cons_lin_dev",12,0.9125
+"HLRT, sps cons_lin_dev",14,1.0000
+"HLRT, sps cons_lin_dev",16,0.9875
+"HLRT, sps cons_lin_dev",18,1.0000
+"HLRT, sps cons_lin_dev",20,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",-10,0.2125
+"19 features + boosted trees (4 classes, trained on ds1 train)",-8,0.2250
+"19 features + boosted trees (4 classes, trained on ds1 train)",-6,0.2625
+"19 features + boosted trees (4 classes, trained on ds1 train)",-4,0.2500
+"19 features + boosted trees (4 classes, trained on ds1 train)",-2,0.2750
+"19 features + boosted trees (4 classes, trained on ds1 train)",0,0.3000
+"19 features + boosted trees (4 classes, trained on ds1 train)",2,0.4375
+"19 features + boosted trees (4 classes, trained on ds1 train)",4,0.5000
+"19 features + boosted trees (4 classes, trained on ds1 train)",6,0.6375
+"19 features + boosted trees (4 classes, trained on ds1 train)",8,0.7125
+"19 features + boosted trees (4 classes, trained on ds1 train)",10,0.7500
+"19 features + boosted trees (4 classes, trained on ds1 train)",12,0.9125
+"19 features + boosted trees (4 classes, trained on ds1 train)",14,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",16,0.9875
+"19 features + boosted trees (4 classes, trained on ds1 train)",18,1.0000
+"19 features + boosted trees (4 classes, trained on ds1 train)",20,1.0000

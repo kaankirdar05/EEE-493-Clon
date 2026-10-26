@@ -1,0 +1,833 @@
+method,class,snr_db,accuracy
+19 features,AM,-10,0.2878
+19 features,AM,-8,0.4451
+19 features,AM,-6,0.5926
+19 features,AM,-4,0.6474
+19 features,AM,-2,0.7259
+19 features,AM,0,0.7891
+19 features,AM,2,0.7724
+19 features,AM,4,0.8367
+19 features,AM,6,0.8931
+19 features,AM,8,0.9295
+19 features,AM,10,0.9407
+19 features,AM,12,0.9007
+19 features,AM,14,0.9685
+19 features,AM,16,0.9758
+19 features,AM,18,0.9742
+19 features,AM,20,0.9762
+19 features,NBFM,-10,0.0061
+19 features,NBFM,-8,0.0060
+19 features,NBFM,-6,0.0061
+19 features,NBFM,-4,0.0272
+19 features,NBFM,-2,0.0523
+19 features,NBFM,0,0.1290
+19 features,NBFM,2,0.1561
+19 features,NBFM,4,0.1667
+19 features,NBFM,6,0.2770
+19 features,NBFM,8,0.2876
+19 features,NBFM,10,0.3618
+19 features,NBFM,12,0.3544
+19 features,NBFM,14,0.3774
+19 features,NBFM,16,0.5762
+19 features,NBFM,18,0.6986
+19 features,NBFM,20,0.8643
+19 features,WBFM,-10,0.0385
+19 features,WBFM,-8,0.0119
+19 features,WBFM,-6,0.0192
+19 features,WBFM,-4,0.0255
+19 features,WBFM,-2,0.0815
+19 features,WBFM,0,0.2061
+19 features,WBFM,2,0.2583
+19 features,WBFM,4,0.4155
+19 features,WBFM,6,0.3896
+19 features,WBFM,8,0.2515
+19 features,WBFM,10,0.3141
+19 features,WBFM,12,0.4420
+19 features,WBFM,14,0.4509
+19 features,WBFM,16,0.5105
+19 features,WBFM,18,0.5804
+19 features,WBFM,20,0.5862
+19 features,OOK,-10,0.0352
+19 features,OOK,-8,0.0724
+19 features,OOK,-6,0.1849
+19 features,OOK,-4,0.2966
+19 features,OOK,-2,0.4000
+19 features,OOK,0,0.5128
+19 features,OOK,2,0.7092
+19 features,OOK,4,0.7500
+19 features,OOK,6,0.8344
+19 features,OOK,8,0.8718
+19 features,OOK,10,0.8726
+19 features,OOK,12,0.9085
+19 features,OOK,14,0.9091
+19 features,OOK,16,0.9383
+19 features,OOK,18,0.9366
+19 features,OOK,20,0.9097
+19 features,2FSK,-10,0.0125
+19 features,2FSK,-8,0.0200
+19 features,2FSK,-6,0.0323
+19 features,2FSK,-4,0.0338
+19 features,2FSK,-2,0.0592
+19 features,2FSK,0,0.1282
+19 features,2FSK,2,0.1088
+19 features,2FSK,4,0.1538
+19 features,2FSK,6,0.2638
+19 features,2FSK,8,0.3525
+19 features,2FSK,10,0.5147
+19 features,2FSK,12,0.6205
+19 features,2FSK,14,0.7853
+19 features,2FSK,16,0.7956
+19 features,2FSK,18,0.8545
+19 features,2FSK,20,0.8963
+19 features,4FSK,-10,0.0199
+19 features,4FSK,-8,0.0211
+19 features,4FSK,-6,0.0129
+19 features,4FSK,-4,0.0253
+19 features,4FSK,-2,0.0539
+19 features,4FSK,0,0.0719
+19 features,4FSK,2,0.0400
+19 features,4FSK,4,0.0980
+19 features,4FSK,6,0.1918
+19 features,4FSK,8,0.3014
+19 features,4FSK,10,0.4575
+19 features,4FSK,12,0.5180
+19 features,4FSK,14,0.6345
+19 features,4FSK,16,0.6815
+19 features,4FSK,18,0.6000
+19 features,4FSK,20,0.5816
+19 features,GMSK,-10,0.0000
+19 features,GMSK,-8,0.0066
+19 features,GMSK,-6,0.0368
+19 features,GMSK,-4,0.0530
+19 features,GMSK,-2,0.0839
+19 features,GMSK,0,0.1149
+19 features,GMSK,2,0.2831
+19 features,GMSK,4,0.5608
+19 features,GMSK,6,0.7248
+19 features,GMSK,8,0.8110
+19 features,GMSK,10,0.8855
+19 features,GMSK,12,0.9107
+19 features,GMSK,14,0.9400
+19 features,GMSK,16,0.9677
+19 features,GMSK,18,1.0000
+19 features,GMSK,20,0.9937
+19 features,BPSK,-10,0.0301
+19 features,BPSK,-8,0.0323
+19 features,BPSK,-6,0.0641
+19 features,BPSK,-4,0.1646
+19 features,BPSK,-2,0.1854
+19 features,BPSK,0,0.4048
+19 features,BPSK,2,0.7013
+19 features,BPSK,4,0.8571
+19 features,BPSK,6,0.9231
+19 features,BPSK,8,0.9773
+19 features,BPSK,10,0.9714
+19 features,BPSK,12,0.9722
+19 features,BPSK,14,0.9803
+19 features,BPSK,16,0.9806
+19 features,BPSK,18,0.9859
+19 features,BPSK,20,1.0000
+19 features,QPSK,-10,0.0072
+19 features,QPSK,-8,0.0115
+19 features,QPSK,-6,0.0342
+19 features,QPSK,-4,0.0988
+19 features,QPSK,-2,0.0647
+19 features,QPSK,0,0.0915
+19 features,QPSK,2,0.0738
+19 features,QPSK,4,0.0916
+19 features,QPSK,6,0.1081
+19 features,QPSK,8,0.1707
+19 features,QPSK,10,0.3310
+19 features,QPSK,12,0.5299
+19 features,QPSK,14,0.6364
+19 features,QPSK,16,0.7733
+19 features,QPSK,18,0.8367
+19 features,QPSK,20,0.9273
+19 features,PI4DQPSK,-10,0.0120
+19 features,PI4DQPSK,-8,0.0284
+19 features,PI4DQPSK,-6,0.0333
+19 features,PI4DQPSK,-4,0.0733
+19 features,PI4DQPSK,-2,0.1232
+19 features,PI4DQPSK,0,0.0784
+19 features,PI4DQPSK,2,0.1644
+19 features,PI4DQPSK,4,0.1079
+19 features,PI4DQPSK,6,0.2877
+19 features,PI4DQPSK,8,0.2108
+19 features,PI4DQPSK,10,0.2635
+19 features,PI4DQPSK,12,0.4176
+19 features,PI4DQPSK,14,0.6538
+19 features,PI4DQPSK,16,0.8212
+19 features,PI4DQPSK,18,0.9257
+19 features,PI4DQPSK,20,0.9433
+19 features,8PSK,-10,0.0142
+19 features,8PSK,-8,0.0405
+19 features,8PSK,-6,0.0511
+19 features,8PSK,-4,0.1081
+19 features,8PSK,-2,0.0988
+19 features,8PSK,0,0.1355
+19 features,8PSK,2,0.0803
+19 features,8PSK,4,0.0506
+19 features,8PSK,6,0.0929
+19 features,8PSK,8,0.3358
+19 features,8PSK,10,0.4636
+19 features,8PSK,12,0.7115
+19 features,8PSK,14,0.8810
+19 features,8PSK,16,0.9869
+19 features,8PSK,18,0.9760
+19 features,8PSK,20,0.9848
+19 features,16QAM,-10,0.0068
+19 features,16QAM,-8,0.0061
+19 features,16QAM,-6,0.0069
+19 features,16QAM,-4,0.0248
+19 features,16QAM,-2,0.0250
+19 features,16QAM,0,0.0621
+19 features,16QAM,2,0.1083
+19 features,16QAM,4,0.2237
+19 features,16QAM,6,0.3333
+19 features,16QAM,8,0.6215
+19 features,16QAM,10,0.7801
+19 features,16QAM,12,0.9440
+19 features,16QAM,14,0.9484
+19 features,16QAM,16,0.9931
+19 features,16QAM,18,0.9930
+19 features,16QAM,20,0.9929
+19 features,OFDM,-10,0.0226
+19 features,OFDM,-8,0.0303
+19 features,OFDM,-6,0.1286
+19 features,OFDM,-4,0.2119
+19 features,OFDM,-2,0.3767
+19 features,OFDM,0,0.5430
+19 features,OFDM,2,0.6250
+19 features,OFDM,4,0.6986
+19 features,OFDM,6,0.8609
+19 features,OFDM,8,0.9325
+19 features,OFDM,10,0.9860
+19 features,OFDM,12,0.9750
+19 features,OFDM,14,0.9935
+19 features,OFDM,16,1.0000
+19 features,OFDM,18,0.9925
+19 features,OFDM,20,0.9935
+19 features + 8 histogram entropies,AM,-10,0.2662
+19 features + 8 histogram entropies,AM,-8,0.4390
+19 features + 8 histogram entropies,AM,-6,0.5852
+19 features + 8 histogram entropies,AM,-4,0.6410
+19 features + 8 histogram entropies,AM,-2,0.7259
+19 features + 8 histogram entropies,AM,0,0.7551
+19 features + 8 histogram entropies,AM,2,0.7793
+19 features + 8 histogram entropies,AM,4,0.8571
+19 features + 8 histogram entropies,AM,6,0.8805
+19 features + 8 histogram entropies,AM,8,0.9295
+19 features + 8 histogram entropies,AM,10,0.9556
+19 features + 8 histogram entropies,AM,12,0.8940
+19 features + 8 histogram entropies,AM,14,0.9764
+19 features + 8 histogram entropies,AM,16,0.9758
+19 features + 8 histogram entropies,AM,18,0.9742
+19 features + 8 histogram entropies,AM,20,0.9841
+19 features + 8 histogram entropies,NBFM,-10,0.0061
+19 features + 8 histogram entropies,NBFM,-8,0.0060
+19 features + 8 histogram entropies,NBFM,-6,0.0122
+19 features + 8 histogram entropies,NBFM,-4,0.0340
+19 features + 8 histogram entropies,NBFM,-2,0.0523
+19 features + 8 histogram entropies,NBFM,0,0.1419
+19 features + 8 histogram entropies,NBFM,2,0.1329
+19 features + 8 histogram entropies,NBFM,4,0.1133
+19 features + 8 histogram entropies,NBFM,6,0.2703
+19 features + 8 histogram entropies,NBFM,8,0.3137
+19 features + 8 histogram entropies,NBFM,10,0.3684
+19 features + 8 histogram entropies,NBFM,12,0.3481
+19 features + 8 histogram entropies,NBFM,14,0.4340
+19 features + 8 histogram entropies,NBFM,16,0.5364
+19 features + 8 histogram entropies,NBFM,18,0.7740
+19 features + 8 histogram entropies,NBFM,20,0.8571
+19 features + 8 histogram entropies,WBFM,-10,0.0192
+19 features + 8 histogram entropies,WBFM,-8,0.0060
+19 features + 8 histogram entropies,WBFM,-6,0.0128
+19 features + 8 histogram entropies,WBFM,-4,0.0127
+19 features + 8 histogram entropies,WBFM,-2,0.0222
+19 features + 8 histogram entropies,WBFM,0,0.2290
+19 features + 8 histogram entropies,WBFM,2,0.2583
+19 features + 8 histogram entropies,WBFM,4,0.4225
+19 features + 8 histogram entropies,WBFM,6,0.3377
+19 features + 8 histogram entropies,WBFM,8,0.3006
+19 features + 8 histogram entropies,WBFM,10,0.3526
+19 features + 8 histogram entropies,WBFM,12,0.4058
+19 features + 8 histogram entropies,WBFM,14,0.4335
+19 features + 8 histogram entropies,WBFM,16,0.5385
+19 features + 8 histogram entropies,WBFM,18,0.6294
+19 features + 8 histogram entropies,WBFM,20,0.5862
+19 features + 8 histogram entropies,OOK,-10,0.0282
+19 features + 8 histogram entropies,OOK,-8,0.0789
+19 features + 8 histogram entropies,OOK,-6,0.1918
+19 features + 8 histogram entropies,OOK,-4,0.3034
+19 features + 8 histogram entropies,OOK,-2,0.4258
+19 features + 8 histogram entropies,OOK,0,0.5513
+19 features + 8 histogram entropies,OOK,2,0.7376
+19 features + 8 histogram entropies,OOK,4,0.7973
+19 features + 8 histogram entropies,OOK,6,0.8344
+19 features + 8 histogram entropies,OOK,8,0.8846
+19 features + 8 histogram entropies,OOK,10,0.8726
+19 features + 8 histogram entropies,OOK,12,0.9216
+19 features + 8 histogram entropies,OOK,14,0.9161
+19 features + 8 histogram entropies,OOK,16,0.9506
+19 features + 8 histogram entropies,OOK,18,0.9859
+19 features + 8 histogram entropies,OOK,20,0.9355
+19 features + 8 histogram entropies,2FSK,-10,0.0250
+19 features + 8 histogram entropies,2FSK,-8,0.0267
+19 features + 8 histogram entropies,2FSK,-6,0.0242
+19 features + 8 histogram entropies,2FSK,-4,0.0270
+19 features + 8 histogram entropies,2FSK,-2,0.0658
+19 features + 8 histogram entropies,2FSK,0,0.0962
+19 features + 8 histogram entropies,2FSK,2,0.1224
+19 features + 8 histogram entropies,2FSK,4,0.2308
+19 features + 8 histogram entropies,2FSK,6,0.3067
+19 features + 8 histogram entropies,2FSK,8,0.3770
+19 features + 8 histogram entropies,2FSK,10,0.5441
+19 features + 8 histogram entropies,2FSK,12,0.6024
+19 features + 8 histogram entropies,2FSK,14,0.7975
+19 features + 8 histogram entropies,2FSK,16,0.8029
+19 features + 8 histogram entropies,2FSK,18,0.8606
+19 features + 8 histogram entropies,2FSK,20,0.8780
+19 features + 8 histogram entropies,4FSK,-10,0.0132
+19 features + 8 histogram entropies,4FSK,-8,0.0141
+19 features + 8 histogram entropies,4FSK,-6,0.0387
+19 features + 8 histogram entropies,4FSK,-4,0.0316
+19 features + 8 histogram entropies,4FSK,-2,0.0479
+19 features + 8 histogram entropies,4FSK,0,0.0784
+19 features + 8 histogram entropies,4FSK,2,0.0533
+19 features + 8 histogram entropies,4FSK,4,0.0784
+19 features + 8 histogram entropies,4FSK,6,0.1849
+19 features + 8 histogram entropies,4FSK,8,0.2877
+19 features + 8 histogram entropies,4FSK,10,0.4248
+19 features + 8 histogram entropies,4FSK,12,0.5396
+19 features + 8 histogram entropies,4FSK,14,0.6552
+19 features + 8 histogram entropies,4FSK,16,0.7134
+19 features + 8 histogram entropies,4FSK,18,0.5929
+19 features + 8 histogram entropies,4FSK,20,0.6241
+19 features + 8 histogram entropies,GMSK,-10,0.0000
+19 features + 8 histogram entropies,GMSK,-8,0.0066
+19 features + 8 histogram entropies,GMSK,-6,0.0294
+19 features + 8 histogram entropies,GMSK,-4,0.0464
+19 features + 8 histogram entropies,GMSK,-2,0.0903
+19 features + 8 histogram entropies,GMSK,0,0.1419
+19 features + 8 histogram entropies,GMSK,2,0.3373
+19 features + 8 histogram entropies,GMSK,4,0.5541
+19 features + 8 histogram entropies,GMSK,6,0.7450
+19 features + 8 histogram entropies,GMSK,8,0.8171
+19 features + 8 histogram entropies,GMSK,10,0.8916
+19 features + 8 histogram entropies,GMSK,12,0.9226
+19 features + 8 histogram entropies,GMSK,14,0.9400
+19 features + 8 histogram entropies,GMSK,16,0.9742
+19 features + 8 histogram entropies,GMSK,18,0.9760
+19 features + 8 histogram entropies,GMSK,20,0.9874
+19 features + 8 histogram entropies,BPSK,-10,0.0181
+19 features + 8 histogram entropies,BPSK,-8,0.0387
+19 features + 8 histogram entropies,BPSK,-6,0.0641
+19 features + 8 histogram entropies,BPSK,-4,0.0949
+19 features + 8 histogram entropies,BPSK,-2,0.1921
+19 features + 8 histogram entropies,BPSK,0,0.3889
+19 features + 8 histogram entropies,BPSK,2,0.7143
+19 features + 8 histogram entropies,BPSK,4,0.8631
+19 features + 8 histogram entropies,BPSK,6,0.9154
+19 features + 8 histogram entropies,BPSK,8,0.9848
+19 features + 8 histogram entropies,BPSK,10,0.9786
+19 features + 8 histogram entropies,BPSK,12,0.9514
+19 features + 8 histogram entropies,BPSK,14,0.9868
+19 features + 8 histogram entropies,BPSK,16,0.9677
+19 features + 8 histogram entropies,BPSK,18,0.9718
+19 features + 8 histogram entropies,BPSK,20,1.0000
+19 features + 8 histogram entropies,QPSK,-10,0.0000
+19 features + 8 histogram entropies,QPSK,-8,0.0230
+19 features + 8 histogram entropies,QPSK,-6,0.0205
+19 features + 8 histogram entropies,QPSK,-4,0.0872
+19 features + 8 histogram entropies,QPSK,-2,0.0719
+19 features + 8 histogram entropies,QPSK,0,0.0784
+19 features + 8 histogram entropies,QPSK,2,0.0805
+19 features + 8 histogram entropies,QPSK,4,0.1069
+19 features + 8 histogram entropies,QPSK,6,0.1419
+19 features + 8 histogram entropies,QPSK,8,0.1463
+19 features + 8 histogram entropies,QPSK,10,0.3169
+19 features + 8 histogram entropies,QPSK,12,0.5597
+19 features + 8 histogram entropies,QPSK,14,0.6494
+19 features + 8 histogram entropies,QPSK,16,0.7800
+19 features + 8 histogram entropies,QPSK,18,0.8435
+19 features + 8 histogram entropies,QPSK,20,0.9455
+19 features + 8 histogram entropies,PI4DQPSK,-10,0.0181
+19 features + 8 histogram entropies,PI4DQPSK,-8,0.0284
+19 features + 8 histogram entropies,PI4DQPSK,-6,0.0467
+19 features + 8 histogram entropies,PI4DQPSK,-4,0.0800
+19 features + 8 histogram entropies,PI4DQPSK,-2,0.1304
+19 features + 8 histogram entropies,PI4DQPSK,0,0.0654
+19 features + 8 histogram entropies,PI4DQPSK,2,0.1575
+19 features + 8 histogram entropies,PI4DQPSK,4,0.1439
+19 features + 8 histogram entropies,PI4DQPSK,6,0.2603
+19 features + 8 histogram entropies,PI4DQPSK,8,0.2831
+19 features + 8 histogram entropies,PI4DQPSK,10,0.3041
+19 features + 8 histogram entropies,PI4DQPSK,12,0.4176
+19 features + 8 histogram entropies,PI4DQPSK,14,0.6859
+19 features + 8 histogram entropies,PI4DQPSK,16,0.7947
+19 features + 8 histogram entropies,PI4DQPSK,18,0.9122
+19 features + 8 histogram entropies,PI4DQPSK,20,0.9433
+19 features + 8 histogram entropies,8PSK,-10,0.0355
+19 features + 8 histogram entropies,8PSK,-8,0.0405
+19 features + 8 histogram entropies,8PSK,-6,0.0438
+19 features + 8 histogram entropies,8PSK,-4,0.0608
+19 features + 8 histogram entropies,8PSK,-2,0.1358
+19 features + 8 histogram entropies,8PSK,0,0.1419
+19 features + 8 histogram entropies,8PSK,2,0.0949
+19 features + 8 histogram entropies,8PSK,4,0.1013
+19 features + 8 histogram entropies,8PSK,6,0.1500
+19 features + 8 histogram entropies,8PSK,8,0.3066
+19 features + 8 histogram entropies,8PSK,10,0.4503
+19 features + 8 histogram entropies,8PSK,12,0.6923
+19 features + 8 histogram entropies,8PSK,14,0.9048
+19 features + 8 histogram entropies,8PSK,16,0.9869
+19 features + 8 histogram entropies,8PSK,18,0.9940
+19 features + 8 histogram entropies,8PSK,20,0.9848
+19 features + 8 histogram entropies,16QAM,-10,0.0000
+19 features + 8 histogram entropies,16QAM,-8,0.0121
+19 features + 8 histogram entropies,16QAM,-6,0.0138
+19 features + 8 histogram entropies,16QAM,-4,0.0248
+19 features + 8 histogram entropies,16QAM,-2,0.0500
+19 features + 8 histogram entropies,16QAM,0,0.0552
+19 features + 8 histogram entropies,16QAM,2,0.1019
+19 features + 8 histogram entropies,16QAM,4,0.2237
+19 features + 8 histogram entropies,16QAM,6,0.3333
+19 features + 8 histogram entropies,16QAM,8,0.6384
+19 features + 8 histogram entropies,16QAM,10,0.7801
+19 features + 8 histogram entropies,16QAM,12,0.9360
+19 features + 8 histogram entropies,16QAM,14,0.9484
+19 features + 8 histogram entropies,16QAM,16,0.9862
+19 features + 8 histogram entropies,16QAM,18,1.0000
+19 features + 8 histogram entropies,16QAM,20,1.0000
+19 features + 8 histogram entropies,OFDM,-10,0.0301
+19 features + 8 histogram entropies,OFDM,-8,0.0485
+19 features + 8 histogram entropies,OFDM,-6,0.1500
+19 features + 8 histogram entropies,OFDM,-4,0.2715
+19 features + 8 histogram entropies,OFDM,-2,0.3493
+19 features + 8 histogram entropies,OFDM,0,0.5298
+19 features + 8 histogram entropies,OFDM,2,0.6319
+19 features + 8 histogram entropies,OFDM,4,0.7329
+19 features + 8 histogram entropies,OFDM,6,0.8675
+19 features + 8 histogram entropies,OFDM,8,0.9448
+19 features + 8 histogram entropies,OFDM,10,0.9860
+19 features + 8 histogram entropies,OFDM,12,0.9938
+19 features + 8 histogram entropies,OFDM,14,1.0000
+19 features + 8 histogram entropies,OFDM,16,1.0000
+19 features + 8 histogram entropies,OFDM,18,0.9925
+19 features + 8 histogram entropies,OFDM,20,0.9869
+19 features + 24 Haar wavelet,AM,-10,0.3094
+19 features + 24 Haar wavelet,AM,-8,0.4695
+19 features + 24 Haar wavelet,AM,-6,0.6370
+19 features + 24 Haar wavelet,AM,-4,0.6667
+19 features + 24 Haar wavelet,AM,-2,0.8148
+19 features + 24 Haar wavelet,AM,0,0.8367
+19 features + 24 Haar wavelet,AM,2,0.8483
+19 features + 24 Haar wavelet,AM,4,0.9048
+19 features + 24 Haar wavelet,AM,6,0.8994
+19 features + 24 Haar wavelet,AM,8,0.9423
+19 features + 24 Haar wavelet,AM,10,0.9630
+19 features + 24 Haar wavelet,AM,12,0.8874
+19 features + 24 Haar wavelet,AM,14,0.9764
+19 features + 24 Haar wavelet,AM,16,0.9758
+19 features + 24 Haar wavelet,AM,18,0.9742
+19 features + 24 Haar wavelet,AM,20,0.9841
+19 features + 24 Haar wavelet,NBFM,-10,0.0610
+19 features + 24 Haar wavelet,NBFM,-8,0.1257
+19 features + 24 Haar wavelet,NBFM,-6,0.2256
+19 features + 24 Haar wavelet,NBFM,-4,0.2585
+19 features + 24 Haar wavelet,NBFM,-2,0.4118
+19 features + 24 Haar wavelet,NBFM,0,0.4968
+19 features + 24 Haar wavelet,NBFM,2,0.5434
+19 features + 24 Haar wavelet,NBFM,4,0.5400
+19 features + 24 Haar wavelet,NBFM,6,0.5946
+19 features + 24 Haar wavelet,NBFM,8,0.6013
+19 features + 24 Haar wavelet,NBFM,10,0.6908
+19 features + 24 Haar wavelet,NBFM,12,0.6772
+19 features + 24 Haar wavelet,NBFM,14,0.7044
+19 features + 24 Haar wavelet,NBFM,16,0.7815
+19 features + 24 Haar wavelet,NBFM,18,0.8151
+19 features + 24 Haar wavelet,NBFM,20,0.8143
+19 features + 24 Haar wavelet,WBFM,-10,0.0449
+19 features + 24 Haar wavelet,WBFM,-8,0.1012
+19 features + 24 Haar wavelet,WBFM,-6,0.1731
+19 features + 24 Haar wavelet,WBFM,-4,0.3057
+19 features + 24 Haar wavelet,WBFM,-2,0.4000
+19 features + 24 Haar wavelet,WBFM,0,0.4198
+19 features + 24 Haar wavelet,WBFM,2,0.5497
+19 features + 24 Haar wavelet,WBFM,4,0.6549
+19 features + 24 Haar wavelet,WBFM,6,0.7078
+19 features + 24 Haar wavelet,WBFM,8,0.7853
+19 features + 24 Haar wavelet,WBFM,10,0.7692
+19 features + 24 Haar wavelet,WBFM,12,0.8116
+19 features + 24 Haar wavelet,WBFM,14,0.8382
+19 features + 24 Haar wavelet,WBFM,16,0.8741
+19 features + 24 Haar wavelet,WBFM,18,0.8392
+19 features + 24 Haar wavelet,WBFM,20,0.9241
+19 features + 24 Haar wavelet,OOK,-10,0.0775
+19 features + 24 Haar wavelet,OOK,-8,0.1118
+19 features + 24 Haar wavelet,OOK,-6,0.2945
+19 features + 24 Haar wavelet,OOK,-4,0.4414
+19 features + 24 Haar wavelet,OOK,-2,0.5935
+19 features + 24 Haar wavelet,OOK,0,0.7115
+19 features + 24 Haar wavelet,OOK,2,0.7872
+19 features + 24 Haar wavelet,OOK,4,0.8311
+19 features + 24 Haar wavelet,OOK,6,0.8477
+19 features + 24 Haar wavelet,OOK,8,0.8974
+19 features + 24 Haar wavelet,OOK,10,0.8599
+19 features + 24 Haar wavelet,OOK,12,0.9216
+19 features + 24 Haar wavelet,OOK,14,0.9510
+19 features + 24 Haar wavelet,OOK,16,0.9383
+19 features + 24 Haar wavelet,OOK,18,0.9366
+19 features + 24 Haar wavelet,OOK,20,0.9032
+19 features + 24 Haar wavelet,2FSK,-10,0.0625
+19 features + 24 Haar wavelet,2FSK,-8,0.0867
+19 features + 24 Haar wavelet,2FSK,-6,0.1048
+19 features + 24 Haar wavelet,2FSK,-4,0.2027
+19 features + 24 Haar wavelet,2FSK,-2,0.3026
+19 features + 24 Haar wavelet,2FSK,0,0.4744
+19 features + 24 Haar wavelet,2FSK,2,0.6190
+19 features + 24 Haar wavelet,2FSK,4,0.7538
+19 features + 24 Haar wavelet,2FSK,6,0.8712
+19 features + 24 Haar wavelet,2FSK,8,0.9180
+19 features + 24 Haar wavelet,2FSK,10,0.9706
+19 features + 24 Haar wavelet,2FSK,12,0.9940
+19 features + 24 Haar wavelet,2FSK,14,0.9939
+19 features + 24 Haar wavelet,2FSK,16,0.9927
+19 features + 24 Haar wavelet,2FSK,18,1.0000
+19 features + 24 Haar wavelet,2FSK,20,0.9939
+19 features + 24 Haar wavelet,4FSK,-10,0.0331
+19 features + 24 Haar wavelet,4FSK,-8,0.0493
+19 features + 24 Haar wavelet,4FSK,-6,0.1097
+19 features + 24 Haar wavelet,4FSK,-4,0.1456
+19 features + 24 Haar wavelet,4FSK,-2,0.1617
+19 features + 24 Haar wavelet,4FSK,0,0.2353
+19 features + 24 Haar wavelet,4FSK,2,0.2400
+19 features + 24 Haar wavelet,4FSK,4,0.3203
+19 features + 24 Haar wavelet,4FSK,6,0.4315
+19 features + 24 Haar wavelet,4FSK,8,0.5137
+19 features + 24 Haar wavelet,4FSK,10,0.7647
+19 features + 24 Haar wavelet,4FSK,12,0.8129
+19 features + 24 Haar wavelet,4FSK,14,0.8552
+19 features + 24 Haar wavelet,4FSK,16,0.9108
+19 features + 24 Haar wavelet,4FSK,18,0.9143
+19 features + 24 Haar wavelet,4FSK,20,0.9220
+19 features + 24 Haar wavelet,GMSK,-10,0.0067
+19 features + 24 Haar wavelet,GMSK,-8,0.0530
+19 features + 24 Haar wavelet,GMSK,-6,0.0882
+19 features + 24 Haar wavelet,GMSK,-4,0.1788
+19 features + 24 Haar wavelet,GMSK,-2,0.3161
+19 features + 24 Haar wavelet,GMSK,0,0.4054
+19 features + 24 Haar wavelet,GMSK,2,0.5843
+19 features + 24 Haar wavelet,GMSK,4,0.6486
+19 features + 24 Haar wavelet,GMSK,6,0.8322
+19 features + 24 Haar wavelet,GMSK,8,0.9085
+19 features + 24 Haar wavelet,GMSK,10,0.9458
+19 features + 24 Haar wavelet,GMSK,12,0.9881
+19 features + 24 Haar wavelet,GMSK,14,0.9867
+19 features + 24 Haar wavelet,GMSK,16,0.9871
+19 features + 24 Haar wavelet,GMSK,18,1.0000
+19 features + 24 Haar wavelet,GMSK,20,0.9937
+19 features + 24 Haar wavelet,BPSK,-10,0.0301
+19 features + 24 Haar wavelet,BPSK,-8,0.0516
+19 features + 24 Haar wavelet,BPSK,-6,0.1026
+19 features + 24 Haar wavelet,BPSK,-4,0.1772
+19 features + 24 Haar wavelet,BPSK,-2,0.3444
+19 features + 24 Haar wavelet,BPSK,0,0.5952
+19 features + 24 Haar wavelet,BPSK,2,0.7273
+19 features + 24 Haar wavelet,BPSK,4,0.8810
+19 features + 24 Haar wavelet,BPSK,6,0.9615
+19 features + 24 Haar wavelet,BPSK,8,0.9621
+19 features + 24 Haar wavelet,BPSK,10,0.9786
+19 features + 24 Haar wavelet,BPSK,12,0.9722
+19 features + 24 Haar wavelet,BPSK,14,0.9803
+19 features + 24 Haar wavelet,BPSK,16,0.9677
+19 features + 24 Haar wavelet,BPSK,18,0.9930
+19 features + 24 Haar wavelet,BPSK,20,1.0000
+19 features + 24 Haar wavelet,QPSK,-10,0.0217
+19 features + 24 Haar wavelet,QPSK,-8,0.0517
+19 features + 24 Haar wavelet,QPSK,-6,0.0479
+19 features + 24 Haar wavelet,QPSK,-4,0.0640
+19 features + 24 Haar wavelet,QPSK,-2,0.0791
+19 features + 24 Haar wavelet,QPSK,0,0.1046
+19 features + 24 Haar wavelet,QPSK,2,0.1141
+19 features + 24 Haar wavelet,QPSK,4,0.1679
+19 features + 24 Haar wavelet,QPSK,6,0.1757
+19 features + 24 Haar wavelet,QPSK,8,0.3110
+19 features + 24 Haar wavelet,QPSK,10,0.5211
+19 features + 24 Haar wavelet,QPSK,12,0.7015
+19 features + 24 Haar wavelet,QPSK,14,0.8117
+19 features + 24 Haar wavelet,QPSK,16,0.8800
+19 features + 24 Haar wavelet,QPSK,18,0.9184
+19 features + 24 Haar wavelet,QPSK,20,0.9939
+19 features + 24 Haar wavelet,PI4DQPSK,-10,0.0060
+19 features + 24 Haar wavelet,PI4DQPSK,-8,0.0426
+19 features + 24 Haar wavelet,PI4DQPSK,-6,0.0333
+19 features + 24 Haar wavelet,PI4DQPSK,-4,0.0600
+19 features + 24 Haar wavelet,PI4DQPSK,-2,0.0652
+19 features + 24 Haar wavelet,PI4DQPSK,0,0.1438
+19 features + 24 Haar wavelet,PI4DQPSK,2,0.1712
+19 features + 24 Haar wavelet,PI4DQPSK,4,0.2806
+19 features + 24 Haar wavelet,PI4DQPSK,6,0.3904
+19 features + 24 Haar wavelet,PI4DQPSK,8,0.4217
+19 features + 24 Haar wavelet,PI4DQPSK,10,0.4054
+19 features + 24 Haar wavelet,PI4DQPSK,12,0.6706
+19 features + 24 Haar wavelet,PI4DQPSK,14,0.8526
+19 features + 24 Haar wavelet,PI4DQPSK,16,0.9404
+19 features + 24 Haar wavelet,PI4DQPSK,18,0.9392
+19 features + 24 Haar wavelet,PI4DQPSK,20,0.9716
+19 features + 24 Haar wavelet,8PSK,-10,0.0071
+19 features + 24 Haar wavelet,8PSK,-8,0.0473
+19 features + 24 Haar wavelet,8PSK,-6,0.0511
+19 features + 24 Haar wavelet,8PSK,-4,0.0811
+19 features + 24 Haar wavelet,8PSK,-2,0.0617
+19 features + 24 Haar wavelet,8PSK,0,0.0903
+19 features + 24 Haar wavelet,8PSK,2,0.0949
+19 features + 24 Haar wavelet,8PSK,4,0.0823
+19 features + 24 Haar wavelet,8PSK,6,0.2214
+19 features + 24 Haar wavelet,8PSK,8,0.2336
+19 features + 24 Haar wavelet,8PSK,10,0.5430
+19 features + 24 Haar wavelet,8PSK,12,0.7244
+19 features + 24 Haar wavelet,8PSK,14,0.9107
+19 features + 24 Haar wavelet,8PSK,16,1.0000
+19 features + 24 Haar wavelet,8PSK,18,0.9940
+19 features + 24 Haar wavelet,8PSK,20,0.9924
+19 features + 24 Haar wavelet,16QAM,-10,0.0203
+19 features + 24 Haar wavelet,16QAM,-8,0.0303
+19 features + 24 Haar wavelet,16QAM,-6,0.0759
+19 features + 24 Haar wavelet,16QAM,-4,0.0745
+19 features + 24 Haar wavelet,16QAM,-2,0.0500
+19 features + 24 Haar wavelet,16QAM,0,0.1034
+19 features + 24 Haar wavelet,16QAM,2,0.2229
+19 features + 24 Haar wavelet,16QAM,4,0.3816
+19 features + 24 Haar wavelet,16QAM,6,0.5891
+19 features + 24 Haar wavelet,16QAM,8,0.8814
+19 features + 24 Haar wavelet,16QAM,10,0.9433
+19 features + 24 Haar wavelet,16QAM,12,0.9840
+19 features + 24 Haar wavelet,16QAM,14,1.0000
+19 features + 24 Haar wavelet,16QAM,16,0.9931
+19 features + 24 Haar wavelet,16QAM,18,0.9930
+19 features + 24 Haar wavelet,16QAM,20,1.0000
+19 features + 24 Haar wavelet,OFDM,-10,0.0977
+19 features + 24 Haar wavelet,OFDM,-8,0.1879
+19 features + 24 Haar wavelet,OFDM,-6,0.3071
+19 features + 24 Haar wavelet,OFDM,-4,0.3907
+19 features + 24 Haar wavelet,OFDM,-2,0.5274
+19 features + 24 Haar wavelet,OFDM,0,0.6887
+19 features + 24 Haar wavelet,OFDM,2,0.7431
+19 features + 24 Haar wavelet,OFDM,4,0.8219
+19 features + 24 Haar wavelet,OFDM,6,0.9139
+19 features + 24 Haar wavelet,OFDM,8,0.9755
+19 features + 24 Haar wavelet,OFDM,10,0.9860
+19 features + 24 Haar wavelet,OFDM,12,1.0000
+19 features + 24 Haar wavelet,OFDM,14,1.0000
+19 features + 24 Haar wavelet,OFDM,16,0.9939
+19 features + 24 Haar wavelet,OFDM,18,0.9925
+19 features + 24 Haar wavelet,OFDM,20,0.9935
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,-10,0.3237
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,-8,0.4756
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,-6,0.6444
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,-4,0.6731
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,-2,0.8148
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,0,0.8571
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,2,0.8207
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,4,0.9048
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,6,0.9057
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,8,0.9423
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,10,0.9556
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,12,0.8940
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,14,0.9764
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,16,0.9697
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,18,0.9806
+19 features + 24 Haar wavelet + 8 histogram entropies,AM,20,0.9841
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,-10,0.0488
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,-8,0.0778
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,-6,0.2317
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,-4,0.2381
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,-2,0.4052
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,0,0.4839
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,2,0.5087
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,4,0.5133
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,6,0.6284
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,8,0.6275
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,10,0.7039
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,12,0.6835
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,14,0.7044
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,16,0.7881
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,18,0.8219
+19 features + 24 Haar wavelet + 8 histogram entropies,NBFM,20,0.8214
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,-10,0.0449
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,-8,0.1250
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,-6,0.1731
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,-4,0.2994
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,-2,0.4074
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,0,0.3588
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,2,0.5430
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,4,0.6901
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,6,0.6818
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,8,0.7239
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,10,0.7628
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,12,0.8188
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,14,0.8497
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,16,0.8601
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,18,0.8392
+19 features + 24 Haar wavelet + 8 histogram entropies,WBFM,20,0.9103
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,-10,0.0704
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,-8,0.0855
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,-6,0.2877
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,-4,0.4345
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,-2,0.5677
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,0,0.7051
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,2,0.8014
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,4,0.8243
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,6,0.8543
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,8,0.8974
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,10,0.8790
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,12,0.9281
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,14,0.9650
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,16,0.9568
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,18,0.9648
+19 features + 24 Haar wavelet + 8 histogram entropies,OOK,20,0.9226
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,-10,0.0625
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,-8,0.0667
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,-6,0.1210
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,-4,0.1689
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,-2,0.3026
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,0,0.4872
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,2,0.6190
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,4,0.7538
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,6,0.8773
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,8,0.9180
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,10,0.9632
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,12,0.9880
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,14,0.9939
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,16,0.9927
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,18,1.0000
+19 features + 24 Haar wavelet + 8 histogram entropies,2FSK,20,1.0000
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,-10,0.0331
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,-8,0.0634
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,-6,0.1032
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,-4,0.1519
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,-2,0.1976
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,0,0.2222
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,2,0.2867
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,4,0.3268
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,6,0.4384
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,8,0.5411
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,10,0.7647
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,12,0.8273
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,14,0.8552
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,16,0.9108
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,18,0.9357
+19 features + 24 Haar wavelet + 8 histogram entropies,4FSK,20,0.9220
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,-10,0.0134
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,-8,0.0132
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,-6,0.0735
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,-4,0.1391
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,-2,0.3484
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,0,0.3986
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,2,0.5482
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,4,0.6757
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,6,0.8591
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,8,0.9268
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,10,0.9458
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,12,0.9940
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,14,0.9867
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,16,0.9871
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,18,1.0000
+19 features + 24 Haar wavelet + 8 histogram entropies,GMSK,20,0.9937
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,-10,0.0422
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,-8,0.0710
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,-6,0.1154
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,-4,0.2089
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,-2,0.3179
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,0,0.5635
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,2,0.7208
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,4,0.8631
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,6,0.9385
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,8,0.9621
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,10,0.9571
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,12,0.9583
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,14,0.9671
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,16,0.9742
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,18,0.9930
+19 features + 24 Haar wavelet + 8 histogram entropies,BPSK,20,0.9931
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,-10,0.0290
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,-8,0.0287
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,-6,0.0411
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,-4,0.0872
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,-2,0.1151
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,0,0.1046
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,2,0.0940
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,4,0.1527
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,6,0.2365
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,8,0.2683
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,10,0.4930
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,12,0.7015
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,14,0.8117
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,16,0.8667
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,18,0.9116
+19 features + 24 Haar wavelet + 8 histogram entropies,QPSK,20,0.9939
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,-10,0.0060
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,-8,0.0071
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,-6,0.0600
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,-4,0.0600
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,-2,0.0435
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,0,0.1046
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,2,0.1918
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,4,0.2950
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,6,0.3630
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,8,0.4639
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,10,0.4527
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,12,0.6588
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,14,0.8590
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,16,0.9338
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,18,0.9257
+19 features + 24 Haar wavelet + 8 histogram entropies,PI4DQPSK,20,0.9645
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,-10,0.0071
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,-8,0.0608
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,-6,0.0584
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,-4,0.1149
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,-2,0.0679
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,0,0.0903
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,2,0.1387
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,4,0.1013
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,6,0.1571
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,8,0.2555
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,10,0.5497
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,12,0.7564
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,14,0.9048
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,16,1.0000
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,18,0.9940
+19 features + 24 Haar wavelet + 8 histogram entropies,8PSK,20,1.0000
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,-10,0.0068
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,-8,0.0121
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,-6,0.0345
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,-4,0.0745
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,-2,0.0375
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,0,0.0966
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,2,0.2930
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,4,0.4145
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,6,0.5659
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,8,0.8870
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,10,0.9362
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,12,0.9680
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,14,0.9935
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,16,0.9862
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,18,0.9930
+19 features + 24 Haar wavelet + 8 histogram entropies,16QAM,20,1.0000
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,-10,0.0752
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,-8,0.1939
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,-6,0.3429
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,-4,0.4437
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,-2,0.5411
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,0,0.6755
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,2,0.7778
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,4,0.8356
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,6,0.9272
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,8,0.9816
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,10,0.9930
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,12,1.0000
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,14,1.0000
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,16,0.9939
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,18,0.9925
+19 features + 24 Haar wavelet + 8 histogram entropies,OFDM,20,0.9935

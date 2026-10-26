@@ -1,0 +1,4 @@
+[19 features] all 48.1 %  SNR>=10 78.7 %  85% sustained from 16.0
+[19 features + 8 histogram entropies] all 48.5 %  SNR>=10 79.3 %  85% sustained from 16.0
+[19 features + 24 Haar wavelet] all 59.2 %  SNR>=10 90.2 %  85% sustained from 12.0
+[19 features + 24 Haar wavelet + 8 histogram entropies] all 59.3 %  SNR>=10 90.3 %  85% sustained from 12.0

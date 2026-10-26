@@ -1,0 +1,17 @@
+AM       done (16,000 / 224,000 clips)
+NBFM     done (32,000 / 224,000 clips)
+WBFM     done (48,000 / 224,000 clips)
+OOK      done (64,000 / 224,000 clips)
+2FSK     done (80,000 / 224,000 clips)
+4FSK     done (96,000 / 224,000 clips)
+GMSK     done (112,000 / 224,000 clips)
+BPSK     done (128,000 / 224,000 clips)
+QPSK     done (144,000 / 224,000 clips)
+PI4DQPSK done (160,000 / 224,000 clips)
+8PSK     done (176,000 / 224,000 clips)
+16QAM    done (192,000 / 224,000 clips)
+OFDM     done (208,000 / 224,000 clips)
+NOISE    done (224,000 / 224,000 clips)
+saved 224,000 clips to /home/claude/data/ds1_v3_regen_check.h5
+regenerated file identical to ds1_v3.h5: True
+saved 224000 offsets; range -0.001999937595365463 0.001999982748222973
